@@ -7,13 +7,15 @@ class Solution {
         //PriorityQueue<Pair> pq = new PriorityQueue<>();
 
         String largest = "";
-        for(char ch ='z'; ch >= 'a'; ch--){
-            String c = String.valueOf(ch);
-            if(word.contains(c)){
-                largest = c;
-                break;
+        
+        char larg = 'a';
+
+        for (char ch : word.toCharArray()) {
+            if (ch > larg) {
+                larg = ch; 
             }
         }
+        largest = larg+"";
 
         if(numFriends == 1){
             return word;
