@@ -20,34 +20,46 @@ class Solution {
         }
     }
 
-   public String answerString(String word, int numFriends) {
-         PriorityQueue<Pair> pq = new PriorityQueue<>();
+ public String answerString(String word, int numFriends) {
+        int len = word.length();
+        PriorityQueue<Pair> pq = new PriorityQueue<>();
 
         for(int i=0; i<word.length(); i++){
             String c = word.charAt(i)+"";
             pq.add(new Pair(c, i));
         }
 
-        int len = word.length();
+        if(numFriends == 1){
+            return word;
+        }
+
+    
+        else if(len == numFriends){
+            return pq.peek().ch;
+        }
+
+        else{
         String largest ="";
         String largestCh = pq.peek().ch;
 
-        PriorityQueue<String> lar = new PriorityQueue<>(Collections.reverseOrder());
+        //PriorityQueue<String> lar = new PriorityQueue<>(Collections.reverseOrder());
+        String high = "";
 
         while((pq.peek() != null) && (pq.peek().ch).equals(largestCh)){
             int index = pq.peek().idx;
             if((index-numFriends) >= 0){
                 largest = word.substring(index, len);
-                lar.add(largest);
+                high = (high.compareTo(largest)<0)? largest : high;
             }
             else{
                 largest = word.substring(index, len-(numFriends-index)+1);
-                lar.add(largest);
+                high = (high.compareTo(largest)<0)? largest : high;
             }
             pq.remove();
         }
 
-        return lar.peek();
+        return high;
+    }
 
     }
 }
