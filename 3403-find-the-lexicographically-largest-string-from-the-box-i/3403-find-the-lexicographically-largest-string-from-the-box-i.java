@@ -1,32 +1,18 @@
 import java.util.*;
 class Solution {
-    static class Pair implements Comparable<Pair>{
-        String ch;
-        int idx;
-
-        public Pair(String ch, int idx){
-            this.ch = ch;
-            this.idx = idx;
-        }
-
-        public int compareTo(Pair p2){
-            /* return (p2.ch).compareTo(this.ch); */
-            if((this.ch).equals(p2.ch)){
-                return this.idx-p2.idx;
-            }
-            else{
-                return (p2.ch).compareTo(this.ch);
-            }
-        }
-    }
+    
 
  public String answerString(String word, int numFriends) {
         int len = word.length();
-        PriorityQueue<Pair> pq = new PriorityQueue<>();
+        //PriorityQueue<Pair> pq = new PriorityQueue<>();
 
-        for(int i=0; i<word.length(); i++){
-            String c = word.charAt(i)+"";
-            pq.add(new Pair(c, i));
+        String largest = "";
+        for(char ch ='z'; ch >= 'a'; ch--){
+            String c = String.valueOf(ch);
+            if(word.contains(c)){
+                largest = c;
+                break;
+            }
         }
 
         if(numFriends == 1){
@@ -35,28 +21,34 @@ class Solution {
 
     
         else if(len == numFriends){
-            return pq.peek().ch;
+            return largest;
         }
 
         else{
-        String largest ="";
-        String largestCh = pq.peek().ch;
+        
+       // String largestCh = pq.peek().ch;
 
         //PriorityQueue<String> lar = new PriorityQueue<>(Collections.reverseOrder());
         String high = "";
+        for(int i=0; i<word.length(); i++)
+        {
+            char ch = word.charAt(i);
+            String l = String.valueOf(ch);
 
-        while((pq.peek() != null) && (pq.peek().ch).equals(largestCh)){
-            int index = pq.peek().idx;
-            if((index-numFriends) >= 0){
-                largest = word.substring(index, len);
-                high = (high.compareTo(largest)<0)? largest : high;
+            if(l.equals(largest)){
+
+            if((i-numFriends) >= 0){
+               String  ll = word.substring(i, len);
+                high = (high.compareTo(ll)<0)? ll : high;
             }
             else{
-                largest = word.substring(index, len-(numFriends-index)+1);
-                high = (high.compareTo(largest)<0)? largest : high;
+                String ll = word.substring(i, len-(numFriends-i)+1);
+                high = (high.compareTo(ll)<0)? ll : high;
             }
-            pq.remove();
+            
         }
+        }
+    
 
         return high;
     }
