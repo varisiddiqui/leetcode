@@ -26,10 +26,10 @@ public class Solution {
             temp2 = temp2.next;
         }
 
-        if(sA.peek() != sB.peek())
+        if(sA.isEmpty() || sB.isEmpty()|| sA.peek() != sB.peek())
         return null;
         ListNode intersect = null;
-        while(sA.peek() == sB.peek()){
+        while(!sA.isEmpty() && !sB.isEmpty() && sA.peek() == sB.peek()){
             sA.pop();
             intersect = sB.pop();
         }
