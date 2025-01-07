@@ -16,15 +16,19 @@ public class Solution {
         ListNode temp2 = headB;
         Stack<ListNode> sA = new Stack<>();
         Stack<ListNode> sB = new Stack<>();
-        while(temp1 != null){
-            sA.push(temp1);
-            temp1 = temp1.next;
+        while(temp1 != null || temp2!= null){
+            if(temp1 != null){
+                sA.push(temp1);
+                temp1 = temp1.next;
+            }
+            if(temp2 != null){
+                sB.push(temp2);
+                temp2 = temp2.next;
+            }
+            
         }
 
-        while(temp2 != null){
-            sB.push(temp2);
-            temp2 = temp2.next;
-        }
+        
 
         if(sA.isEmpty() || sB.isEmpty()|| sA.peek() != sB.peek())
         return null;
