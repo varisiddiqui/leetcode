@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0162-find-peak-element](https://github.com/varisiddiqui/leetcode/tree/master/0162-find-peak-element) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
 ## Two Pointers
@@ -30,4 +31,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
+## Binary Search
+|  |
+| ------- |
+| [0162-find-peak-element](https://github.com/varisiddiqui/leetcode/tree/master/0162-find-peak-element) |
 <!---LeetCode Topics End-->
