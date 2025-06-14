@@ -6,17 +6,14 @@ class Solution {
             s1.add(nums1[i]);
         }
         for(int i=0; i<nums2.length; i++){
+            if(s1.contains(nums2[i]))
             s2.add(nums2[i]);
         }
 
-        ArrayList<Integer> ans = new ArrayList<>();
-        for(Integer key: s1){
-            if(s2.contains(key))
-            ans.add(key);
-        }
-        int a[] = new int[ans.size()];
-        for(int i=0; i<a.length; i++){
-            a[i]=ans.get(i);
+        int a[] = new int[s2.size()];
+        int l=0;
+        for(Integer key: s2){
+            a[l++]=key;
         }
         return a;
     }
