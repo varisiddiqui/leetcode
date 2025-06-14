@@ -1,33 +1,26 @@
 class Solution {
     public boolean checkPossibility(int[] nums) {
+        int c = 0;
         int n = nums.length;
         if(n==1) return true;
-        int posToChange=-1;
         for(int i=0; i<n-1; i++){
-            if(nums[i]>nums[i+1]){
-                posToChange = i;
-                break;
+            if(c>1) return false;
+
+            if((nums[i]>nums[i+1])){
+                if((i-1) < 0){
+                    nums[i] = nums[i+1];
+                    c++;
+                } 
+                else if((i-1>=0) && nums[i-1]<=nums[i+1]){
+                    c++;
+                }
+                else{
+                    nums[i+1] = nums[i];
+                    c++;
+                }
             }
-
         }
-        if(posToChange == -1) return true;
-        //case-1
-        int num_pos = nums[posToChange];
-        nums[posToChange] = nums[posToChange+1];
-        boolean pass1 = true;
-        for(int i=0; i<n-1; i++){
-            if(nums[i]>nums[i+1])
-            pass1 = false;
-        }
-
-        //case-2
-        nums[posToChange] = num_pos;
-        nums[posToChange+1] = num_pos;
-        boolean pass2 = true;
-        for(int i=0; i<n-1; i++){
-            if(nums[i]>nums[i+1])
-            pass2 = false;
-        }
-        return pass1||pass2;
+        if(c>1) return false;
+        return true;
     }
 }
