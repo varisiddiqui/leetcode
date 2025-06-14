@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0260-single-number-iii](https://github.com/varisiddiqui/leetcode/tree/master/0260-single-number-iii) |
 | [0274-h-index](https://github.com/varisiddiqui/leetcode/tree/master/0274-h-index) |
 | [0287-find-the-duplicate-number](https://github.com/varisiddiqui/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0665-non-decreasing-array](https://github.com/varisiddiqui/leetcode/tree/master/0665-non-decreasing-array) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/varisiddiqui/leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
