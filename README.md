@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0049-group-anagrams](https://github.com/varisiddiqui/leetcode/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/varisiddiqui/leetcode/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/varisiddiqui/leetcode/tree/master/0078-subsets) |
 | [0137-single-number-ii](https://github.com/varisiddiqui/leetcode/tree/master/0137-single-number-ii) |
 | [0162-find-peak-element](https://github.com/varisiddiqui/leetcode/tree/master/0162-find-peak-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -81,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/varisiddiqui/leetcode/tree/master/0078-subsets) |
 | [0137-single-number-ii](https://github.com/varisiddiqui/leetcode/tree/master/0137-single-number-ii) |
 | [0260-single-number-iii](https://github.com/varisiddiqui/leetcode/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/varisiddiqui/leetcode/tree/master/0287-find-the-duplicate-number) |
@@ -105,4 +107,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/varisiddiqui/leetcode/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
