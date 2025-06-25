@@ -15,7 +15,21 @@ class Solution {
 
         ArrayList<Integer> a = palindrome;
        
+        int minNum = nums[0];
+        int maxNum = nums[n - 1];
+
+
+        int leftIdx = Collections.binarySearch(a, minNum);
+        if (leftIdx < 0) leftIdx = -leftIdx - 1;
+        if(leftIdx > 0) leftIdx--;
+
+
+        int rightIdx = Collections.binarySearch(a, maxNum);
+        if (rightIdx < 0) rightIdx = -rightIdx - 1;
+
+
         
+
         
        
         
@@ -25,9 +39,10 @@ class Solution {
         
         //find pos with binsearch
         long min = Long.MAX_VALUE;
-        for(int i=0; i<a.size();i++){
+        for(int i=leftIdx; i<=rightIdx;i++){
             
-            //case 1: if key is leftmost
+            //case 1: if key is leftmost'
+            if(i<0 || i>=a.size()) continue;
             int key = a.get(i);
             
             if(key<=nums[0]){
@@ -79,6 +94,7 @@ class Solution {
                 if(num2 < 1_000_000_000)
                 set.add((int)num2);
         }
+        System.out.println(set);
         return new ArrayList<>(set);
     }
 }
