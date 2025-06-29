@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/varisiddiqui/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0665-non-decreasing-array](https://github.com/varisiddiqui/leetcode/tree/master/0665-non-decreasing-array) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/varisiddiqui/leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
@@ -41,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/varisiddiqui/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
 | [3755-maximum-product-of-first-and-last-elements-of-a-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/3755-maximum-product-of-first-and-last-elements-of-a-subsequence) |
 ## Greedy
@@ -61,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0274-h-index](https://github.com/varisiddiqui/leetcode/tree/master/0274-h-index) |
 | [0349-intersection-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
@@ -73,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0229-majority-element-ii](https://github.com/varisiddiqui/leetcode/tree/master/0229-majority-element-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/varisiddiqui/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
@@ -93,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/varisiddiqui/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/varisiddiqui/leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
