@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0475-heaters](https://github.com/varisiddiqui/leetcode/tree/master/0475-heaters) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0665-non-decreasing-array](https://github.com/varisiddiqui/leetcode/tree/master/0665-non-decreasing-array) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/varisiddiqui/leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
@@ -50,12 +51,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0475-heaters](https://github.com/varisiddiqui/leetcode/tree/master/0475-heaters) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
 | [3755-maximum-product-of-first-and-last-elements-of-a-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/3755-maximum-product-of-first-and-last-elements-of-a-subsequence) |
 ## Greedy
 |  |
 | ------- |
 | [0134-gas-station](https://github.com/varisiddiqui/leetcode/tree/master/0134-gas-station) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/varisiddiqui/leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
@@ -75,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0475-heaters](https://github.com/varisiddiqui/leetcode/tree/master/0475-heaters) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
@@ -169,10 +173,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Matrix
 |  |
