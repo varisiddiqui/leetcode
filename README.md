@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/varisiddiqui/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/varisiddiqui/leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
+| [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/varisiddiqui/leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
 | [3264-maximum-points-after-enemy-battles](https://github.com/varisiddiqui/leetcode/tree/master/3264-maximum-points-after-enemy-battles) |
 | [3291-find-if-array-can-be-sorted](https://github.com/varisiddiqui/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
@@ -97,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/varisiddiqui/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/varisiddiqui/leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
+| [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/varisiddiqui/leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/varisiddiqui/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -107,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0229-majority-element-ii](https://github.com/varisiddiqui/leetcode/tree/master/0229-majority-element-ii) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/varisiddiqui/leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
+| [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/varisiddiqui/leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/varisiddiqui/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3885-count-special-triplets](https://github.com/varisiddiqui/leetcode/tree/master/3885-count-special-triplets) |
@@ -176,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0007-reverse-integer](https://github.com/varisiddiqui/leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/varisiddiqui/leetcode/tree/master/0009-palindrome-number) |
+| [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/varisiddiqui/leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
 ## Stack
 |  |
