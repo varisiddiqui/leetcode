@@ -15,7 +15,7 @@ class Solution {
             res.add((hr*60) + min);
         }
         Collections.sort(res);
-        System.out.println(res);
+     
         int min = 1500;
         for(int i=0; i<n-1; i++){
             int diff = res.get(i+1)-res.get(i);
