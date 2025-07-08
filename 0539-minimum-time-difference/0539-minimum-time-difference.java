@@ -22,10 +22,8 @@ class Solution {
             min = Math.min(min, diff);
         }
 
-        int diff = 1440-res.get(n-1);
-        diff += res.get(0);
-        min = Math.min(min, diff);
+        
     
-        return min;
+        return Math.min(min, (1440-res.get(n-1)+res.get(0)));
     }
 }
