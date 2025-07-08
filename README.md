@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0442-find-all-duplicates-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0475-heaters](https://github.com/varisiddiqui/leetcode/tree/master/0475-heaters) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0539-minimum-time-difference](https://github.com/varisiddiqui/leetcode/tree/master/0539-minimum-time-difference) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0665-non-decreasing-array](https://github.com/varisiddiqui/leetcode/tree/master/0665-non-decreasing-array) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/varisiddiqui/leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -90,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/varisiddiqui/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0475-heaters](https://github.com/varisiddiqui/leetcode/tree/master/0475-heaters) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0539-minimum-time-difference](https://github.com/varisiddiqui/leetcode/tree/master/0539-minimum-time-difference) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
@@ -178,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/varisiddiqui/leetcode/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/varisiddiqui/leetcode/tree/master/0205-isomorphic-strings) |
 | [0451-sort-characters-by-frequency](https://github.com/varisiddiqui/leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0539-minimum-time-difference](https://github.com/varisiddiqui/leetcode/tree/master/0539-minimum-time-difference) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/varisiddiqui/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Divide and Conquer
 |  |
@@ -201,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0007-reverse-integer](https://github.com/varisiddiqui/leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/varisiddiqui/leetcode/tree/master/0009-palindrome-number) |
+| [0539-minimum-time-difference](https://github.com/varisiddiqui/leetcode/tree/master/0539-minimum-time-difference) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/varisiddiqui/leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
 ## Stack
