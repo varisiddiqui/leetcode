@@ -197,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/varisiddiqui/leetcode/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/varisiddiqui/leetcode/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/varisiddiqui/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3931-process-string-with-special-operations-i](https://github.com/varisiddiqui/leetcode/tree/master/3931-process-string-with-special-operations-i) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -262,4 +263,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0164-maximum-gap](https://github.com/varisiddiqui/leetcode/tree/master/0164-maximum-gap) |
+## Simulation
+|  |
+| ------- |
+| [3931-process-string-with-special-operations-i](https://github.com/varisiddiqui/leetcode/tree/master/3931-process-string-with-special-operations-i) |
 <!---LeetCode Topics End-->
