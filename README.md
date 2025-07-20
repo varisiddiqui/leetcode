@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0045-jump-game-ii](https://github.com/varisiddiqui/leetcode/tree/master/0045-jump-game-ii) |
 | [0049-group-anagrams](https://github.com/varisiddiqui/leetcode/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/varisiddiqui/leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/varisiddiqui/leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/varisiddiqui/leetcode/tree/master/0075-sort-colors) |
@@ -210,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 ## Heap (Priority Queue)
 |  |
@@ -263,6 +265,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/varisiddiqui/leetcode/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/varisiddiqui/leetcode/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/varisiddiqui/leetcode/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/varisiddiqui/leetcode/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/varisiddiqui/leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/varisiddiqui/leetcode/tree/master/0118-pascals-triangle) |
