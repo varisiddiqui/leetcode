@@ -7,9 +7,7 @@ class Solution {
         
         for(int i=n-2; i>=0; i--){
             int min = n+2;
-            if(nums[i] == 0){
-                continue;
-            }
+            
             for(int j=i+1; j<n && j<=i+nums[i]; j++){
                 if(dp[j] != -1)
                 min = Math.min(min, dp[j]);
