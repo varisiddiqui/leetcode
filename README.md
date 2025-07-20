@@ -192,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/varisiddiqui/leetcode/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/varisiddiqui/leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/varisiddiqui/leetcode/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/varisiddiqui/leetcode/tree/master/0205-isomorphic-strings) |
@@ -219,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/varisiddiqui/leetcode/tree/master/0022-generate-parentheses) |
 | [0078-subsets](https://github.com/varisiddiqui/leetcode/tree/master/0078-subsets) |
 ## Math
 |  |
@@ -254,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/varisiddiqui/leetcode/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/varisiddiqui/leetcode/tree/master/0044-wildcard-matching) |
 | [0070-climbing-stairs](https://github.com/varisiddiqui/leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/varisiddiqui/leetcode/tree/master/0118-pascals-triangle) |
