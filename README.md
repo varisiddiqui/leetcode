@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/varisiddiqui/leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/varisiddiqui/leetcode/tree/master/0056-merge-intervals) |
+| [0063-unique-paths-ii](https://github.com/varisiddiqui/leetcode/tree/master/0063-unique-paths-ii) |
 | [0075-sort-colors](https://github.com/varisiddiqui/leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/varisiddiqui/leetcode/tree/master/0078-subsets) |
 | [0118-pascals-triangle](https://github.com/varisiddiqui/leetcode/tree/master/0118-pascals-triangle) |
@@ -260,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/varisiddiqui/leetcode/tree/master/0063-unique-paths-ii) |
 | [3849-equal-sum-grid-partition-i](https://github.com/varisiddiqui/leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 ## Enumeration
 |  |
@@ -276,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/varisiddiqui/leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/varisiddiqui/leetcode/tree/master/0062-unique-paths) |
+| [0063-unique-paths-ii](https://github.com/varisiddiqui/leetcode/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/varisiddiqui/leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/varisiddiqui/leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/varisiddiqui/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
