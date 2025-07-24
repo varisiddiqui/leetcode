@@ -17,6 +17,7 @@ class Solution {
 
         if(dp[i][j] != -1)
         return dp[i][j];
+        
         return dp[i][j] = Math.min(minSum(i-1, j, grid, dp), minSum(i, j-1, grid, dp))+grid[i][j];
     }
 }
