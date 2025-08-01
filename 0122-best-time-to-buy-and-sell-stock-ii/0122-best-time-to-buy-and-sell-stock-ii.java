@@ -1,33 +1,23 @@
 class Solution {
     public int maxProfit(int[] prices) {
         int n = prices.length;
-        int buy=1;
-        int dp[][] = new int[n][2];
-        for(int i=0; i<n; i++)
-        Arrays.fill(dp[i], -1);
-        return maxPft(0, buy, n, prices, dp);
-    }
 
-    public int maxPft(int ind, int buy, int n, int prices[], int dp[][]){
-        if(ind == n)
-        return 0;
+        int dp[][] = new int[n+1][2];
+        //starts from the ith day
 
-        if(dp[ind][buy] != -1)
-        return dp[ind][buy];
-        int profit=0;
-
-        if(buy == 1){
-            int take = -prices[ind] + maxPft(ind+1, 0, n, prices, dp);
-            int skip = 0 + maxPft(ind+1, 1, n, prices, dp);
-            profit = Math.max(take, skip);
+        dp[n][0]=dp[n][1]=0;
+        for(int i=n-1; i>=0; i--){
+            int profit=0;
+            for(int j=0; j<=1; j++){
+                if(j==1){//buy
+                    profit = Math.max(-prices[i]+dp[i+1][0], dp[i+1][1]); //bought, skipped
+                }
+                else{
+                    profit = Math.max(prices[i]+dp[i+1][1], dp[i+1][0]); //sold,skipped
+                }
+                dp[i][j] = profit;
+            }
         }
-        else{
-            int take = prices[ind] + maxPft(ind+1, 1, n, prices, dp);
-            int skip = 0 + maxPft(ind+1, 0, n, prices, dp);
-            profit = Math.max(take, skip);
-        }
-
-        return dp[ind][buy]=profit;
+        return dp[0][1];
     }
-
 }
