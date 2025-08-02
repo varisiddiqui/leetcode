@@ -1,30 +1,41 @@
 class Solution {
     public int lengthOfLIS(int[] nums) {
+        if(nums.length == 1) return 1;
         int n = nums.length;
-        Set<Integer> set = new HashSet<>();
+
+        int dp[][] = new int[n+1][n];
+
         for(int i=0; i<n; i++)
-        set.add(nums[i]);
+        Arrays.fill(dp[i], -1);
 
-        int sorted[] = new int[set.size()];
-        int k=0;
-        for(Integer num: set)
-        sorted[k++]=num;
+        
 
-        Arrays.sort(sorted);
-        int m = sorted.length;
+        int ans = maxLength(-1,0,nums,dp);
 
-        int dp[][] = new int[n+1][m+1];
-        for(int i=1; i<n+1; i++){
-            for(int j=1; j<m+1; j++){
-                //if same
-                if(nums[i-1] == sorted[j-1]){
-                    dp[i][j] = dp[i-1][j-1]+1;
-                }
-                else{
-                    dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
-                }
-            }
+        return ans;
+    }
+
+    public int maxLength(int prev_idx, int curr_idx, int nums[], int dp[][]){
+        if(curr_idx >= nums.length)
+        return 0;
+        int max=0;
+
+        if(dp[prev_idx+1][curr_idx] != -1) return dp[prev_idx+1][curr_idx];
+
+        //valid
+        
+        if((prev_idx == -1) || (nums[curr_idx]>nums[prev_idx])){
+            int take = 1+maxLength(curr_idx, curr_idx+1, nums,dp);
+            int skip = maxLength(prev_idx, curr_idx+1, nums,dp);
+            max = Math.max(take, skip);
         }
-        return dp[n][m];
+        else{
+            
+            int skip2 = maxLength(prev_idx, curr_idx+1, nums, dp);
+            max = skip2;
+        }
+        return dp[prev_idx+1][curr_idx]=max;
     }
 }
+
+
