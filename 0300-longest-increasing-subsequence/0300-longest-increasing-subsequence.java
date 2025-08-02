@@ -1,41 +1,33 @@
 class Solution {
+    static int offset=1;
     public int lengthOfLIS(int[] nums) {
-        if(nums.length == 1) return 1;
         int n = nums.length;
-
-        int dp[][] = new int[n+1][n];
-
+        if(n == 1) return 1;
+        int dp[][] = new int[n][n+1];
         for(int i=0; i<n; i++)
         Arrays.fill(dp[i], -1);
 
+        return f(0, -1, nums, dp);
         
-
-        int ans = maxLength(-1,0,nums,dp);
-
-        return ans;
     }
 
-    public int maxLength(int prev_idx, int curr_idx, int nums[], int dp[][]){
-        if(curr_idx >= nums.length)
-        return 0;
-        int max=0;
+    public int f(int curr_idx, int prev_idx, int nums[], int dp[][]){
+        if(curr_idx == nums.length) return 0;
 
-        if(dp[prev_idx+1][curr_idx] != -1) return dp[prev_idx+1][curr_idx];
+        if(dp[curr_idx][prev_idx+offset] != -1) return dp[curr_idx][prev_idx+offset];
 
-        //valid
+        int take=0;
+        int skip=0;
         
-        if((prev_idx == -1) || (nums[curr_idx]>nums[prev_idx])){
-            int take = 1+maxLength(curr_idx, curr_idx+1, nums,dp);
-            int skip = maxLength(prev_idx, curr_idx+1, nums,dp);
-            max = Math.max(take, skip);
+
+        //take case 
+        if(prev_idx == -1 || nums[curr_idx]>nums[prev_idx]){
+            take = 1 + f(curr_idx+1, curr_idx, nums, dp);
         }
-        else{
-            
-            int skip2 = maxLength(prev_idx, curr_idx+1, nums, dp);
-            max = skip2;
-        }
-        return dp[prev_idx+1][curr_idx]=max;
+
+        //skip always available so try it
+        skip = f(curr_idx+1, prev_idx, nums, dp);
+
+        return dp[curr_idx][prev_idx+offset] = Math.max(take, skip);
     }
 }
-
-
