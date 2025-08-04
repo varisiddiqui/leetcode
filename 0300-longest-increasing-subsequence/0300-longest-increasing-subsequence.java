@@ -11,24 +11,26 @@ class Solution {
                 li.add(nums[i]);
             }
             else{
-                int idx = binSearch(li, nums[i]);
-                li.set(idx, nums[i]);
+                int l=0, r=li.size()-1, ans=li.size();
+
+                while(l<=r){
+                    int mid = l+(r-l)/2;
+                    if(li.get(mid) >= nums[i]){
+                        ans=mid;
+                        r=mid-1;
+                    }
+                    else{
+                        l=mid+1;
+                    }
+                }
+                li.set(ans, nums[i]);
             }
         }
-        //System.out.println(li);
+  
         return li.size();
         
     }
 
-    public int binSearch(ArrayList<Integer> li, int key){
-        int idx = Collections.binarySearch(li, key);
-        if(idx<0){
-            return -idx-1;
-        }
-        else{
-            return idx;
-        }
-    }
-
+   
     
 }
