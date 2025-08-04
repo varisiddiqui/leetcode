@@ -1,31 +1,21 @@
 class Solution {
-    static int offset = 1;//coordinate changes for prev
     public int lengthOfLIS(int[] nums) {
         int n = nums.length;
-        int dp[][] = new int[n][n+1];
+        if(n==1) return 1;
+        int dp[] = new int[n];
 
-        for(int i=0; i<n; i++)
-        Arrays.fill(dp[i], -1);
-        return maxL(0, -1, nums, dp);
-        
-    }
-
-    public int maxL(int curr_idx, int prev_idx, int nums[], int dp[][]){
-        if(curr_idx == nums.length)
-        return 0;
-
-        if(dp[curr_idx][prev_idx+offset] != -1) return dp[curr_idx][prev_idx+offset];
-
-        int take=0;
-        int skip=0;
-
-        //take
-        if(prev_idx == -1 || nums[curr_idx] > nums[prev_idx]){
-            take = 1 + maxL(curr_idx+1, curr_idx, nums, dp);
+        Arrays.fill(dp, 1);
+        for(int i=1; i<n; i++){
+            for(int j=0; j<i; j++){
+                if(nums[i]>nums[j]){
+                    dp[i] = Math.max(dp[i], dp[j]+1);
+                }
+            }
         }
-
-        skip = 0 + maxL(curr_idx+1, prev_idx, nums, dp);
-
-        return dp[curr_idx][prev_idx+offset]=Math.max(take, skip);
+        int max=0;
+        for(int i=0; i<n; i++){
+            max = Math.max(dp[i], max);
+        }
+        return max;
     }
 }
