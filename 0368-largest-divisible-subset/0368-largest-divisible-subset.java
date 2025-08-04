@@ -19,15 +19,15 @@ class Solution {
         for(int i=1; i<n; i++){
             hash[i]=i;
             for(int j=i-1; j>=0; j--){
-                if(nums[i]%nums[j] == 0){
-                    if(dp[i] < dp[j]+1){
+                if(nums[i]%nums[j] == 0 && dp[i] < dp[j]+1){
+                    
                         dp[i]=dp[j]+1;
                         hash[i]=j;
                         if(max < dp[i]){
                             max = dp[i];
                             pos=i;
                         }
-                    }
+                    
                     
                 }
             }
