@@ -15,7 +15,6 @@ class Solution {
                 if(nums[i]>nums[j] && dp[i]<=dp[j]+1){
                     if(dp[i] < dp[j]+1){
                         dp[i] = dp[j]+1;
-                        max = Math.max(max, dp[i]);
                         count[i]=count[j];
                     }
                     else{
@@ -24,6 +23,7 @@ class Solution {
 
                 }
             }
+            max = Math.max(max, dp[i]);
         }
         if(max == 1)
         return n;
