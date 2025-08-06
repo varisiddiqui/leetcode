@@ -20,10 +20,9 @@ class Solution {
                     int c3 = cut.get(j)-cut.get(i);
                     min = Math.min(min, c1+c2+c3);
                 }
-                if(i+1 < j)
+                if(min != Integer.MAX_VALUE)
                 dp[i][j]=min;
-                else
-                dp[i][j]=0;
+                
             }
         }
        
