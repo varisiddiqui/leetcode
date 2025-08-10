@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/varisiddiqui/leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/varisiddiqui/leetcode/tree/master/0078-subsets) |
+| [0085-maximal-rectangle](https://github.com/varisiddiqui/leetcode/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/varisiddiqui/leetcode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/varisiddiqui/leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/varisiddiqui/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -304,6 +305,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/varisiddiqui/leetcode/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
@@ -315,6 +317,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Stack
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/varisiddiqui/leetcode/tree/master/0085-maximal-rectangle) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0780-max-chunks-to-make-sorted](https://github.com/varisiddiqui/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -323,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0063-unique-paths-ii](https://github.com/varisiddiqui/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0064-minimum-path-sum) |
+| [0085-maximal-rectangle](https://github.com/varisiddiqui/leetcode/tree/master/0085-maximal-rectangle) |
 | [0967-minimum-falling-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [3849-equal-sum-grid-partition-i](https://github.com/varisiddiqui/leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 ## Enumeration
@@ -344,6 +348,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/varisiddiqui/leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/varisiddiqui/leetcode/tree/master/0072-edit-distance) |
+| [0085-maximal-rectangle](https://github.com/varisiddiqui/leetcode/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/varisiddiqui/leetcode/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/varisiddiqui/leetcode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/varisiddiqui/leetcode/tree/master/0120-triangle) |
