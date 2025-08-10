@@ -1,17 +1,15 @@
 class Solution {
     public int minCut(String s) {
         int n = s.length();
-        int dp[][] = new int[n][n];
-        
-        for(int i=0; i<n; i++)
-        Arrays.fill(dp[i], -1);
+        boolean pal[][] = buildPalindromeDP(s);
+        int dp[] = new int[n];
+        Arrays.fill(dp, -1);
+        return min(0, s, pal, dp);
 
-        boolean isPal[][] = buildPalindromeDP(s);
-        if(isPal[0][n-1])
-        return 0;
-        return min(0, n-1, s, dp, isPal);
+        
     }
 
+    
     public static boolean[][] buildPalindromeDP(String s) {
         int n = s.length();
         boolean[][] isPalindrome = new boolean[n][n];
@@ -41,26 +39,21 @@ class Solution {
         return isPalindrome;
     }
 
-    public int min(int i, int j, String s, int dp[][], boolean isPal[][]){
-        String str = s.substring(i, j+1);
-        if(i>=j || isPal[i][j]){
-            return dp[i][j]=0;
-        }
-
-        if(dp[i][j] != -1)
-        return dp[i][j];
-
-        int min=Integer.MAX_VALUE;
-
-        for(int k=i; k<j; k++){
-            if(isPal[i][k]){
-                int right = min(k+1, j, s, dp, isPal);
-                min = Math.min(min, 1+right);
-            }
-            
-        }
-        if(min != Integer.MAX_VALUE)
-        return dp[i][j]=min;
+    public int min(int i, String str, boolean isPal[][], int dp[]){
+        if(isPal[i][str.length()-1])
         return 0;
+        if(dp[i] != -1)
+        return dp[i];
+
+        int minCost=Integer.MAX_VALUE;
+
+        for(int j=i; j<str.length()-1; j++){
+            if(isPal[i][j]){
+                minCost = Math.min(minCost, 1+min(j+1, str, isPal, dp));
+            }
+        }
+        return dp[i]=minCost;
+
+
     }
 }
