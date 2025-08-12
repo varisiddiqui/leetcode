@@ -14,26 +14,20 @@
  * }
  */
 class Solution {
-    public boolean isBalanced(TreeNode root) {
-        return isBal(root);
-    }
-
-    public boolean isBal(TreeNode root){
+    
+    public boolean isBalanced(TreeNode root){
         if(root == null)
         return true;
 
-        boolean isleft = isBal(root.left);
-        boolean isright = isBal(root.right);
-        if(isleft && isright){
+       
         int left = ht(root.left);
         int right = ht(root.right);
         if(Math.abs(left-right) > 1)
         return false;
-        else
-        return true;
-        }
-        else
-        return false;
+
+        return isBalanced(root.left) &&isBalanced(root.right);
+        
+       
         
     }
 
