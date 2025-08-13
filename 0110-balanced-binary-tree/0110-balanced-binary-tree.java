@@ -16,19 +16,7 @@
 class Solution {
     
     public boolean isBalanced(TreeNode root){
-        if(root == null)
-        return true;
-
-       
-        int left = ht(root.left);
-        int right = ht(root.right);
-        if(Math.abs(left-right)>1 || left==-1 || right==-1)
-        return false;
-       
-
-        return isBalanced(root.left) && isBalanced(root.right);
-        
-       
+        return ht(root) != -1;      
         
     }
 
@@ -37,8 +25,12 @@ class Solution {
         return 0;
 
         int left = ht(root.left);
+        if(left == -1)
+        return -1;
         int right = ht(root.right);
-        if(Math.abs(left-right)>1 || left==-1 || right==-1)
+        if(right == -1)
+        return -1;
+        if(Math.abs(left-right)>1)
         return -1;
         return Math.max(left, right)+1;
     }
