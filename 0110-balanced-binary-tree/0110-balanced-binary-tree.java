@@ -22,10 +22,11 @@ class Solution {
        
         int left = ht(root.left);
         int right = ht(root.right);
-        if(Math.abs(left-right) > 1)
+        if(Math.abs(left-right)>1 || left==-1 || right==-1)
         return false;
+       
 
-        return isBalanced(root.left) &&isBalanced(root.right);
+        return isBalanced(root.left) && isBalanced(root.right);
         
        
         
@@ -37,6 +38,8 @@ class Solution {
 
         int left = ht(root.left);
         int right = ht(root.right);
+        if(Math.abs(left-right)>1 || left==-1 || right==-1)
+        return -1;
         return Math.max(left, right)+1;
     }
 }
