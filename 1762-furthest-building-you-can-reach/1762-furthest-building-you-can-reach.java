@@ -8,7 +8,7 @@ class Solution {
         if (n == ladders - 1)
             return n - 1;
         int i = 1;
-        boolean enter = false;
+      
 
         while (i < n) {
             int diff = heights[i]-heights[i-1];
@@ -17,28 +17,20 @@ class Solution {
                 continue;
             }
 
-            if (ladders > 0) {
-                pq.add(diff);
-                ladders--;
-            } else {
-                pq.add(diff);
-                System.out.println(pq.peek()+" "+bricks);
-                if (pq.peek() > bricks) {
-                    enter = true;
-                    break;
-                } else {
-                    bricks -= pq.peek();
-                    pq.remove();
-                }
+            pq.add(diff);
 
-            }
-           
+            if (pq.size() > ladders) {
+                bricks -= pq.peek();
+                pq.poll();
+            } 
+            if(bricks <0)
+            return i-1;
 
             i++;
 
         }
        
 
-        return i-1;
+        return n-1;
     }
 }
