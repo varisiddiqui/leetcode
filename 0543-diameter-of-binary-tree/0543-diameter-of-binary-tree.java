@@ -15,24 +15,23 @@
  */
 class Solution {
     public int diameterOfBinaryTree(TreeNode root) {
-        if(root == null)
-        return 0;
+        int maxi[]=new int[1];
+        
+         ht(root, maxi);
+         return maxi[0];
 
-        int max=0;
-        int left = ht(root.left);
-        int right = ht(root.right);
-        int throughR = left+right;
-        int leftDia = diameterOfBinaryTree(root.left);
-        int rightDia = diameterOfBinaryTree(root.right);
-
-        return Math.max(throughR, Math.max(leftDia, rightDia));
+       
+       
         
     }
 
-    public int ht(TreeNode root){
+    public int ht(TreeNode root, int maxi[]){
         if(root == null)
         return 0;
 
-        return Math.max(ht(root.right), ht(root.left))+1;
+        int left = ht(root.left, maxi);
+        int right = ht(root.right, maxi);
+        maxi[0] = Math.max(maxi[0], left+right);
+        return Math.max(left, right)+1;
     }
 }
