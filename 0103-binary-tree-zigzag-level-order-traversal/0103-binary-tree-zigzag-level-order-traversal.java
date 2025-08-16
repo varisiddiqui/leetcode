@@ -15,49 +15,72 @@
  */
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        List<List<Integer>> li = new ArrayList<>();
-        int f=1;
-        if(root == null) return li;
+        List<List<Integer>> res = new ArrayList<>();
         Queue<TreeNode> q = new LinkedList<>();
+        Stack<TreeNode> st = new Stack<>();
+
+        if (root == null)
+            return res;
+
         q.add(root);
         q.add(null);
-        List<Integer> res = new ArrayList<>();
 
-        while(!q.isEmpty()){
+        List<Integer> li = new ArrayList<>();
+
+        char flag = 'R';//reverse add kroge stack me
+
+        while (!q.isEmpty() || !st.isEmpty()) {
             TreeNode top = q.remove();
 
-            if(top == null){
-                if(q.isEmpty()){
-                    if(f == 0)
-                    Collections.reverse(res);
-                    li.add(res);
-                    break;
-                } 
-                q.add(null);
-                if(f == 0){
-                     Collections.reverse(res);
-                     f=1;
-                }
-                else{
-                    f=0;
-                }
-                
+            if (top == null) {
+                res.add(li);
+
                
-                li.add(res);
-                res = new ArrayList<>();
-
                 
+
+                li = new ArrayList<>();
+                if (st.isEmpty()) {
+                
+                    break;
+                }
+
+                while (!st.isEmpty()) {
+                    q.add(st.pop());
+                }
+                
+                if (flag == 'R')
+                    flag = 'L';
+                else
+                    flag = 'R';
+
+                q.add(null);
             }
 
-            else{
-                   res.add(top.val);
-                    if(top.left != null)
-                    q.add(top.left);
-                    if(top.right != null)
-                    q.add(top.right);                                  
+            else {
+                
+
+                li.add(top.val);
+                //flag = R insert left on stack first
+                if (flag == 'R') {
+                    if (top.left != null)
+                        st.push(top.left);
+                    if (top.right != null)
+                        st.push(top.right);
+                }
+
+                //flag = L insert right on stack first
+                if (flag == 'L') {
+                    if (top.right != null)
+                        st.push(top.right);
+                    if (top.left != null)
+                        st.push(top.left);
+                }
+
             }
-     
+
         }
-        return li;
+
+        return res;
+
     }
 }
