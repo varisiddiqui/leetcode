@@ -18,10 +18,9 @@ class Solution {
         }
 
         Comparator<Pair> cmp = (a, b) -> {
-            if(a.freq != b.freq)
+        
             return Integer.compare(b.freq, a.freq);
-            else
-            return Integer.compare(a.ch, b.ch);
+            
         };
 
         PriorityQueue<Pair> pq = new PriorityQueue<>(cmp);
