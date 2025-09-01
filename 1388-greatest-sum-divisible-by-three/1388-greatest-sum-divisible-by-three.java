@@ -11,8 +11,7 @@ class Solution {
                 curr[idx] = Math.max(dp[idx], (Math.max(curr[idx], (dp[j]+nums[i-1]))));
             }
 
-            for(int j=0; j<3; j++)
-            curr[j] = Math.max(curr[j], dp[j]);
+          
 
 
            dp=curr;
