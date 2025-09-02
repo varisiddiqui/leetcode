@@ -7,12 +7,14 @@ class Solution {
         }
 
         Comparator<int[]> cmp = (a, b) -> {
-            return b[1] - a[1];
+            return a[1] - b[1];
         };
 
         PriorityQueue<int[]> pq = new PriorityQueue<>(cmp);
         for(Integer key: hm.keySet()){
             pq.add(new int[]{key, hm.get(key)});
+            if(pq.size()>k)
+            pq.remove();
         }
 
         int ans[] = new int[k];
