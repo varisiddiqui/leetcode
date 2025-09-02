@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0312-burst-balloons](https://github.com/varisiddiqui/leetcode/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/varisiddiqui/leetcode/tree/master/0322-coin-change) |
 | [0334-increasing-triplet-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/0334-increasing-triplet-subsequence) |
+| [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/varisiddiqui/leetcode/tree/master/0368-largest-divisible-subset) |
@@ -163,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/varisiddiqui/leetcode/tree/master/0229-majority-element-ii) |
 | [0274-h-index](https://github.com/varisiddiqui/leetcode/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0368-largest-divisible-subset](https://github.com/varisiddiqui/leetcode/tree/master/0368-largest-divisible-subset) |
@@ -198,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/varisiddiqui/leetcode/tree/master/0049-group-anagrams) |
 | [0205-isomorphic-strings](https://github.com/varisiddiqui/leetcode/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/varisiddiqui/leetcode/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -229,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/varisiddiqui/leetcode/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/varisiddiqui/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/varisiddiqui/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/varisiddiqui/leetcode/tree/master/0778-reorganize-string) |
@@ -324,10 +328,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0053-maximum-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0053-maximum-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/varisiddiqui/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/varisiddiqui/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/varisiddiqui/leetcode/tree/master/0778-reorganize-string) |
@@ -337,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Backtracking
 |  |
 | ------- |
@@ -449,6 +456,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0164-maximum-gap](https://github.com/varisiddiqui/leetcode/tree/master/0164-maximum-gap) |
+| [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/varisiddiqui/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/varisiddiqui/leetcode/tree/master/0692-top-k-frequent-words) |
 ## Trie
