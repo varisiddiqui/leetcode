@@ -22,7 +22,7 @@ class Solution {
         Arrays.sort(num1, cmp);
         Arrays.sort(num2, cmp);
 
-        List<Integer> s = new ArrayList<>();
+        Stack<Integer> s = new Stack<>();
         
         int i=0;
         int j=0;
@@ -38,11 +38,9 @@ class Solution {
             }
         }
 
-        Collections.sort(s, Collections.reverseOrder());
-        int l=0;
         for(int k=0; k<n; k++){
             if(ans[k] == -1){
-                ans[k] = s.get(l++);
+                ans[k] = s.pop();
             }
         }
 
