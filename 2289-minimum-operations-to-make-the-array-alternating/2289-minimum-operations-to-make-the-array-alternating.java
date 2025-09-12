@@ -65,7 +65,7 @@ class Solution {
             int ans1 = o[0][1]+e[1][1];
             int ans2 = o[1][1]+e[0][1];
 
-            System.out.println(ans1+" "+ ans2);
+            //System.out.println(ans1+" "+ ans2);
 
             return n-(Math.max(ans1, ans2));
         }
