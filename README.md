@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/varisiddiqui/leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
 | [1961-maximum-ice-cream-bars](https://github.com/varisiddiqui/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/varisiddiqui/leetcode/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
+| [2289-minimum-operations-to-make-the-array-alternating](https://github.com/varisiddiqui/leetcode/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/varisiddiqui/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/varisiddiqui/leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/varisiddiqui/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -148,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1961-maximum-ice-cream-bars](https://github.com/varisiddiqui/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/varisiddiqui/leetcode/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2264-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/varisiddiqui/leetcode/tree/master/2264-minimum-sum-of-four-digit-number-after-splitting-digits) |
+| [2289-minimum-operations-to-make-the-array-alternating](https://github.com/varisiddiqui/leetcode/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/varisiddiqui/leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/varisiddiqui/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2475-largest-palindromic-number](https://github.com/varisiddiqui/leetcode/tree/master/2475-largest-palindromic-number) |
@@ -226,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/varisiddiqui/leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/varisiddiqui/leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
+| [2289-minimum-operations-to-make-the-array-alternating](https://github.com/varisiddiqui/leetcode/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/varisiddiqui/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/varisiddiqui/leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2475-largest-palindromic-number](https://github.com/varisiddiqui/leetcode/tree/master/2475-largest-palindromic-number) |
@@ -246,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/varisiddiqui/leetcode/tree/master/0778-reorganize-string) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/varisiddiqui/leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
+| [2289-minimum-operations-to-make-the-array-alternating](https://github.com/varisiddiqui/leetcode/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/varisiddiqui/leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2475-largest-palindromic-number](https://github.com/varisiddiqui/leetcode/tree/master/2475-largest-palindromic-number) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/varisiddiqui/leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
