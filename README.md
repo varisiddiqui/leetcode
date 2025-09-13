@@ -89,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/varisiddiqui/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/varisiddiqui/leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
+| [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/varisiddiqui/leetcode/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3151-minimum-processing-time](https://github.com/varisiddiqui/leetcode/tree/master/3151-minimum-processing-time) |
 | [3166-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/varisiddiqui/leetcode/tree/master/3166-minimum-number-of-groups-to-create-a-valid-assignment) |
@@ -155,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/varisiddiqui/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2475-largest-palindromic-number](https://github.com/varisiddiqui/leetcode/tree/master/2475-largest-palindromic-number) |
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
+| [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/varisiddiqui/leetcode/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3151-minimum-processing-time](https://github.com/varisiddiqui/leetcode/tree/master/3151-minimum-processing-time) |
 | [3166-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/varisiddiqui/leetcode/tree/master/3166-minimum-number-of-groups-to-create-a-valid-assignment) |
@@ -202,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2264-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/varisiddiqui/leetcode/tree/master/2264-minimum-sum-of-four-digit-number-after-splitting-digits) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/varisiddiqui/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
+| [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
 | [3151-minimum-processing-time](https://github.com/varisiddiqui/leetcode/tree/master/3151-minimum-processing-time) |
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
 | [3291-find-if-array-can-be-sorted](https://github.com/varisiddiqui/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
@@ -356,6 +359,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/varisiddiqui/leetcode/tree/master/0778-reorganize-string) |
 | [1184-car-pooling](https://github.com/varisiddiqui/leetcode/tree/master/1184-car-pooling) |
 | [1762-furthest-building-you-can-reach](https://github.com/varisiddiqui/leetcode/tree/master/1762-furthest-building-you-can-reach) |
+| [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/varisiddiqui/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Quickselect
 |  |
