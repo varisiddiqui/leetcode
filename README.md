@@ -153,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/varisiddiqui/leetcode/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2264-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/varisiddiqui/leetcode/tree/master/2264-minimum-sum-of-four-digit-number-after-splitting-digits) |
 | [2289-minimum-operations-to-make-the-array-alternating](https://github.com/varisiddiqui/leetcode/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
+| [2300-construct-string-with-repeat-limit](https://github.com/varisiddiqui/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/varisiddiqui/leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/varisiddiqui/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2475-largest-palindromic-number](https://github.com/varisiddiqui/leetcode/tree/master/2475-largest-palindromic-number) |
@@ -237,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/varisiddiqui/leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
 | [2289-minimum-operations-to-make-the-array-alternating](https://github.com/varisiddiqui/leetcode/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
+| [2300-construct-string-with-repeat-limit](https://github.com/varisiddiqui/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/varisiddiqui/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/varisiddiqui/leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2475-largest-palindromic-number](https://github.com/varisiddiqui/leetcode/tree/master/2475-largest-palindromic-number) |
@@ -259,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/varisiddiqui/leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
 | [2289-minimum-operations-to-make-the-array-alternating](https://github.com/varisiddiqui/leetcode/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
+| [2300-construct-string-with-repeat-limit](https://github.com/varisiddiqui/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/varisiddiqui/leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2475-largest-palindromic-number](https://github.com/varisiddiqui/leetcode/tree/master/2475-largest-palindromic-number) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/varisiddiqui/leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
@@ -338,6 +341,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1250-longest-common-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/1250-longest-common-subsequence) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/varisiddiqui/leetcode/tree/master/1369-minimum-swaps-to-make-strings-equal) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/varisiddiqui/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [2300-construct-string-with-repeat-limit](https://github.com/varisiddiqui/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2475-largest-palindromic-number](https://github.com/varisiddiqui/leetcode/tree/master/2475-largest-palindromic-number) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/varisiddiqui/leetcode/tree/master/2576-minimum-penalty-for-a-shop) |
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/varisiddiqui/leetcode/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
@@ -362,6 +366,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/varisiddiqui/leetcode/tree/master/0778-reorganize-string) |
 | [1184-car-pooling](https://github.com/varisiddiqui/leetcode/tree/master/1184-car-pooling) |
 | [1762-furthest-building-you-can-reach](https://github.com/varisiddiqui/leetcode/tree/master/1762-furthest-building-you-can-reach) |
+| [2300-construct-string-with-repeat-limit](https://github.com/varisiddiqui/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/varisiddiqui/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Quickselect
