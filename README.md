@@ -111,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3885-count-special-triplets](https://github.com/varisiddiqui/leetcode/tree/master/3885-count-special-triplets) |
 | [3954-maximum-balanced-shipments](https://github.com/varisiddiqui/leetcode/tree/master/3954-maximum-balanced-shipments) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
+| [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/varisiddiqui/leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Two Pointers
 |  |
 | ------- |
@@ -128,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/varisiddiqui/leetcode/tree/master/1129-longest-string-chain) |
 | [3755-maximum-product-of-first-and-last-elements-of-a-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/3755-maximum-product-of-first-and-last-elements-of-a-subsequence) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
+| [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/varisiddiqui/leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -175,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3954-maximum-balanced-shipments](https://github.com/varisiddiqui/leetcode/tree/master/3954-maximum-balanced-shipments) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
+| [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/varisiddiqui/leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -222,6 +225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3430-count-days-without-meetings](https://github.com/varisiddiqui/leetcode/tree/master/3430-count-days-without-meetings) |
 | [3510-maximize-the-total-height-of-unique-towers](https://github.com/varisiddiqui/leetcode/tree/master/3510-maximize-the-total-height-of-unique-towers) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
+| [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/varisiddiqui/leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -296,6 +300,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/varisiddiqui/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
+| [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/varisiddiqui/leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Sliding Window
 |  |
 | ------- |
