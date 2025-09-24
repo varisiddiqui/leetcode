@@ -1,48 +1,30 @@
 class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
-        int n = nums.length;
-
-        int ans=0;
         List<Integer> li = new ArrayList<>();
+        int n = nums.length;
         for(int i=0; i<n; i++){
-            if(nums[i]%2 != 0)
-            li.add(i);
+            if(nums[i]%2 !=0){
+                li.add(i);
+            }
         }
 
-        //System.out.println(li);
+
+        int left=0;
+        int right=0;
 
         int sz = li.size();
-        if(sz<k) return 0;
-
-        int prev=-1;
-        int next=-1;
-
+        if(sz < k) return 0;
+        int ans=0;
+        
         for(int i=0; i<sz; i++){
-            if(i-1>=0){
-                prev = li.get(i) - li.get(i-1);
-            }
-            else{
-                prev = li.get(i) + 1;
-            }
+            left = (i-1 >= 0)? (li.get(i)-li.get(i-1)): (li.get(i)+1);
+            if(i+k-1 >= sz) break;
+            right = ((i+k) < sz)? (li.get(i+k) - li.get(i+k-1)): (n - li.get(i+k-1));
+            ans += (left*right);
 
-            next = i+k-1;
 
-            if(next >= sz) break;
-
-            if(next+1 < sz){
-                next = li.get(next+1) - li.get(next);
-            }
-            else{
-                next = n-li.get(next);
-            }
-
-            ans += (prev*next);
         }
 
         return ans;
-
-
-
-       
     }
 }
