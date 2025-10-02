@@ -168,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/varisiddiqui/leetcode/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1139-previous-permutation-with-one-swap](https://github.com/varisiddiqui/leetcode/tree/master/1139-previous-permutation-with-one-swap) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
+| [1304-longest-happy-string](https://github.com/varisiddiqui/leetcode/tree/master/1304-longest-happy-string) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/varisiddiqui/leetcode/tree/master/1369-minimum-swaps-to-make-strings-equal) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/varisiddiqui/leetcode/tree/master/1388-greatest-sum-divisible-by-three) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/varisiddiqui/leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
@@ -395,6 +396,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1170-shortest-common-supersequence](https://github.com/varisiddiqui/leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1197-parsing-a-boolean-expression](https://github.com/varisiddiqui/leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1250-longest-common-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/1250-longest-common-subsequence) |
+| [1304-longest-happy-string](https://github.com/varisiddiqui/leetcode/tree/master/1304-longest-happy-string) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/varisiddiqui/leetcode/tree/master/1369-minimum-swaps-to-make-strings-equal) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/varisiddiqui/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
@@ -427,6 +429,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0692-top-k-frequent-words](https://github.com/varisiddiqui/leetcode/tree/master/0692-top-k-frequent-words) |
 | [0778-reorganize-string](https://github.com/varisiddiqui/leetcode/tree/master/0778-reorganize-string) |
 | [1184-car-pooling](https://github.com/varisiddiqui/leetcode/tree/master/1184-car-pooling) |
+| [1304-longest-happy-string](https://github.com/varisiddiqui/leetcode/tree/master/1304-longest-happy-string) |
 | [1762-furthest-building-you-can-reach](https://github.com/varisiddiqui/leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/varisiddiqui/leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
