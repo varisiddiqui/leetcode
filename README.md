@@ -89,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1762-furthest-building-you-can-reach](https://github.com/varisiddiqui/leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/1792-find-the-most-competitive-subsequence) |
+| [1824-maximum-number-of-eaten-apples](https://github.com/varisiddiqui/leetcode/tree/master/1824-maximum-number-of-eaten-apples) |
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/varisiddiqui/leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
 | [1961-maximum-ice-cream-bars](https://github.com/varisiddiqui/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [1962-single-threaded-cpu](https://github.com/varisiddiqui/leetcode/tree/master/1962-single-threaded-cpu) |
@@ -182,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1652-minimum-suffix-flips](https://github.com/varisiddiqui/leetcode/tree/master/1652-minimum-suffix-flips) |
 | [1762-furthest-building-you-can-reach](https://github.com/varisiddiqui/leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/1792-find-the-most-competitive-subsequence) |
+| [1824-maximum-number-of-eaten-apples](https://github.com/varisiddiqui/leetcode/tree/master/1824-maximum-number-of-eaten-apples) |
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/varisiddiqui/leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
 | [1961-maximum-ice-cream-bars](https://github.com/varisiddiqui/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/varisiddiqui/leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
@@ -452,6 +454,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1184-car-pooling](https://github.com/varisiddiqui/leetcode/tree/master/1184-car-pooling) |
 | [1304-longest-happy-string](https://github.com/varisiddiqui/leetcode/tree/master/1304-longest-happy-string) |
 | [1762-furthest-building-you-can-reach](https://github.com/varisiddiqui/leetcode/tree/master/1762-furthest-building-you-can-reach) |
+| [1824-maximum-number-of-eaten-apples](https://github.com/varisiddiqui/leetcode/tree/master/1824-maximum-number-of-eaten-apples) |
 | [1962-single-threaded-cpu](https://github.com/varisiddiqui/leetcode/tree/master/1962-single-threaded-cpu) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/varisiddiqui/leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
