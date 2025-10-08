@@ -22,15 +22,17 @@ class Solution {
 
             if (!pq.isEmpty()) {
                 curr = pq.remove();
-                ans += 1;
-                System.out.println(curr[0] + " " + curr[1]);
+                //System.out.println(curr[0] + " " + curr[1]);
             } else
                 curr = new int[2];
 
-            if (curr[0] - 1 > 0) {
-                curr[0] -= 1;
-                pq.add(curr);
-            }
+            if (curr[0] > 0)
+            ans += 1;
+
+                if (curr[0] - 1 > 0) {
+                    curr[0] -= 1;
+                    pq.add(curr);
+                }
 
             time++;
         }
@@ -42,18 +44,18 @@ class Solution {
             }
 
             if (!pq.isEmpty()) {
-                ans += 1;
                 curr = pq.remove();
-            }
-
-            else
+                //System.out.println(curr[0] + " " + curr[1]);
+            } else
                 curr = new int[2];
 
-           
-            if (curr[0] - 1 > 0) {
-                curr[0] -= 1;
-                pq.add(curr);
-            }
+            if (curr[0] > 0)
+            ans += 1;
+
+                if (curr[0] - 1 > 0) {
+                    curr[0] -= 1;
+                    pq.add(curr);
+                }
 
             time++;
         }
