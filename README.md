@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/varisiddiqui/leetcode/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/varisiddiqui/leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/varisiddiqui/leetcode/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/varisiddiqui/leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/varisiddiqui/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/varisiddiqui/leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -529,6 +530,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/varisiddiqui/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0064-minimum-path-sum) |
 | [0085-maximal-rectangle](https://github.com/varisiddiqui/leetcode/tree/master/0085-maximal-rectangle) |
+| [0200-number-of-islands](https://github.com/varisiddiqui/leetcode/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0825-max-increase-to-keep-city-skyline](https://github.com/varisiddiqui/leetcode/tree/master/0825-max-increase-to-keep-city-skyline) |
 | [0967-minimum-falling-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -646,6 +648,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/varisiddiqui/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/varisiddiqui/leetcode/tree/master/0200-number-of-islands) |
 | [0543-diameter-of-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/varisiddiqui/leetcode/tree/master/0547-number-of-provinces) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -690,6 +693,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/varisiddiqui/leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/varisiddiqui/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/varisiddiqui/leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/varisiddiqui/leetcode/tree/master/0322-coin-change) |
 | [0547-number-of-provinces](https://github.com/varisiddiqui/leetcode/tree/master/0547-number-of-provinces) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -704,6 +708,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/varisiddiqui/leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/varisiddiqui/leetcode/tree/master/0547-number-of-provinces) |
 ## Graph
 |  |
