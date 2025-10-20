@@ -4,25 +4,26 @@ class Solution {
         Arrays.sort(nums);
 
         int n = nums.length;
-        TreeSet<Integer> seen = new TreeSet<>(Collections.reverseOrder());
+        //TreeSet<Integer> seen = new TreeSet<>(Collections.reverseOrder());
 
        // for(int num: nums) seen.add(num);
-        boolean enter = false;
-        int count=0;
+       // boolean enter = false;
+        int count=1;
+        int possible=0;
+        int lastUsed=nums[0]-k;
 
-        for(int i=0; i<n; i++){
-            if(!seen.contains(nums[i]-k)){
-                seen.add(nums[i]-k);
+        for(int i=1; i<n; i++){
+            possible = Math.max(lastUsed+1, nums[i]-k);
+            if(possible<=nums[i]+k){
+                count++;
+                lastUsed = possible;
             }
-            else if(seen.first()+1>=nums[i]-k && seen.first()+1<=nums[i]+k){
-                seen.add(seen.first()+1);               
-
-            }
+            
             
             
         }
 
-        return seen.size();
+        return count;
 
 
     }
