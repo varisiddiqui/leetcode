@@ -128,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3510-maximize-the-total-height-of-unique-towers](https://github.com/varisiddiqui/leetcode/tree/master/3510-maximize-the-total-height-of-unique-towers) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/varisiddiqui/leetcode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/varisiddiqui/leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3755-maximum-product-of-first-and-last-elements-of-a-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/3755-maximum-product-of-first-and-last-elements-of-a-subsequence) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/varisiddiqui/leetcode/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -221,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/varisiddiqui/leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/varisiddiqui/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3510-maximize-the-total-height-of-unique-towers](https://github.com/varisiddiqui/leetcode/tree/master/3510-maximize-the-total-height-of-unique-towers) |
+| [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/varisiddiqui/leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3954-maximum-balanced-shipments](https://github.com/varisiddiqui/leetcode/tree/master/3954-maximum-balanced-shipments) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
@@ -280,6 +282,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3317-maximum-palindromes-after-operations](https://github.com/varisiddiqui/leetcode/tree/master/3317-maximum-palindromes-after-operations) |
 | [3430-count-days-without-meetings](https://github.com/varisiddiqui/leetcode/tree/master/3430-count-days-without-meetings) |
 | [3510-maximize-the-total-height-of-unique-towers](https://github.com/varisiddiqui/leetcode/tree/master/3510-maximize-the-total-height-of-unique-towers) |
+| [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/varisiddiqui/leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/varisiddiqui/leetcode/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/varisiddiqui/leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
