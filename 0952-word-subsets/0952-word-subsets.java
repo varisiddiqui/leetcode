@@ -1,51 +1,40 @@
+import java.util.*;
+
 class Solution {
     public List<String> wordSubsets(String[] words1, String[] words2) {
-        int n1 = words1.length;
-        int n2 = words2.length;
+        int[] freq2 = new int[26];  // stores max freq needed for each char
+        
+        // Build global max freq from words2
+        for (String word : words2) {
+            int[] temp = new int[26];
+            for (char c : word.toCharArray()) {
+                temp[c - 'a']++;
+            }
+            for (int i = 0; i < 26; i++) {
+                freq2[i] = Math.max(freq2[i], temp[i]);
+            }
+        }
 
         List<String> res = new ArrayList<>();
 
-        //Containing freq for words2
-        HashMap<Character, Integer> freq2 = new HashMap<>();
-
-        for(int i=0; i<n2; i++){
-            HashMap<Character, Integer> hm = new HashMap<>();
-            for(int j=0; j<words2[i].length(); j++){
-                char ch = words2[i].charAt(j);
-                hm.put(ch, hm.getOrDefault(ch, 0) + 1);
+        
+        for (String word : words1) {
+            int[] freq1 = new int[26];
+            for (char c : word.toCharArray()) {
+                freq1[c - 'a']++;
             }
-
-            for(Character key: hm.keySet()){
-                freq2.put(key, Math.max(freq2.getOrDefault(key, 0), hm.get(key)));
-            }
-        }
-
-        for(int i=0; i<n1; i++){
-            HashMap<Character, Integer> freq1 = new HashMap<>();
 
             boolean isGood = true;
-
-            for(int j=0; j<words1[i].length(); j++){
-                char ch = words1[i].charAt(j);
-                freq1.put(ch, freq1.getOrDefault(ch, 0) + 1);
+            for (int i = 0; i < 26; i++) {
+                if (freq1[i] < freq2[i]) {
+                    isGood = false;
+                    break;
+                }
             }
 
-            //compare
-
-           
-                for(Character key: freq2.keySet()){
-                    if(freq2.get(key) > freq1.getOrDefault(key, 0)){
-                        isGood = false;
-                        break;
-                    }
-                }
-        
-            
-
-            if(isGood) res.add(words1[i]);
-
+            if (isGood) res.add(word);
         }
+
         return res;
-        
     }
 }
