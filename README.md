@@ -97,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1792-find-the-most-competitive-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1824-maximum-number-of-eaten-apples](https://github.com/varisiddiqui/leetcode/tree/master/1824-maximum-number-of-eaten-apples) |
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/varisiddiqui/leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
+| [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/varisiddiqui/leetcode/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1961-maximum-ice-cream-bars](https://github.com/varisiddiqui/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [1962-single-threaded-cpu](https://github.com/varisiddiqui/leetcode/tree/master/1962-single-threaded-cpu) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/varisiddiqui/leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
@@ -199,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1792-find-the-most-competitive-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/1792-find-the-most-competitive-subsequence) |
 | [1824-maximum-number-of-eaten-apples](https://github.com/varisiddiqui/leetcode/tree/master/1824-maximum-number-of-eaten-apples) |
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/varisiddiqui/leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
+| [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/varisiddiqui/leetcode/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1961-maximum-ice-cream-bars](https://github.com/varisiddiqui/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number](https://github.com/varisiddiqui/leetcode/tree/master/1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/varisiddiqui/leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
@@ -269,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/varisiddiqui/leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/varisiddiqui/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/varisiddiqui/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
+| [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/varisiddiqui/leetcode/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1961-maximum-ice-cream-bars](https://github.com/varisiddiqui/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [1962-single-threaded-cpu](https://github.com/varisiddiqui/leetcode/tree/master/1962-single-threaded-cpu) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/varisiddiqui/leetcode/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
