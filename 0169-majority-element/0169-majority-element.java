@@ -16,14 +16,7 @@ class Solution {
                
             }
         }
-        System.out.println(prev);
-        count=0;
-        for(int i=0; i<n; i++){
-            if(prev==nums[i]){
-                count++;
-            }
-        }
-        if(count>(int)Math.ceil(n/2)) return prev;
-        return 0;
+        return prev;
+        
     }
 }
