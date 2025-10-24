@@ -194,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/varisiddiqui/leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1515-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k](https://github.com/varisiddiqui/leetcode/tree/master/1515-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/varisiddiqui/leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [1648-minimum-insertions-to-balance-a-parentheses-string](https://github.com/varisiddiqui/leetcode/tree/master/1648-minimum-insertions-to-balance-a-parentheses-string) |
 | [1649-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target](https://github.com/varisiddiqui/leetcode/tree/master/1649-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target) |
 | [1652-minimum-suffix-flips](https://github.com/varisiddiqui/leetcode/tree/master/1652-minimum-suffix-flips) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/varisiddiqui/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
@@ -453,6 +454,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/varisiddiqui/leetcode/tree/master/1369-minimum-swaps-to-make-strings-equal) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/varisiddiqui/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/varisiddiqui/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
+| [1648-minimum-insertions-to-balance-a-parentheses-string](https://github.com/varisiddiqui/leetcode/tree/master/1648-minimum-insertions-to-balance-a-parentheses-string) |
 | [1652-minimum-suffix-flips](https://github.com/varisiddiqui/leetcode/tree/master/1652-minimum-suffix-flips) |
 | [1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number](https://github.com/varisiddiqui/leetcode/tree/master/1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
@@ -544,6 +546,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0780-max-chunks-to-make-sorted](https://github.com/varisiddiqui/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/varisiddiqui/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/varisiddiqui/leetcode/tree/master/1197-parsing-a-boolean-expression) |
+| [1648-minimum-insertions-to-balance-a-parentheses-string](https://github.com/varisiddiqui/leetcode/tree/master/1648-minimum-insertions-to-balance-a-parentheses-string) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/1792-find-the-most-competitive-subsequence) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/varisiddiqui/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
