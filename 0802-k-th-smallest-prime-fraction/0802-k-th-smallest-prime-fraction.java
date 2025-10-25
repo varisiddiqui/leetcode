@@ -21,7 +21,7 @@ class Solution {
         PriorityQueue<Pair> pq = new PriorityQueue<>(cmp);
 
         for(int i=0; i<n; i++){
-            for(int j=0; j<n; j++){
+            for(int j=i+1; j<n; j++){
                 pq.add(new Pair(arr[i], arr[j]));
             }
         }
