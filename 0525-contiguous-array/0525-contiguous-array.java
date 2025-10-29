@@ -1,12 +1,7 @@
 class Solution {
     public int findMaxLength(int[] nums) {
         int n = nums.length;
-        for(int i=0; i<n; i++){
-            if(nums[i] == 0){
-                nums[i] = -1;
-            }
-        }
-
+       
         int target = 0;
 
         HashMap<Integer, Integer> hm = new HashMap<>();
@@ -15,7 +10,7 @@ class Solution {
         int sum=0;
         int max=0;
         for(int i=0; i<n; i++){
-             sum += nums[i];
+             sum += (nums[i] == 1)? 1: -1;
             if(hm.containsKey(sum-target)){
                 max = Math.max(max, i-(hm.get(sum-target)));
             }
