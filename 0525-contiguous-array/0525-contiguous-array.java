@@ -14,8 +14,10 @@ class Solution {
             if(hm.containsKey(sum-target)){
                 max = Math.max(max, i-(hm.get(sum-target)));
             }
+            else
+            hm.put(sum, i);
            
-            hm.putIfAbsent(sum, i);
+            
 
         }
         return max;
