@@ -104,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/varisiddiqui/leetcode/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1961-maximum-ice-cream-bars](https://github.com/varisiddiqui/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [1962-single-threaded-cpu](https://github.com/varisiddiqui/leetcode/tree/master/1962-single-threaded-cpu) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/varisiddiqui/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/varisiddiqui/leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/varisiddiqui/leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/varisiddiqui/leetcode/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
@@ -208,6 +209,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/varisiddiqui/leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
 | [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/varisiddiqui/leetcode/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1961-maximum-ice-cream-bars](https://github.com/varisiddiqui/leetcode/tree/master/1961-maximum-ice-cream-bars) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/varisiddiqui/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number](https://github.com/varisiddiqui/leetcode/tree/master/1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/varisiddiqui/leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/varisiddiqui/leetcode/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
@@ -281,6 +283,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/varisiddiqui/leetcode/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1961-maximum-ice-cream-bars](https://github.com/varisiddiqui/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [1962-single-threaded-cpu](https://github.com/varisiddiqui/leetcode/tree/master/1962-single-threaded-cpu) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/varisiddiqui/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/varisiddiqui/leetcode/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2264-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/varisiddiqui/leetcode/tree/master/2264-minimum-sum-of-four-digit-number-after-splitting-digits) |
@@ -385,6 +388,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0802-k-th-smallest-prime-fraction](https://github.com/varisiddiqui/leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/varisiddiqui/leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/varisiddiqui/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/varisiddiqui/leetcode/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
 | [2712-find-the-maximum-number-of-marked-indices](https://github.com/varisiddiqui/leetcode/tree/master/2712-find-the-maximum-number-of-marked-indices) |
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
@@ -399,6 +403,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1261-swap-for-longest-repeated-character-substring](https://github.com/varisiddiqui/leetcode/tree/master/1261-swap-for-longest-repeated-character-substring) |
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/varisiddiqui/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/varisiddiqui/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/varisiddiqui/leetcode/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/varisiddiqui/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -414,6 +419,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1649-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target](https://github.com/varisiddiqui/leetcode/tree/master/1649-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
+| [1966-frequency-of-the-most-frequent-element](https://github.com/varisiddiqui/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/varisiddiqui/leetcode/tree/master/2576-minimum-penalty-for-a-shop) |
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
 | [3355-minimum-levels-to-gain-more-points](https://github.com/varisiddiqui/leetcode/tree/master/3355-minimum-levels-to-gain-more-points) |
