@@ -2,17 +2,27 @@ class Solution {
     public long maxProduct(int[] nums) {
         int n = nums.length;
         int c=0;
+        long max=Long.MIN_VALUE;
+        long secondMax=Long.MIN_VALUE;
         for(int i=0; i<n; i++) {
             if(nums[i]==0) c++;
-            nums[i]=Math.abs(nums[i]);
+
+            if(Math.abs(nums[i])>= max){
+                secondMax = max;
+                max = Math.abs(nums[i]);
+            }
+            else if(Math.abs(nums[i])<max && Math.abs(nums[i])>secondMax){
+                secondMax=Math.abs(nums[i]);
+            }
+            
         }
-         Arrays.sort(nums);
+         //Arrays.sort(nums);
 
         if(c>n-2) return 0;
 
-        if(c==n-2) return nums[n-1]*1L*nums[n-2]*100000L;
+        
 
-        return nums[n-1]*1L*nums[n-2]*100000L;
+        return max*1L*secondMax*100000L;
 
        
         
