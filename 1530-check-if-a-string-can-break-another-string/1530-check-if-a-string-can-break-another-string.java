@@ -1,33 +1,26 @@
 class Solution {
     public boolean checkIfCanBreak(String s1, String s2) {
-        char ch1 [] = s1.toCharArray();
-        char ch2 [] = s2.toCharArray();
+        int n = s2.length();
+        int ch1 [] = new int[26];
+        int ch2 [] = new int[26];
 
-        Arrays.sort(ch1);
-        Arrays.sort(ch2);
-        boolean res1 = false;
-        boolean res2 = false;
+        for(int i=0; i<n; i++){
+            ch1[s1.charAt(i) - 'a']++;
+            ch2[s2.charAt(i) - 'a']++;
+        }   
 
+        return isPoss(ch1, ch2) || isPoss(ch2, ch1);
+    }
 
-        for(int i=0; i<s1.length(); i++){
-            if(!res1 && ch1[i]>ch2[i]){
-                res1=true;
-            }
-            if(!res2 && ch1[i]<ch2[i]){
-                res2 = true;
-            }
+    boolean isPoss(int a[], int b[]){
+        int sumA=0;
+        int sumB=0;
+        for(int i=0; i<26; i++){
+            sumA += a[i];
+            sumB += b[i];
 
-            
+            if(sumA < sumB) return false;
         }
-
-       // System.out.println(res1+" "+res2);
-
-       // if(res1==false && res2==false) return true;
-
-        return (res1 && res2)?false:true;
-
-        //return true;
-
-
+        return true;
     }
 }
