@@ -7,18 +7,22 @@ class Solution {
         }
         
         int size = tm.size();
-        int temp[] = new int[size];
-        int i=0;
-        for(Integer key: tm.keySet()) temp[i++] = tm.get(key);
+        int temp[] = new int[n+1];
+        
+        for(Integer key: tm.keySet()) temp[tm.get(key)]++ ;
 
-        Arrays.sort(temp);
+        //Arrays.sort(temp);
 
-        for(int freq: temp){
+        for(int i=1; i<n+1; i++){
+            int canRemove = k/i;
+            int possRemoval = Math.min(canRemove, temp[i]);
+
+            size -= possRemoval;
+
+            k -= i*possRemoval;
             
-            k -= freq;
-            if(k>=0) size--;
 
-            if(k<0) 
+            if(k<=0) 
              break;
         }
         return size;
