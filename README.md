@@ -149,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3954-maximum-balanced-shipments](https://github.com/varisiddiqui/leetcode/tree/master/3954-maximum-balanced-shipments) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/varisiddiqui/leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
+| [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/varisiddiqui/leetcode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 ## Two Pointers
 |  |
@@ -370,6 +371,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3885-count-special-triplets](https://github.com/varisiddiqui/leetcode/tree/master/3885-count-special-triplets) |
+| [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 ## Counting
 |  |
 | ------- |
@@ -391,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3317-maximum-palindromes-after-operations](https://github.com/varisiddiqui/leetcode/tree/master/3317-maximum-palindromes-after-operations) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3885-count-special-triplets](https://github.com/varisiddiqui/leetcode/tree/master/3885-count-special-triplets) |
+| [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -447,6 +450,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
 | [3355-minimum-levels-to-gain-more-points](https://github.com/varisiddiqui/leetcode/tree/master/3355-minimum-levels-to-gain-more-points) |
 | [3849-equal-sum-grid-partition-i](https://github.com/varisiddiqui/leetcode/tree/master/3849-equal-sum-grid-partition-i) |
+| [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -518,6 +522,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
+| [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -791,6 +796,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 ## Union Find
 |  |
 | ------- |
@@ -808,4 +814,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/varisiddiqui/leetcode/tree/master/0204-count-primes) |
+## Merge Sort
+|  |
+| ------- |
+| [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 <!---LeetCode Topics End-->
