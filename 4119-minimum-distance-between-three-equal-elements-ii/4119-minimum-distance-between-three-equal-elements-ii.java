@@ -1,28 +1,23 @@
 class Solution {
     public int minimumDistance(int[] nums) {
-        int n = nums.length;
-        int arr[][] = new int[n][2];
-        for(int i=0; i<n; i++){
-            arr[i][0] = nums[i];
-            arr[i][1] = i;
+        HashMap<Integer, List<Integer>> hm = new HashMap<>();
+        for(int i=0; i<nums.length; i++){
+            hm.putIfAbsent(nums[i], new ArrayList<>());
+            hm.get(nums[i]).add(i);
         }
-
-        Comparator<int[]> cmp = (a, b) -> {
-            return Integer.compare(a[0], b[0]);
-        };
-
-        Arrays.sort(arr, cmp);
-
         int min = Integer.MAX_VALUE;
         boolean enter = false;
-
-        for(int i=0; i<n; i++){
-            if(i+2<n && arr[i][0] == arr[i+2][0]){
-                min = Math.min(min, 2*Math.abs(arr[i+2][1] - arr[i][1]));
-                enter = true;
+        for(Integer key: hm.keySet()){
+            List<Integer> li = hm.get(key);
+            for(int i=0; i<li.size(); i++){
+                if(i+2<li.size()){
+                    int diff = 2*Math.abs(li.get(i+2)-li.get(i));
+                    min = Math.min(min, diff);
+                    enter = true;
+                }
+                else break;
             }
         }
-
         return (enter)?min:-1;
     }
 }
