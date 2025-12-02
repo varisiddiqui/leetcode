@@ -5,16 +5,39 @@ class Solution {
 
         int ans[][] = new int[n][m];
 
+        int prefixSum[][] = new int[n][m];
+
+        for(int i=0; i<n; i++){
+            prefixSum[i][0] = mat[i][0];
+            for(int j=1; j<m; j++){
+                prefixSum[i][j] = prefixSum[i][j-1] + mat[i][j];
+            }
+        }
+
         for(int i=0; i<n; i++){
             for(int j=0; j<m; j++){
-                int r = i;
-                int c = j;
+                int r = i; //row
+                int c = j; //col
+                int sum=0;
                 for(int l = r-k; l<=r+k ; l++){
-                    for(int ri=c-k; ri<=c+k ; ri++){
-                        if(l>=0 && l<n && ri>=0 && ri<m)
-                        ans[r][c] += mat[l][ri];
+                    if(l<0 || l>=n) 
+                    continue;
+
+
+                    int left = Math.max(0, c-k);
+                    int right = Math.min(m-1, c+k);
+
+                    //System.out.println(left+" "+right+" "+l);
+
+                    if(left == 0){
+                        sum += prefixSum[l][right];
+                        
+                    }
+                    else{
+                        sum += prefixSum[l][right] - prefixSum[l][left-1];
                     }
                 }
+                ans[r][c] = sum;
 
             }
         }
