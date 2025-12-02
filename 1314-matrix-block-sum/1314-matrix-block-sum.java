@@ -14,11 +14,10 @@ class Solution {
                 prefixSum[i][j] = prefixSum[i][j-1] + mat[i][j];
             }
         }
-
         for(int j=0; j<m; j++){
-            prefixSum2[0][j] = mat[0][j];
+            prefixSum2[0][j] = prefixSum[0][j];
             for(int i=1; i<n; i++){
-                prefixSum2[i][j] = prefixSum2[i-1][j] + mat[i][j];
+                prefixSum2[i][j] = prefixSum2[i-1][j] + prefixSum[i][j];
             }
         }
 
@@ -26,21 +25,34 @@ class Solution {
             for(int j=0; j<m; j++){
                 int r = i; //row
                 int c = j; //col
+
+                int left = Math.max(0, c-k);
+                int right = Math.min(m-1, c+k);
+
+                int up = Math.max(0, r-k);
+                int down = Math.min(n-1, r+k);
                 int sum=0;
-                for(int l = r-k; l<=r+k ; l++){
-                    if(l<0 || l>=n) 
-                    continue;
 
-
-                    int left = Math.max(0, c-k);
-                    int right = Math.min(m-1, c+k);
-
-                   
-                   
-
-                    sum += (left == 0)? prefixSum[l][right]: prefixSum[l][right]-prefixSum[l][left-1];
+                if(left == 0){
+                    if(up == 0){
+                        sum += prefixSum2[down][right];
+                    }
+                    else{
+                        sum += prefixSum2[down][right]-prefixSum2[up-1][right];
+                    }
                 }
+                else{
+                    if(up == 0){
+                        sum += prefixSum2[down][right] - prefixSum2[down][left-1];
+                    }
+                    else{
+                        sum += (prefixSum2[down][right] - prefixSum2[down][left-1]) - (prefixSum2[up-1][right]-prefixSum2[up-1][left-1]);
+                    }
+
+                }
+
                 ans[r][c] = sum;
+                
 
             }
         }
