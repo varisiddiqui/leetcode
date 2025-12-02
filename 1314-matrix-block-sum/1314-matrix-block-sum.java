@@ -6,11 +6,19 @@ class Solution {
         int ans[][] = new int[n][m];
 
         int prefixSum[][] = new int[n][m];
+        int prefixSum2[][] = new int[n][m];
 
         for(int i=0; i<n; i++){
             prefixSum[i][0] = mat[i][0];
             for(int j=1; j<m; j++){
                 prefixSum[i][j] = prefixSum[i][j-1] + mat[i][j];
+            }
+        }
+
+        for(int j=0; j<m; j++){
+            prefixSum2[0][j] = mat[0][j];
+            for(int i=1; i<n; i++){
+                prefixSum2[i][j] = prefixSum2[i-1][j] + mat[i][j];
             }
         }
 
@@ -27,15 +35,10 @@ class Solution {
                     int left = Math.max(0, c-k);
                     int right = Math.min(m-1, c+k);
 
-                    //System.out.println(left+" "+right+" "+l);
+                   
+                   
 
-                    if(left == 0){
-                        sum += prefixSum[l][right];
-                        
-                    }
-                    else{
-                        sum += prefixSum[l][right] - prefixSum[l][left-1];
-                    }
+                    sum += (left == 0)? prefixSum[l][right]: prefixSum[l][right]-prefixSum[l][left-1];
                 }
                 ans[r][c] = sum;
 
