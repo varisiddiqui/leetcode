@@ -17,7 +17,7 @@ class Solution {
             }
 
             // add all events that start on this day
-            while (i < n && events[i][0] <= day) {
+            while (i < n && events[i][0] == day) {
                 pq.add(events[i]);
                 i++;
             }
