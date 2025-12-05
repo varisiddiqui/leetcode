@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
 | [1184-car-pooling](https://github.com/varisiddiqui/leetcode/tree/master/1184-car-pooling) |
 | [1314-matrix-block-sum](https://github.com/varisiddiqui/leetcode/tree/master/1314-matrix-block-sum) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/varisiddiqui/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/varisiddiqui/leetcode/tree/master/1388-greatest-sum-divisible-by-three) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/varisiddiqui/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -206,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1139-previous-permutation-with-one-swap](https://github.com/varisiddiqui/leetcode/tree/master/1139-previous-permutation-with-one-swap) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
 | [1304-longest-happy-string](https://github.com/varisiddiqui/leetcode/tree/master/1304-longest-happy-string) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/varisiddiqui/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/varisiddiqui/leetcode/tree/master/1369-minimum-swaps-to-make-strings-equal) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/varisiddiqui/leetcode/tree/master/1388-greatest-sum-divisible-by-three) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/varisiddiqui/leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
@@ -293,6 +295,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/varisiddiqui/leetcode/tree/master/1129-longest-string-chain) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
 | [1184-car-pooling](https://github.com/varisiddiqui/leetcode/tree/master/1184-car-pooling) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/varisiddiqui/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/varisiddiqui/leetcode/tree/master/1388-greatest-sum-divisible-by-three) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/varisiddiqui/leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1530-check-if-a-string-can-break-another-string](https://github.com/varisiddiqui/leetcode/tree/master/1530-check-if-a-string-can-break-another-string) |
@@ -550,6 +553,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0802-k-th-smallest-prime-fraction](https://github.com/varisiddiqui/leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [1184-car-pooling](https://github.com/varisiddiqui/leetcode/tree/master/1184-car-pooling) |
 | [1304-longest-happy-string](https://github.com/varisiddiqui/leetcode/tree/master/1304-longest-happy-string) |
+| [1353-maximum-number-of-events-that-can-be-attended](https://github.com/varisiddiqui/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1762-furthest-building-you-can-reach](https://github.com/varisiddiqui/leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [1824-maximum-number-of-eaten-apples](https://github.com/varisiddiqui/leetcode/tree/master/1824-maximum-number-of-eaten-apples) |
 | [1962-single-threaded-cpu](https://github.com/varisiddiqui/leetcode/tree/master/1962-single-threaded-cpu) |
