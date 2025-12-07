@@ -609,6 +609,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/varisiddiqui/leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
 | [3336-water-bottles-ii](https://github.com/varisiddiqui/leetcode/tree/master/3336-water-bottles-ii) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/varisiddiqui/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [4048-minimum-time-to-complete-all-deliveries](https://github.com/varisiddiqui/leetcode/tree/master/4048-minimum-time-to-complete-all-deliveries) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/varisiddiqui/leetcode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 ## Stack
@@ -660,6 +661,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/varisiddiqui/leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/varisiddiqui/leetcode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/varisiddiqui/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3849-equal-sum-grid-partition-i](https://github.com/varisiddiqui/leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 ## Dynamic Programming
 |  |
@@ -712,6 +714,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/varisiddiqui/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2191-minimum-number-of-food-buckets-to-feed-the-hamsters](https://github.com/varisiddiqui/leetcode/tree/master/2191-minimum-number-of-food-buckets-to-feed-the-hamsters) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/varisiddiqui/leetcode/tree/master/2916-check-if-it-is-possible-to-split-array) |
+| [3751-total-waviness-of-numbers-in-range-i](https://github.com/varisiddiqui/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3954-maximum-balanced-shipments](https://github.com/varisiddiqui/leetcode/tree/master/3954-maximum-balanced-shipments) |
 ## Bucket Sort
 |  |
