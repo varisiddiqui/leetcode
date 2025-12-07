@@ -1,25 +1,14 @@
 class Solution {
     public int countElements(int[] nums, int k) {
-        if(k==0) return nums.length;
-        TreeMap<Integer, Integer> hm = new TreeMap<>(Collections.reverseOrder());
-
+        int n = nums.length;
+        if(k==0) return n;
+        Arrays.sort(nums);
+        int x = nums[n-k];
+        int count=0;
         for(int num: nums){
-            hm.put(num, hm.getOrDefault(num, 0) + 1);
+            if(num<x) count++;
+            else break;
         }
-        long sum=0;
-        long totSum=0;
-        int curr=0;
-        for(int key: hm.keySet()){
-            if(sum<k){
-                sum += hm.get(key);
-            }
-            totSum += hm.get(key);
-            
-            
-            
-        }
-       // System.out.println(hm);
-        return (int)(totSum-sum);
-
+        return count;
     }
 }
