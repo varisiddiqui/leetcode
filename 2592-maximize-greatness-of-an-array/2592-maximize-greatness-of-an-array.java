@@ -9,9 +9,9 @@ class Solution {
             if(nums[i]<nums[j]){
                 count++;
                 i++;
-                j++;
+                
             } 
-            else j++;
+            j++;
         }
         return count;
         
