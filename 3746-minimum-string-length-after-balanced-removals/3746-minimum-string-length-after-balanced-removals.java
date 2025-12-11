@@ -3,15 +3,12 @@ class Solution {
         Stack<Character> st = new Stack<>();
         int n = s.length();
 
+        int countA=0, countB=0;
+
         for(char ch: s.toCharArray()){
-            if(st.isEmpty()) st.push(ch);
-
-            else if(st.peek()=='a' && ch=='b') st.pop();
-
-            else if(st.peek()=='b' && ch=='a') st.pop();
-
-            else st.push(ch);
+            if(ch == 'a') countA++;
+            else countB++;
         }
-        return st.size();
+        return Math.abs(countA-countB);
     }
 }
