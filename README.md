@@ -130,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2706-minimum-score-by-changing-two-elements](https://github.com/varisiddiqui/leetcode/tree/master/2706-minimum-score-by-changing-two-elements) |
 | [2712-find-the-maximum-number-of-marked-indices](https://github.com/varisiddiqui/leetcode/tree/master/2712-find-the-maximum-number-of-marked-indices) |
 | [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
+| [2789-largest-element-in-an-array-after-merge-operations](https://github.com/varisiddiqui/leetcode/tree/master/2789-largest-element-in-an-array-after-merge-operations) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/varisiddiqui/leetcode/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3151-minimum-processing-time](https://github.com/varisiddiqui/leetcode/tree/master/3151-minimum-processing-time) |
 | [3166-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/varisiddiqui/leetcode/tree/master/3166-minimum-number-of-groups-to-create-a-valid-assignment) |
@@ -247,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2706-minimum-score-by-changing-two-elements](https://github.com/varisiddiqui/leetcode/tree/master/2706-minimum-score-by-changing-two-elements) |
 | [2712-find-the-maximum-number-of-marked-indices](https://github.com/varisiddiqui/leetcode/tree/master/2712-find-the-maximum-number-of-marked-indices) |
 | [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
+| [2789-largest-element-in-an-array-after-merge-operations](https://github.com/varisiddiqui/leetcode/tree/master/2789-largest-element-in-an-array-after-merge-operations) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/varisiddiqui/leetcode/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3151-minimum-processing-time](https://github.com/varisiddiqui/leetcode/tree/master/3151-minimum-processing-time) |
 | [3166-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/varisiddiqui/leetcode/tree/master/3166-minimum-number-of-groups-to-create-a-valid-assignment) |
