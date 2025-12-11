@@ -1,11 +1,12 @@
 class Solution {
     public int countCompleteComponents(int n, int[][] edges) {
-        int graph[][] = new int[n][n];
+        List<Integer> graph[] = new ArrayList[n];
+        Arrays.setAll(graph, i -> new ArrayList<>());
         for(int i=0; i<edges.length; i++){
             int a = edges[i][0];
             int b = edges[i][1];
-            graph[a][b] = 1;
-            graph[b][a] = 1;
+            graph[a].add(b);
+            graph[b].add(a);
         }
         
         
@@ -24,17 +25,17 @@ class Solution {
         return count;
     }
 
-    public void dfs(int curr, boolean vis[], int graph[][], int ver[], int edg[]){
+    public void dfs(int curr, boolean vis[], List<Integer> graph[], int ver[], int edg[]){
         if(vis[curr]) return;
 
         vis[curr] = true;
         ver[0]++;
 
 
-        for(int i=0; i<vis.length; i++){
-            if(graph[curr][i]==1) edg[0]++;
-            if(graph[curr][i] == 1 && !vis[i]){
-                dfs(i, vis, graph, ver, edg);
+        for(int i=0; i<graph[curr].size(); i++){
+             edg[0]++;
+            if(!vis[graph[curr].get(i)]){
+                dfs(graph[curr].get(i), vis, graph, ver, edg);
             }
         }
 
