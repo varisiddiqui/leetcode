@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1961-maximum-ice-cream-bars](https://github.com/varisiddiqui/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [1962-single-threaded-cpu](https://github.com/varisiddiqui/leetcode/tree/master/1962-single-threaded-cpu) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/varisiddiqui/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [1975-maximum-matrix-sum](https://github.com/varisiddiqui/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/varisiddiqui/leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/varisiddiqui/leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/varisiddiqui/leetcode/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
@@ -232,6 +233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/varisiddiqui/leetcode/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1961-maximum-ice-cream-bars](https://github.com/varisiddiqui/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/varisiddiqui/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [1975-maximum-matrix-sum](https://github.com/varisiddiqui/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number](https://github.com/varisiddiqui/leetcode/tree/master/1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/varisiddiqui/leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/varisiddiqui/leetcode/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
@@ -662,6 +664,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/varisiddiqui/leetcode/tree/master/1036-rotting-oranges) |
 | [1314-matrix-block-sum](https://github.com/varisiddiqui/leetcode/tree/master/1314-matrix-block-sum) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/varisiddiqui/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1975-maximum-matrix-sum](https://github.com/varisiddiqui/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/varisiddiqui/leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3849-equal-sum-grid-partition-i](https://github.com/varisiddiqui/leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 ## Enumeration
