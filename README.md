@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0525-contiguous-array](https://github.com/varisiddiqui/leetcode/tree/master/0525-contiguous-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0539-minimum-time-difference](https://github.com/varisiddiqui/leetcode/tree/master/0539-minimum-time-difference) |
+| [0542-01-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/varisiddiqui/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0605-can-place-flowers](https://github.com/varisiddiqui/leetcode/tree/master/0605-can-place-flowers) |
@@ -659,6 +660,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0085-maximal-rectangle](https://github.com/varisiddiqui/leetcode/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/varisiddiqui/leetcode/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0542-01-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/varisiddiqui/leetcode/tree/master/0733-flood-fill) |
 | [0825-max-increase-to-keep-city-skyline](https://github.com/varisiddiqui/leetcode/tree/master/0825-max-increase-to-keep-city-skyline) |
 | [0967-minimum-falling-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0967-minimum-falling-path-sum) |
@@ -712,6 +714,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/varisiddiqui/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/varisiddiqui/leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/varisiddiqui/leetcode/tree/master/0518-coin-change-ii) |
+| [0542-01-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/varisiddiqui/leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/varisiddiqui/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -833,6 +836,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/varisiddiqui/leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/varisiddiqui/leetcode/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/varisiddiqui/leetcode/tree/master/0322-coin-change) |
+| [0542-01-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/varisiddiqui/leetcode/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/varisiddiqui/leetcode/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/varisiddiqui/leetcode/tree/master/0994-rotting-oranges) |
