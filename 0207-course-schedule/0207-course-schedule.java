@@ -28,11 +28,11 @@ class Solution {
 
         List<Integer> li = graph[curr];
 
-        for(int i=0; i<li.size(); i++){
-            if(!vis[li.get(i)]){
-                if(isCycle(li.get(i), vis, pathVis, graph)) return true;
+        for(int i: li){
+            if(!vis[i]){
+                if(isCycle(i, vis, pathVis, graph)) return true;
             }
-            else if(pathVis[li.get(i)]) return true;
+            else if(pathVis[i]) return true;
         }
         pathVis[curr] = false;
         return false;
