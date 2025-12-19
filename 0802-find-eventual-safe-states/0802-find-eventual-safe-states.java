@@ -3,40 +3,43 @@ class Solution {
         int v = graph.length;
         boolean vis[] = new boolean[v];
         boolean pathVis[] = new boolean[v];
-        boolean isSafe[] = new boolean[v];
+        boolean safe[] = new boolean[v];
+
         for(int i=0; i<v; i++){
             if(!vis[i]){
-                dfs(i, graph, vis, pathVis, isSafe);
+                dfs(i, vis, pathVis, safe, graph);
             }
         }
         List<Integer> li = new ArrayList<>();
-        for(int i=0; i<v; i++){
-            if(isSafe[i]) li.add(i);
-        }
-        return li;
-     }
 
-    public boolean dfs(int curr, int graph[][], boolean vis[], boolean pathVis[], boolean isSafe[]){
+        for(int i=0; i<v; i++){
+            if(safe[i]) li.add(i);
+        }
+
+        return li;
+
+    }
+
+    public boolean dfs(int curr, boolean vis[], boolean pathVis[], boolean safe[], int graph[][]){
         vis[curr] = true;
         pathVis[curr] = true;
-        isSafe[curr]=false;
-        for(int i=0; i<graph[curr].length; i++){
-            if(!vis[graph[curr][i]]){
-                if(dfs(graph[curr][i], graph, vis, pathVis, isSafe))
-                {
-                    isSafe[curr] = false;
+        safe[curr] = false;
+
+        for(int neigh: graph[curr]){
+            if(!vis[neigh]){
+                if(dfs(neigh, vis, pathVis, safe, graph)){
+                    safe[curr] = false;
                     return true;
                 }
             }
-                else if(pathVis[graph[curr][i]]){
-                    isSafe[curr] = false;
-                    return true;
-                }
-            
+            else if(pathVis[neigh]){
+                safe[neigh] = false;
+                return true;
+            }
         }
 
-        isSafe[curr]=true;
-        pathVis[curr]=false;
+        safe[curr] = true;
+        pathVis[curr] = false;
         return false;
     }
 }
