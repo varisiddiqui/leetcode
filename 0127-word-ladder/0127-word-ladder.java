@@ -1,80 +1,47 @@
 class Solution {
-    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        //directed bfs with unit weight
-        HashMap<String, List<String>> hm = new HashMap<>();
-    
-        if(!wordList.contains(beginWord)) wordList.add(0, beginWord);
-        int n = wordList.size();
 
-        for(String key: wordList){
-            hm.put(key, new ArrayList<>());
+     static class Pair {
+        String word;
+        int steps;
+
+        Pair(String word, int steps) {
+            this.word = word;
+            this.steps = steps;
         }
+    }
 
-        //edge case
-        boolean isPresent = false;
-        for(int i=0; i<n; i++){
-            if(endWord.equals(wordList.get(i))){
-                isPresent = true;
-                break;
-            }
-        }
+    public int ladderLength(String startWord, String targetWord, List<String> wordList) {
+          Queue<Pair> q = new LinkedList<>();
+            q.add(new Pair(startWord, 1));
 
-        if(!isPresent) return 0;
+        Set<String> set = new HashSet<>(wordList);
+        set.remove(startWord);
 
-        
+        while (!q.isEmpty()) {
 
-        int len = beginWord.length();
+            Pair p = q.poll();
+            String word = p.word;
+            int steps = p.steps;
 
-        for(int i=0; i<n; i++){
-            String curr = wordList.get(i);
+            if (word.equals(targetWord)) return steps;
 
+            char[] arr = word.toCharArray();
 
-            //here positional diff is there
-            
-            for(int j=i+1; j<n; j++){
-                int diff=0;
-                String next = wordList.get(j);
+            for (int i = 0; i < arr.length; i++) {
+                char original = arr[i];
 
-                for(int k=0; k<len; k++){
-                    if(curr.charAt(k) != next.charAt(k)) diff++;
+                for (char ch = 'a'; ch <= 'z'; ch++) {
+                    arr[i] = ch;
+                    String next = new String(arr);
+
+                    if (set.contains(next)) {
+                        set.remove(next);
+                        q.add(new Pair(next, steps + 1));
+                    }
                 }
-
-                if(diff == 1){
-                    hm.get(curr).add(next); 
-                    hm.get(next).add(curr);
-                }               
+                arr[i] = original; // restore
             }
-
-
-            //System.out.println(curr+" "+hm.get(curr));
         }
-
-        HashMap<String, Integer> dist = new HashMap<>();
-        for(String word: wordList){
-            dist.put(word, Integer.MAX_VALUE);
-        }
-        dist.put(beginWord, 1);
-
-        Queue<String> q = new LinkedList<>();
-        q.add(beginWord);
-
-        while(!q.isEmpty()){
-            String top = q.remove();
-            
-            for(String neigh: hm.get(top)){
-                if(dist.get(neigh) == Integer.MAX_VALUE){
-                    dist.put(neigh, dist.get(top)+1);
-                    q.add(neigh);
-                    if(neigh.equals(endWord)) return dist.get(neigh);
-                }
-            }
-        } 
-
-        
         return 0;
-
-
-
-
     }
 }
