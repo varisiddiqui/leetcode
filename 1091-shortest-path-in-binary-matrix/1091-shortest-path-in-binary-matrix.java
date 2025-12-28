@@ -31,6 +31,7 @@ class Solution {
                 if (nr >= 0 && nr < r && nc >= 0 && nc < c && grid[nr][nc] == 0 && dist[nr][nc] == Integer.MAX_VALUE) {
                     q.add(new int[] { nr, nc });
                     dist[nr][nc] = d + 1;
+                    if(nr== r-1 && nc == c-1) return d+1;
                 }
             }
 
