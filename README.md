@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/varisiddiqui/leetcode/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/varisiddiqui/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0064-minimum-path-sum) |
+| [0066-plus-one](https://github.com/varisiddiqui/leetcode/tree/master/0066-plus-one) |
 | [0075-sort-colors](https://github.com/varisiddiqui/leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/varisiddiqui/leetcode/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/varisiddiqui/leetcode/tree/master/0085-maximal-rectangle) |
@@ -627,6 +628,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0007-reverse-integer](https://github.com/varisiddiqui/leetcode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/varisiddiqui/leetcode/tree/master/0009-palindrome-number) |
 | [0062-unique-paths](https://github.com/varisiddiqui/leetcode/tree/master/0062-unique-paths) |
+| [0066-plus-one](https://github.com/varisiddiqui/leetcode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/varisiddiqui/leetcode/tree/master/0070-climbing-stairs) |
 | [0204-count-primes](https://github.com/varisiddiqui/leetcode/tree/master/0204-count-primes) |
 | [0343-integer-break](https://github.com/varisiddiqui/leetcode/tree/master/0343-integer-break) |
