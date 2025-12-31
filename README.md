@@ -180,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0443-string-compression](https://github.com/varisiddiqui/leetcode/tree/master/0443-string-compression) |
 | [0475-heaters](https://github.com/varisiddiqui/leetcode/tree/master/0475-heaters) |
+| [0481-magical-string](https://github.com/varisiddiqui/leetcode/tree/master/0481-magical-string) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0567-permutation-in-string](https://github.com/varisiddiqui/leetcode/tree/master/0567-permutation-in-string) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
@@ -531,6 +532,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0434-number-of-segments-in-a-string](https://github.com/varisiddiqui/leetcode/tree/master/0434-number-of-segments-in-a-string) |
 | [0443-string-compression](https://github.com/varisiddiqui/leetcode/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/varisiddiqui/leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0481-magical-string](https://github.com/varisiddiqui/leetcode/tree/master/0481-magical-string) |
 | [0539-minimum-time-difference](https://github.com/varisiddiqui/leetcode/tree/master/0539-minimum-time-difference) |
 | [0567-permutation-in-string](https://github.com/varisiddiqui/leetcode/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/varisiddiqui/leetcode/tree/master/0583-delete-operation-for-two-strings) |
