@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/varisiddiqui/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0064-minimum-path-sum) |
 | [0066-plus-one](https://github.com/varisiddiqui/leetcode/tree/master/0066-plus-one) |
+| [0073-set-matrix-zeroes](https://github.com/varisiddiqui/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/varisiddiqui/leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/varisiddiqui/leetcode/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/varisiddiqui/leetcode/tree/master/0085-maximal-rectangle) |
@@ -355,6 +356,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/varisiddiqui/leetcode/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/varisiddiqui/leetcode/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/varisiddiqui/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0126-word-ladder-ii](https://github.com/varisiddiqui/leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/varisiddiqui/leetcode/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/varisiddiqui/leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -689,6 +691,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0063-unique-paths-ii](https://github.com/varisiddiqui/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/varisiddiqui/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/varisiddiqui/leetcode/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/varisiddiqui/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/varisiddiqui/leetcode/tree/master/0200-number-of-islands) |
