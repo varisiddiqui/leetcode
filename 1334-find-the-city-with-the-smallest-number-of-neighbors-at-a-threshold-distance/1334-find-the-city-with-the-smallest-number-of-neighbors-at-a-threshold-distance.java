@@ -3,9 +3,14 @@ class Solution {
         int graph[][] = new int[n][n];
     
 
-        for(int i=0; i<n; i++) Arrays.fill(graph[i], Integer.MAX_VALUE);
-
-        for(int i=0; i<n; i++) graph[i][i]=0;
+        for(int i=0; i<n; i++) {
+            for(int j=0; j<n; j++){
+                if(i != j)
+                graph[i][j] = Integer.MAX_VALUE;
+            }
+        }
+        
+     
 
         for(int i=0; i<edges.length; i++){
             int src = edges[i][0];
