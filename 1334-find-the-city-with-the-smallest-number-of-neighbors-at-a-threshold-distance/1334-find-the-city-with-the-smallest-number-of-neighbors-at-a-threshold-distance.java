@@ -18,8 +18,9 @@ class Solution {
 
         for(int via=0; via<n; via++){
             for(int i=0; i<n; i++){
+                if(graph[i][via] == Integer.MAX_VALUE) continue;
                 for(int j=0; j<n; j++){
-                    if(graph[i][via] != Integer.MAX_VALUE  && graph[via][j] != Integer.MAX_VALUE)
+                    if(graph[via][j] == Integer.MAX_VALUE) continue;
                     graph[i][j] = Math.min(graph[i][j], (graph[i][via]+graph[via][j]));
                 }
             }
