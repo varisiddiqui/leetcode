@@ -23,12 +23,12 @@ class Solution {
             }
         }
 
-        Set<Integer> set = new HashSet<>();
+        int cnt=0;
         for(int i=0; i<n; i++){
-            set.add(find(par, i));
+            if(find(par, i) == i) cnt++;
         }
 
-        return (extra<(set.size()-1))?-1: set.size()-1;
+        return (extra<(cnt-1))?-1: cnt-1;
     }
 
     static int find(int par[], int x){
