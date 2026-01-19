@@ -2,28 +2,46 @@ class Solution {
     public int findCircleNum(int[][] isConnected) {
         int v = isConnected.length;
 
-        int res=0;
-        boolean vis[] = new boolean[v];
+        int par[] = new int[v];
+        int sz[] = new int[v];
 
         for(int i=0; i<v; i++){
-            if(!vis[i]){
-                res++;
-                dfs(i, vis, isConnected);
+            par[i]=i;
+            sz[i]=1;
+        }
+
+        for(int i=0; i<v; i++){
+            for(int j=0; j<v; j++){
+                if(isConnected[i][j] == 0) continue;
+                if(find(par, i) == find(par, j)) continue;
+                union(par, sz, i, j);
             }
         }
-        return res;
 
+        Set<Integer> lead = new HashSet<>();
+
+        for(int i=0; i<v; i++) lead.add(find(par, i));
+        return lead.size();
     }
 
-    public void dfs(int curr, boolean vis[], int isC[][]){
-        if(vis[curr]) return;
+    static int find(int par[], int x){
+        if(x == par[x]) return x;
+        else return par[x] = find(par, par[x]);
+    }
 
-        vis[curr] = true;
+    static void union(int par[], int sz[], int x, int y){
+        int leadX = find(par, x);
+        int leadY = find(par, y);
 
-        for(int j=0; j<vis.length; j++){
-            if(isC[curr][j] == 1 && !vis[j]){
-                dfs(j, vis, isC);
-            }
+        if(leadX == leadY) return;
+
+        if(sz[leadX]>sz[leadY]){
+            par[leadY] = leadX;
+            sz[leadX] += sz[leadY];
+        }
+        else{
+            par[leadX] = leadY;
+            sz[leadY] += sz[leadX];
         }
     }
 }
