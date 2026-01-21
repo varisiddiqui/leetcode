@@ -181,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0075-sort-colors](https://github.com/varisiddiqui/leetcode/tree/master/0075-sort-colors) |
 | [0151-reverse-words-in-a-string](https://github.com/varisiddiqui/leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0165-compare-version-numbers](https://github.com/varisiddiqui/leetcode/tree/master/0165-compare-version-numbers) |
 | [0287-find-the-duplicate-number](https://github.com/varisiddiqui/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -543,6 +544,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/varisiddiqui/leetcode/tree/master/0127-word-ladder) |
 | [0132-palindrome-partitioning-ii](https://github.com/varisiddiqui/leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/varisiddiqui/leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0165-compare-version-numbers](https://github.com/varisiddiqui/leetcode/tree/master/0165-compare-version-numbers) |
 | [0179-largest-number](https://github.com/varisiddiqui/leetcode/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/varisiddiqui/leetcode/tree/master/0205-isomorphic-strings) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/varisiddiqui/leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
