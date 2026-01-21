@@ -19,7 +19,7 @@ class Solution {
                 num2 = num2*10 + (v2.charAt(j) - '0');
                 j++;
             }
-            System.out.println(num1+" "+num2);
+            //System.out.println(num1+" "+num2);
             if(num1 < num2) return -1;
             if(num1 > num2) return 1;
 
