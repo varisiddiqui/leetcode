@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/varisiddiqui/leetcode/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/varisiddiqui/leetcode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/varisiddiqui/leetcode/tree/master/0031-next-permutation) |
 | [0045-jump-game-ii](https://github.com/varisiddiqui/leetcode/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/varisiddiqui/leetcode/tree/master/0048-rotate-image) |
@@ -183,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/varisiddiqui/leetcode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/varisiddiqui/leetcode/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/varisiddiqui/leetcode/tree/master/0075-sort-colors) |
 | [0151-reverse-words-in-a-string](https://github.com/varisiddiqui/leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -304,6 +306,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/varisiddiqui/leetcode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/varisiddiqui/leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/varisiddiqui/leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/varisiddiqui/leetcode/tree/master/0075-sort-colors) |
