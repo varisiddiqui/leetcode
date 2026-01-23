@@ -4,7 +4,7 @@ class Solution {
         int pos=0;
         int n = nums.length;
 
-        while(pos <n && nums[pos]<0) pos++;
+       // while(pos <n && nums[pos]<0) pos++;
 
         List<List<Integer>> li = new ArrayList<>();
 
@@ -13,7 +13,7 @@ class Solution {
         Set<List<Integer>> set = new HashSet<>();
 
         while(pos < n){
-            int left = 0;
+            int left = pos+1;
             int right = n-1;
             int req = -nums[pos];
             int sum=0;
