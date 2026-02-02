@@ -271,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1975-maximum-matrix-sum](https://github.com/varisiddiqui/leetcode/tree/master/1975-maximum-matrix-sum) |
 | [1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number](https://github.com/varisiddiqui/leetcode/tree/master/1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/varisiddiqui/leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
+| [2027-minimum-moves-to-convert-string](https://github.com/varisiddiqui/leetcode/tree/master/2027-minimum-moves-to-convert-string) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/varisiddiqui/leetcode/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/varisiddiqui/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2178-maximum-split-of-positive-even-integers](https://github.com/varisiddiqui/leetcode/tree/master/2178-maximum-split-of-positive-even-integers) |
@@ -597,6 +598,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1754-largest-merge-of-two-strings](https://github.com/varisiddiqui/leetcode/tree/master/1754-largest-merge-of-two-strings) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/varisiddiqui/leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number](https://github.com/varisiddiqui/leetcode/tree/master/1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number) |
+| [2027-minimum-moves-to-convert-string](https://github.com/varisiddiqui/leetcode/tree/master/2027-minimum-moves-to-convert-string) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/varisiddiqui/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2191-minimum-number-of-food-buckets-to-feed-the-hamsters](https://github.com/varisiddiqui/leetcode/tree/master/2191-minimum-number-of-food-buckets-to-feed-the-hamsters) |
