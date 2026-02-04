@@ -215,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2592-maximize-greatness-of-an-array](https://github.com/varisiddiqui/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
 | [2712-find-the-maximum-number-of-marked-indices](https://github.com/varisiddiqui/leetcode/tree/master/2712-find-the-maximum-number-of-marked-indices) |
 | [3755-maximum-product-of-first-and-last-elements-of-a-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/3755-maximum-product-of-first-and-last-elements-of-a-subsequence) |
+| [3823-reverse-letters-then-special-characters-in-a-string](https://github.com/varisiddiqui/leetcode/tree/master/3823-reverse-letters-then-special-characters-in-a-string) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/varisiddiqui/leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Greedy
@@ -615,6 +616,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/varisiddiqui/leetcode/tree/master/3746-minimum-string-length-after-balanced-removals) |
 | [3760-maximum-substrings-with-distinct-start](https://github.com/varisiddiqui/leetcode/tree/master/3760-maximum-substrings-with-distinct-start) |
 | [3811-reverse-degree-of-a-string](https://github.com/varisiddiqui/leetcode/tree/master/3811-reverse-degree-of-a-string) |
+| [3823-reverse-letters-then-special-characters-in-a-string](https://github.com/varisiddiqui/leetcode/tree/master/3823-reverse-letters-then-special-characters-in-a-string) |
 | [3931-process-string-with-special-operations-i](https://github.com/varisiddiqui/leetcode/tree/master/3931-process-string-with-special-operations-i) |
 ## Divide and Conquer
 |  |
@@ -853,6 +855,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3336-water-bottles-ii](https://github.com/varisiddiqui/leetcode/tree/master/3336-water-bottles-ii) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/varisiddiqui/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3811-reverse-degree-of-a-string](https://github.com/varisiddiqui/leetcode/tree/master/3811-reverse-degree-of-a-string) |
+| [3823-reverse-letters-then-special-characters-in-a-string](https://github.com/varisiddiqui/leetcode/tree/master/3823-reverse-letters-then-special-characters-in-a-string) |
 | [3931-process-string-with-special-operations-i](https://github.com/varisiddiqui/leetcode/tree/master/3931-process-string-with-special-operations-i) |
 ## Tree
 |  |
