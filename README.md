@@ -173,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3755-maximum-product-of-first-and-last-elements-of-a-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/3755-maximum-product-of-first-and-last-elements-of-a-subsequence) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/varisiddiqui/leetcode/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3759-count-elements-with-at-least-k-greater-values](https://github.com/varisiddiqui/leetcode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
+| [3824-minimum-k-to-reduce-array-within-limit](https://github.com/varisiddiqui/leetcode/tree/master/3824-minimum-k-to-reduce-array-within-limit) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3849-equal-sum-grid-partition-i](https://github.com/varisiddiqui/leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 | [3885-count-special-triplets](https://github.com/varisiddiqui/leetcode/tree/master/3885-count-special-triplets) |
@@ -493,6 +494,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/varisiddiqui/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3759-count-elements-with-at-least-k-greater-values](https://github.com/varisiddiqui/leetcode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
+| [3824-minimum-k-to-reduce-array-within-limit](https://github.com/varisiddiqui/leetcode/tree/master/3824-minimum-k-to-reduce-array-within-limit) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/varisiddiqui/leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 | [4048-minimum-time-to-complete-all-deliveries](https://github.com/varisiddiqui/leetcode/tree/master/4048-minimum-time-to-complete-all-deliveries) |
