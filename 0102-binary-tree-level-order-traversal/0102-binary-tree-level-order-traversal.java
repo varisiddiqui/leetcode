@@ -21,29 +21,21 @@ class Solution {
         if(root == null) return ans;
 
         q.add(root);
-        q.add(null);
+       
 
         List<Integer> li = new ArrayList<>();
         while(!q.isEmpty()){
-            TreeNode curr = q.remove();
-            if(curr == null){
-                if(q.isEmpty()){
-                    ans.add(li);
-                    return ans;
-                } 
-                else {
-                    ans.add(li);
-                    li = new ArrayList<>();
-                    q.add(null);
-                }
-            }
-            else {
+            int size = q.size();
+
+            for(int i=0; i<size; i++){
+                TreeNode curr = q.remove();
                 li.add(curr.val);
-                if(curr.left != null)
-                q.add(curr.left);
-                if(curr.right != null)
-                q.add(curr.right);
+                if(curr.left != null) q.add(curr.left);
+                if(curr.right != null) q.add(curr.right);
             }
+            ans.add(li);
+            li = new ArrayList<>();
+            
         }
         return ans;
     }
