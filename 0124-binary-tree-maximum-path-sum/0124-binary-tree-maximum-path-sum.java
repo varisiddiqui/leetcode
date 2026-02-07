@@ -25,12 +25,9 @@ class Solution {
     public int sum(TreeNode root, int max[]){
         if(root == null) return 0;
 
-        int ls = sum(root.left, max);
-        int rs = sum(root.right, max);
+        int ls = Math.max(0,sum(root.left, max));
+        int rs = Math.max(0,sum(root.right, max));
 
-        max[0] = Math.max(max[0], root.val);
-        max[0] = Math.max(max[0], root.val+ls);
-        max[0] = Math.max(max[0], root.val+rs);
         max[0] = Math.max(max[0], root.val+ls+rs);
 
         return Math.max(root.val, Math.max(ls+root.val, rs+root.val));
