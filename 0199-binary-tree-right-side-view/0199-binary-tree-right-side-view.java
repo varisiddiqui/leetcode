@@ -14,53 +14,40 @@
  * }
  */
 class Solution {
-    static class Triple {
-        TreeNode node;
-        int row;
-        int col;
-
-        public Triple(TreeNode node, int r, int c){
-            this.node = node;
-            this.row = r;
-            this.col = c;
-        }
-    }
-
-
     public List<Integer> rightSideView(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
-        if(root == null) return res;
-        int c=0;
+        List<Integer> ans = new ArrayList<>();
 
-        Queue<Triple> q = new LinkedList<>();
-        q.add(new Triple(root, 0, 0));
+        if(root == null) return ans;
 
-        TreeMap<Integer, PriorityQueue<int[]>> tm = new TreeMap<>();
+        TreeMap<Integer, List<int[]>> tm = new TreeMap<>();
+
+        int r =0;
+        int col = 0;
+
+        postOrder(tm, root, r, col);
 
         Comparator<int[]> cmp = (a, b) -> {
-            return b[1]-a[1];
+            return Integer.compare(b[1], a[1]);
         };
-        
-        while(!q.isEmpty()){
-            Triple top = q.remove();
-            int row = top.row;
-            int col = top.col;
 
-            if(top.node.left != null) 
-            q.add(new Triple(top.node.left, row+1, col-1));
-            if(top.node.right != null)
-            q.add(new Triple(top.node.right, row+1, col+1));
-
-            tm.putIfAbsent(row, new PriorityQueue<>(cmp));
-            tm.get(row).add(new int[]{col, c, top.node.val});
-            c++;
+        for(Integer row: tm.keySet()){
+            
+            ans.add(tm.get(row).get(0)[0]);
         }
 
-        for(Integer key: tm.keySet()) {
-            int t[] = tm.get(key).peek();
-            res.add(t[2]);
-        }
-        return res;
+
+        return ans;
+
     }
 
+    public void postOrder(TreeMap<Integer, List<int[]>> tm, TreeNode root, int row, int col){
+        if(root == null) return;
+
+        tm.putIfAbsent(row, new ArrayList<>());
+
+        tm.get(row).add(new int[]{root.val, col});
+
+        postOrder(tm, root.right, row+1, col+1);
+        postOrder(tm, root.left, row+1, col-1);
+    }
 }
