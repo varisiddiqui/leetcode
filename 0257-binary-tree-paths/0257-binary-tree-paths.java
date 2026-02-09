@@ -28,8 +28,8 @@ class Solution {
 
         
 
-        postOrder(root.left, ans, new StringBuilder(str.toString()));
-        postOrder(root.right, ans, new StringBuilder(str.toString()));
+        postOrder(root.left, ans, new StringBuilder(str));
+        postOrder(root.right, ans, new StringBuilder(str));
 
         return ans;
 
@@ -49,8 +49,9 @@ class Solution {
 
         
 
-       postOrder(root.left, ans, new StringBuilder(str.toString()));
-        postOrder(root.right, ans, new StringBuilder(str.toString()));
+       postOrder(root.left, ans, new StringBuilder(str));
+        postOrder(root.right, ans, new StringBuilder(str));
+
 
 
     }
