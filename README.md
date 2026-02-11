@@ -883,6 +883,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0662-maximum-width-of-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [2236-root-equals-sum-of-children](https://github.com/varisiddiqui/leetcode/tree/master/2236-root-equals-sum-of-children) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -935,6 +936,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0662-maximum-width-of-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [2236-root-equals-sum-of-children](https://github.com/varisiddiqui/leetcode/tree/master/2236-root-equals-sum-of-children) |
 ## Recursion
 |  |
 | ------- |
