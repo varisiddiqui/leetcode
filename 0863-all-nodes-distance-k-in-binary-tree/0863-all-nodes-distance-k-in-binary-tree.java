@@ -11,79 +11,73 @@ class Solution {
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
         List<Integer> ans = new ArrayList<>();
 
-        //storing path nodes
-        List<TreeNode> path = new ArrayList<>();
-        findPath(root, target, path);
+        if(root == null) return ans;
 
-        int distTarget=k;
+        //finding the parent of every node
+        HashMap<Integer, TreeNode> parent = new HashMap<>();
+        HashMap<Integer, Boolean> vis = new HashMap<>();
+        parent.put(root.val, null);
+        
 
-        while(path.size()>0){
-            TreeNode child = path.remove(path.size()-1);
+        assignParent(root, parent, vis);
 
-            if(path.isEmpty()) break;
-
-            TreeNode parent = path.get(path.size()-1);
-
-            distTarget--;
-            if(distTarget == 0){
-                ans.add(parent.val);
-                break;
-            }
-            else{
-                
-                if(parent.left != child){
-                    List<Integer> kNode = new ArrayList<>();
-                    neigh(parent.left, distTarget-1, kNode);
-                    ans.addAll(kNode);
-                }
-                if(parent.right != child){
-                    List<Integer> kNode = new ArrayList<>();
-                    neigh(parent.right, distTarget-1, kNode);
-                    ans.addAll(kNode);
-                }
-
-            }
-        }
-
-        List<Integer> kNode = new ArrayList<>();
-        neigh(target, k, kNode);
-
-        ans.addAll(kNode);
-
+        ans = bfs(target, vis, parent, k);
         return ans;
-
-
     }
 
-    public void neigh(TreeNode root, int rem, List<Integer> kNode){
-        if(root == null) return;
-        if(rem == 0) {
-            kNode.add(root.val); 
-            return;
+    public void assignParent(TreeNode root, HashMap<Integer, TreeNode> parent, HashMap<Integer, Boolean> vis){
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        vis.put(root.val, false);
+
+        while(!q.isEmpty()){
+            TreeNode top = q.remove();
+            if(top.left != null){
+                q.add(top.left);
+                vis.put(top.left.val, false);
+                parent.put(top.left.val, top);
+            }
+            if(top.right != null){
+                q.add(top.right);
+                vis.put(top.right.val, false);
+                parent.put(top.right.val, top);
+            }
+
         }
-
-        if(root.left != null) neigh(root.left, rem-1, kNode);
-        if(root.right != null) neigh(root.right, rem-1, kNode);
-        
-        return;
-
         
     }
 
-    public boolean findPath(TreeNode root, TreeNode target, List<TreeNode> path){
-        if(root == null) return false;
+    public List<Integer> bfs(TreeNode target, HashMap<Integer, Boolean> vis, HashMap<Integer, TreeNode> parent, int k){
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(target);
+        vis.put(target.val, true);
 
-        path.add(root);
+        while(!q.isEmpty() && k>0){
+            int sz = q.size();
+            k--;
 
-        if(root.val == target.val) return true;
-
-        if(findPath(root.left, target, path) || findPath(root.right, target, path)){
-            return true;
+            for(int i=0; i<sz; i++){
+                TreeNode top = q.remove();
+                
+                if(parent.get(top.val) != null && !vis.get(parent.get(top.val).val)){
+                    q.add(parent.get(top.val));
+                    vis.put(parent.get(top.val).val, true);
+                }
+                if(top.left != null && !vis.get(top.left.val)){
+                    q.add(top.left);
+                    vis.put(top.left.val, true);
+                }
+                if(top.right != null && !vis.get(top.right.val)){
+                    q.add(top.right);
+                    vis.put(top.right.val, true);
+                }
+            }
         }
 
-        path.remove(path.size()-1);
-        return false;
-
-        
+        List<Integer> ans = new ArrayList<>();
+        while(!q.isEmpty()){
+            ans.add(q.remove().val);
+        }
+        return ans;
     }
 }
