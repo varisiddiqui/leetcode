@@ -1,29 +1,14 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        int n = nums.length;
-        int nums2[][] = new int[n][2];
-
-        Comparator<int[]> cmp = (a, b) -> {
-            return a[0]-b[0];
-        };
-
-        for(int i=0; i<n; i++){
-            nums2[i][0]=nums[i];
-            nums2[i][1]=i;
-        }
-        Arrays.sort(nums2, cmp);
-
+        HashMap<Integer, Integer> hm = new HashMap<>();
         
-        int i=0;
-        int j=n-1;
-
-        while(i<n && j>=0 && (nums2[i][0]+nums2[j][0]) != target){
-            if(nums2[i][0]+nums2[j][0]<target) i++;
-            else j--;
+        for(int i=0; i<nums.length; i++){
+            if(hm.containsKey(target-nums[i])){
+                return new int[]{i, hm.get(target-nums[i])};
+            }
+            else 
+            hm.put(nums[i], i);
         }
-
-        
-
-        return new int[]{nums2[i][1], nums2[j][1]};
+        return new int[]{};
     }
 }
