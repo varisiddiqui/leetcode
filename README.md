@@ -564,6 +564,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/varisiddiqui/leetcode/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/varisiddiqui/leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/varisiddiqui/leetcode/tree/master/0049-group-anagrams) |
+| [0058-length-of-last-word](https://github.com/varisiddiqui/leetcode/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/varisiddiqui/leetcode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/varisiddiqui/leetcode/tree/master/0115-distinct-subsequences) |
 | [0126-word-ladder-ii](https://github.com/varisiddiqui/leetcode/tree/master/0126-word-ladder-ii) |
