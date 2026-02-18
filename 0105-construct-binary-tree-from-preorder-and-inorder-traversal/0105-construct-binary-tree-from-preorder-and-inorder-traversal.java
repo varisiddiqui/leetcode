@@ -15,38 +15,28 @@
  */
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        int n = preorder.length;
- 
-        HashMap<Integer, Integer> hm = new HashMap<>();
-        for(int i=0; i<n; i++) hm.put(inorder[i], i);
-        return child(hm, preorder, inorder, 0, n-1, 0, n-1);
+        Map<Integer, Integer> hm = new HashMap<>();
 
+        for(int i=0; i<inorder.length; i++) hm.put(inorder[i], i);
 
+        TreeNode root = buildTree(preorder, 0, preorder.length-1, inorder, 0, inorder.length-1, hm);
+
+        return root;
     }
 
-    public TreeNode child(HashMap<Integer, Integer> hm, int pre[], int in[], int stIn, int endIn, int stPre, int endPre){
-        int currE = pre[stPre];
-        if(stIn == endIn) return new TreeNode(currE);
-        else if(stIn > endIn) return null;
+    public TreeNode buildTree(int preorder[], int preStart, int preEnd, int inorder[], int inStart, int inEnd, Map<Integer, Integer> hm){
 
-        int currIdx = hm.get(currE);
+        if(preStart > preEnd || inStart > inEnd) return null;
 
-        TreeNode curr = new TreeNode(currE);
+        TreeNode root = new TreeNode(preorder[preStart]);
 
-        int leftSz = currIdx-stIn;
-        int n =  pre.length;
-        
-        if(stPre+1 <n)
-        curr.left = child(hm, pre, in, stIn, currIdx-1, stPre+1, stPre+leftSz);
+        int inRoot = hm.get(root.val);
+        int numLeft = inRoot - inStart;
 
-        if(stPre+leftSz+1 < n)
-        curr.right = child(hm, pre, in, currIdx+1, endIn, stPre+leftSz+1, endPre);
+        root.left = buildTree(preorder, preStart+1, preStart+numLeft, inorder, inStart, inRoot-1, hm);
 
-        return curr;
+        root.right = buildTree(preorder, preStart+numLeft+1, preEnd, inorder, inRoot+1, inEnd, hm);
 
-
-
-
-        
+        return root;
     }
 }
