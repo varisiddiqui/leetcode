@@ -15,30 +15,30 @@
  */
 class Solution {
     public int sumNumbers(TreeNode root) {
-        List<Integer> pathSum = new ArrayList<>();
+        int sum[] = new int[1];
 
         if(root == null) return 0;
-        StringBuilder sum = new StringBuilder();
-        leafSum(root, sum, pathSum);
         
-        int totSum=0;
-        for(int sums: pathSum) totSum += sums;
-        return totSum;
+        leafSum(root, 0, sum);
+        return sum[0];
+        
+       
+
 
 
     }
 
-    public void leafSum(TreeNode root, StringBuilder sum, List<Integer> pathSum){
-        sum.append(String.valueOf(root.val));
+    public void leafSum(TreeNode root, int currSum, int totSum[]){
+        currSum = currSum*10+root.val;
 
         if(root.left == null && root.right == null){
-            pathSum.add(Integer.parseInt(sum.toString()));
+            totSum[0] += currSum;
         }
 
 
-        if(root.left != null) leafSum(root.left, sum, pathSum);
-        if(root.right != null) leafSum(root.right, sum, pathSum);
+        if(root.left != null) leafSum(root.left, currSum, totSum);
+        if(root.right != null) leafSum(root.right, currSum, totSum);
 
-        sum.deleteCharAt(sum.length()-1);
+        
     }
 }
