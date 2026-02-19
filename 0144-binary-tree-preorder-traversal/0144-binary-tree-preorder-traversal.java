@@ -1,35 +1,41 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
-        Stack<TreeNode> s = new Stack<>();
-        List<Integer> ans = new ArrayList<>();
-        if(root == null) return ans;
+        List<Integer> pre = new ArrayList<>();
+        if (root == null) return pre;
 
-        s.push(root);
+        TreeNode curr = root;
 
+        while (curr != null) {
 
-        while(!s.isEmpty()){
-            TreeNode top = s.pop();
-            ans.add(top.val);
+            // Case 1: No left child
+            if (curr.left == null) {
+                pre.add(curr.val);
+                curr = curr.right;
+            }
 
-            if(top.right != null) s.push(top.right);
-            if(top.left != null) s.push(top.left);
+            // Case 2: Has left child
+            else {
+                TreeNode prev = curr.left;
 
+                // Find rightmost node of left subtree
+                while (prev.right != null && prev.right != curr) {
+                    prev = prev.right;
+                }
+
+                // Create thread
+                if (prev.right == null) {
+                    pre.add(curr.val);   
+                    prev.right = curr;
+                    curr = curr.left;
+                }
+
+                // Thread exists → remove it
+                else {
+                    prev.right = null;
+                    curr = curr.right;
+                }
+            }
         }
-        return ans;
+        return pre;
     }
 }
