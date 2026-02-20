@@ -21,15 +21,10 @@ class Solution {
         TreeNode left = null;
         TreeNode right = null;
 
-        if(root.val > val) left = searchBST(root.left, val);
-        else right = searchBST(root.right, val);
+        if(root.val > val) return searchBST(root.left, val);
+        return searchBST(root.right, val);
 
-        if(left != null) return left;
         
-        if(right != null) return right;
-
-        return null;
-
         
     }
 }
