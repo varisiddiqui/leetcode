@@ -846,6 +846,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/varisiddiqui/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/varisiddiqui/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2191-minimum-number-of-food-buckets-to-feed-the-hamsters](https://github.com/varisiddiqui/leetcode/tree/master/2191-minimum-number-of-food-buckets-to-feed-the-hamsters) |
+| [2327-number-of-people-aware-of-a-secret](https://github.com/varisiddiqui/leetcode/tree/master/2327-number-of-people-aware-of-a-secret) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/varisiddiqui/leetcode/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/varisiddiqui/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3954-maximum-balanced-shipments](https://github.com/varisiddiqui/leetcode/tree/master/3954-maximum-balanced-shipments) |
@@ -871,6 +872,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2149-rearrange-array-elements-by-sign](https://github.com/varisiddiqui/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2177-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/varisiddiqui/leetcode/tree/master/2177-find-three-consecutive-integers-that-sum-to-a-given-number) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/varisiddiqui/leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
+| [2327-number-of-people-aware-of-a-secret](https://github.com/varisiddiqui/leetcode/tree/master/2327-number-of-people-aware-of-a-secret) |
 | [2717-semi-ordered-permutation](https://github.com/varisiddiqui/leetcode/tree/master/2717-semi-ordered-permutation) |
 | [3336-water-bottles-ii](https://github.com/varisiddiqui/leetcode/tree/master/3336-water-bottles-ii) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/varisiddiqui/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -1130,4 +1132,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0450-delete-node-in-a-bst](https://github.com/varisiddiqui/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/varisiddiqui/leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/varisiddiqui/leetcode/tree/master/0701-insert-into-a-binary-search-tree) |
+## Queue
+|  |
+| ------- |
+| [2327-number-of-people-aware-of-a-secret](https://github.com/varisiddiqui/leetcode/tree/master/2327-number-of-people-aware-of-a-secret) |
 <!---LeetCode Topics End-->
