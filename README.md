@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0952-word-subsets](https://github.com/varisiddiqui/leetcode/tree/master/0952-word-subsets) |
 | [0967-minimum-falling-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [0994-rotting-oranges](https://github.com/varisiddiqui/leetcode/tree/master/0994-rotting-oranges) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
 | [1020-number-of-enclaves](https://github.com/varisiddiqui/leetcode/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/varisiddiqui/leetcode/tree/master/1036-rotting-oranges) |
@@ -739,6 +740,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0780-max-chunks-to-make-sorted](https://github.com/varisiddiqui/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/varisiddiqui/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1197-parsing-a-boolean-expression](https://github.com/varisiddiqui/leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1648-minimum-insertions-to-balance-a-parentheses-string](https://github.com/varisiddiqui/leetcode/tree/master/1648-minimum-insertions-to-balance-a-parentheses-string) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/1792-find-the-most-competitive-subsequence) |
@@ -753,6 +755,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0085-maximal-rectangle](https://github.com/varisiddiqui/leetcode/tree/master/0085-maximal-rectangle) |
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0780-max-chunks-to-make-sorted](https://github.com/varisiddiqui/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/1792-find-the-most-competitive-subsequence) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3954-maximum-balanced-shipments](https://github.com/varisiddiqui/leetcode/tree/master/3954-maximum-balanced-shipments) |
@@ -912,6 +915,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0701-insert-into-a-binary-search-tree](https://github.com/varisiddiqui/leetcode/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2236-root-equals-sum-of-children](https://github.com/varisiddiqui/leetcode/tree/master/2236-root-equals-sum-of-children) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/varisiddiqui/leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -989,6 +993,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0701-insert-into-a-binary-search-tree](https://github.com/varisiddiqui/leetcode/tree/master/0701-insert-into-a-binary-search-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2236-root-equals-sum-of-children](https://github.com/varisiddiqui/leetcode/tree/master/2236-root-equals-sum-of-children) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/varisiddiqui/leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
@@ -1144,6 +1149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0450-delete-node-in-a-bst](https://github.com/varisiddiqui/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/varisiddiqui/leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/varisiddiqui/leetcode/tree/master/0701-insert-into-a-binary-search-tree) |
+| [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Queue
 |  |
 | ------- |
