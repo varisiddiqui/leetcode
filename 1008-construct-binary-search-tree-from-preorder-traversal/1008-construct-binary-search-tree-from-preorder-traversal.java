@@ -15,46 +15,17 @@
  */
 class Solution {
     public TreeNode bstFromPreorder(int[] preorder) {
-        int n = preorder.length;
-
-        if(n == 1) return new TreeNode(preorder[0]);
-
-        int inorder[] = new int[n];
-        for(int i=0; i<n; i++) inorder[i]= preorder[i];
-
-        Arrays.sort(inorder);
-
-
-        HashMap<Integer, Integer> hm = new HashMap<>();
-
-        
-        
-        for(int i=0; i<inorder.length; i++) hm.put(inorder[i], i);
-
-        if(preorder.length == 1) return new TreeNode(preorder[0]);
-
-        TreeNode root = buildTree(inorder, preorder, hm, 0, n-1, 0, n-1);
-        return root;
-
-       
-        
-        
-
+        return build(preorder, Integer.MAX_VALUE, new int[]{0});
     }
 
-    public TreeNode buildTree(int inorder[], int preorder[], HashMap<Integer, Integer> hm, int stPre, int endPre , int stIn, int endIn){
-        if(stPre > endPre || stIn > endIn) return null;
+    public TreeNode build(int pre[], int bound, int i[]){
+        if(i[0] == pre.length || bound < pre[i[0]]) return null;
 
+        TreeNode root = new TreeNode(pre[i[0]++]);
 
-        TreeNode root = new TreeNode(preorder[stPre]);
+        root.left = build(pre, root.val, i);
 
-        int currIdx = hm.get(preorder[stPre]);
-
-        int leftSz = currIdx - stIn;
-        
-        root.left = buildTree(inorder, preorder, hm, stPre+1, stPre+leftSz, stIn, currIdx-1);
-
-        root.right = buildTree(inorder, preorder, hm, stPre+leftSz+1, endPre, currIdx+1, endIn);
+        root.right = build(pre, bound, i);
 
         return root;
     }
