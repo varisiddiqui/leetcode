@@ -9,35 +9,29 @@
  */
 
 class Solution {
+    TreeNode ans = null;
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if(root == null) return null;
-
-        List<TreeNode> path1 = new ArrayList<>();
-        List<TreeNode> path2 = new ArrayList<>();
-
-        find(root, p.val, path1);
-        find(root, q.val, path2);
-
-        int sz = Math.min(path1.size(), path2.size());
-        int i=0;
-
-        while(i<sz){
-            if(path1.get(i).val != path2.get(i).val) break;
-
-            i++;
-        }
-        return path1.get(i-1);
+        divert(root, p.val, q.val);
+        return ans;
     }
 
-    public void find(TreeNode root, int target, List<TreeNode> path){
-        if(root.val == target){
-            path.add(root);
-            return;
+    public void divert(TreeNode root, int p, int q){
+        if(root == null) return;
+        if(ans != null) return;
+
+        if(root.val > p && root.val > q){
+            divert(root.left, p, q);
         }
 
-        path.add(root);
+        else if(root.val < p && root.val < q){
+            divert(root.right, p, q);
+        }
 
-        if(root.val < target) find(root.right, target, path);
-        else find(root.left, target, path);
+        else{
+            ans = root;
+        }
+
+        
+
     }
 }
