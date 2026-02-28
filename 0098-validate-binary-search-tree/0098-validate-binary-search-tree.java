@@ -19,21 +19,7 @@ class Solution {
         long min = Long.MIN_VALUE;
         long max = Long.MAX_VALUE;
 
-        if(root.left != null){
-            if(root.left.val >= root.val) return false;
-        }
-        
-
-        if(root.right != null){
-            if(root.val  >= root.right.val) return false;
-        }
-
-        boolean left = isVal(root.left, root.val, min);
-        boolean right = isVal(root.right, max, root.val);
-
-        if(!left || !right) return false;
-
-        return true;
+        return isVal(root, max, min);       
         
     }
 
@@ -41,23 +27,11 @@ class Solution {
         if(root == null) return true;
         //System.out.println(max+" "+min);
 
-        if(root.val >= max) return false;
-        if(root.val <= min) return false;
-
-        if(root.left != null){
-            if(root.left.val >= root.val) return false;
-        }
+        if(root.val >= max || root.val <= min) return false;
         
 
-        if(root.right != null){
-            if(root.val  >= root.right.val) return false;
-        }
-        
+        return isVal(root.left, root.val, min) && isVal(root.right, max , root.val);
 
-        if(!isVal(root.left, root.val, min)) return false;
-
-        if(!isVal(root.right, max , root.val)) return false;
-
-        return true;
+     
     }
 }
