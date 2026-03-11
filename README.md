@@ -119,6 +119,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1402-count-square-submatrices-with-all-ones](https://github.com/varisiddiqui/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/varisiddiqui/leetcode/tree/master/1413-minimum-value-to-get-positive-step-by-step-sum) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/varisiddiqui/leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/varisiddiqui/leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/varisiddiqui/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/varisiddiqui/leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1631-path-with-minimum-effort](https://github.com/varisiddiqui/leetcode/tree/master/1631-path-with-minimum-effort) |
@@ -522,6 +523,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0940-fruit-into-baskets](https://github.com/varisiddiqui/leetcode/tree/master/0940-fruit-into-baskets) |
 | [1261-swap-for-longest-repeated-character-substring](https://github.com/varisiddiqui/leetcode/tree/master/1261-swap-for-longest-repeated-character-substring) |
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/varisiddiqui/leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/varisiddiqui/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/varisiddiqui/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
@@ -541,6 +543,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1314-matrix-block-sum](https://github.com/varisiddiqui/leetcode/tree/master/1314-matrix-block-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/varisiddiqui/leetcode/tree/master/1413-minimum-value-to-get-positive-step-by-step-sum) |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/varisiddiqui/leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1649-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target](https://github.com/varisiddiqui/leetcode/tree/master/1649-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/varisiddiqui/leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
