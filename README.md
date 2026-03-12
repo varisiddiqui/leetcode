@@ -100,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0952-word-subsets](https://github.com/varisiddiqui/leetcode/tree/master/0952-word-subsets) |
 | [0967-minimum-falling-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [0994-rotting-oranges](https://github.com/varisiddiqui/leetcode/tree/master/0994-rotting-oranges) |
+| [1004-max-consecutive-ones-iii](https://github.com/varisiddiqui/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
 | [1020-number-of-enclaves](https://github.com/varisiddiqui/leetcode/tree/master/1020-number-of-enclaves) |
@@ -503,6 +504,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0713-subarray-product-less-than-k](https://github.com/varisiddiqui/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/varisiddiqui/leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/varisiddiqui/leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
+| [1004-max-consecutive-ones-iii](https://github.com/varisiddiqui/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1631-path-with-minimum-effort](https://github.com/varisiddiqui/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/varisiddiqui/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
@@ -525,6 +527,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/varisiddiqui/leetcode/tree/master/0567-permutation-in-string) |
 | [0713-subarray-product-less-than-k](https://github.com/varisiddiqui/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0940-fruit-into-baskets](https://github.com/varisiddiqui/leetcode/tree/master/0940-fruit-into-baskets) |
+| [1004-max-consecutive-ones-iii](https://github.com/varisiddiqui/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1261-swap-for-longest-repeated-character-substring](https://github.com/varisiddiqui/leetcode/tree/master/1261-swap-for-longest-repeated-character-substring) |
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/varisiddiqui/leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
@@ -543,6 +546,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0560-subarray-sum-equals-k](https://github.com/varisiddiqui/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/varisiddiqui/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/varisiddiqui/leetcode/tree/master/0724-find-pivot-index) |
+| [1004-max-consecutive-ones-iii](https://github.com/varisiddiqui/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1184-car-pooling](https://github.com/varisiddiqui/leetcode/tree/master/1184-car-pooling) |
 | [1314-matrix-block-sum](https://github.com/varisiddiqui/leetcode/tree/master/1314-matrix-block-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
