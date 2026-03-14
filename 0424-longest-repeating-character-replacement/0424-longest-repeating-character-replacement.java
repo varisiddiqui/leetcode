@@ -1,70 +1,45 @@
 class Solution {
     public int characterReplacement(String s, int k) {
-        HashMap<Character, List<Integer>> hm = new HashMap<>();
-        for (int x = 0; x < s.length(); x++) {
-            char ch = s.charAt(x);
-            hm.putIfAbsent(ch, new ArrayList<>());
-            hm.get(ch).add(x);
-        }
+        int n = s.length();
 
-        int answer = 0;
+        int l=0;
+        int r=0;
 
-        for (Character key : hm.keySet()) {
-            List<Integer> li = hm.get(key);
+        int maxFreq=0;
 
-            // handle single occurrence
-            if (li.size() == 1) {
-                answer = Math.max(answer, 1 + k);
-                continue;
-            }
+        int max=0;
+        
 
-            int i = 0, j = 1;
-            int rem = k;
+        HashMap<Character, Integer> hm = new HashMap<>();
+        
 
-            // we track best total, not just internal
-            int bestInternal = 1;
-            int bestRem = k;
-            int bestLeft = 0;
-            int bestRight = 0;
+        while(r<n){
+            char ch = s.charAt(r);
+            hm.put(ch, hm.getOrDefault(ch,0)+1);
 
-            while (j < li.size()) {
-                int gap = li.get(j) - li.get(j - 1) - 1;
+            maxFreq = Math.max(maxFreq, hm.get(ch));
 
-                if (gap <= rem) {
-                    int internalLen = li.get(j) - li.get(i) + 1;
-                    int leftover = rem - gap;
+            int limit = r-l+1 - maxFreq;
+            
 
-                    // compute external capacity for THIS window
-                    int leftCap = li.get(i);
-                    int rightCap = s.length() - 1 - li.get(j);
-                    int capacity = leftCap + rightCap;
+            while(limit > k){
+                char c = s.charAt(l);
+                if(hm.get(c)-1 == 0) hm.remove(c);
+                else hm.put(c, hm.get(c)-1);
+                maxFreq=0;
 
-                    int totalVal = internalLen + Math.min(leftover, capacity);
-
-                    // ✔ FIX: choose window based on TOTAL VALUE
-                    if (totalVal >
-                        (bestInternal + Math.min(bestRem, bestLeft + bestRight))) {
-
-                        bestInternal = internalLen;
-                        bestRem = leftover;
-                        bestLeft = leftCap;
-                        bestRight = rightCap;
-                    }
-
-                    rem -= gap;
-                    j++;
-                } else {
-                    rem += (li.get(i + 1) - li.get(i) - 1);
-                    i++;
+                for(char key: hm.keySet()){
+                    maxFreq = Math.max(maxFreq, hm.get(key));
                 }
+             
+                l++;
+
+                limit = r-l+1 - maxFreq;
             }
 
-            // compute final max for this character
-            int currentTotal = bestInternal + Math.min(bestRem, bestLeft + bestRight);
-
-            answer = Math.max(answer, currentTotal);
+            if(limit <= k) max = Math.max(max, r-l+1);
+            r++;
         }
-
-        return Math.min(answer, s.length());
+        return max;
     }
 }
