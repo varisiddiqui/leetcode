@@ -22,16 +22,13 @@ class Solution {
             int limit = r-l+1 - maxFreq;
             
 
-            while(limit > k){
+            if(limit > k){
                 char c = s.charAt(l);
                 if(hm.get(c)-1 == 0) hm.remove(c);
                 else hm.put(c, hm.get(c)-1);
                 maxFreq=0;
 
-                for(char key: hm.keySet()){
-                    maxFreq = Math.max(maxFreq, hm.get(key));
-                }
-             
+               
                 l++;
 
                 limit = r-l+1 - maxFreq;
