@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1139-previous-permutation-with-one-swap](https://github.com/varisiddiqui/leetcode/tree/master/1139-previous-permutation-with-one-swap) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
 | [1184-car-pooling](https://github.com/varisiddiqui/leetcode/tree/master/1184-car-pooling) |
+| [1248-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1314-matrix-block-sum](https://github.com/varisiddiqui/leetcode/tree/master/1314-matrix-block-sum) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/varisiddiqui/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -437,6 +438,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/varisiddiqui/leetcode/tree/master/1129-longest-string-chain) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
+| [1248-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1261-swap-for-longest-repeated-character-substring](https://github.com/varisiddiqui/leetcode/tree/master/1261-swap-for-longest-repeated-character-substring) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/varisiddiqui/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -535,6 +537,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0930-binary-subarrays-with-sum](https://github.com/varisiddiqui/leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [0940-fruit-into-baskets](https://github.com/varisiddiqui/leetcode/tree/master/0940-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/varisiddiqui/leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1261-swap-for-longest-repeated-character-substring](https://github.com/varisiddiqui/leetcode/tree/master/1261-swap-for-longest-repeated-character-substring) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/varisiddiqui/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
@@ -557,6 +560,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0930-binary-subarrays-with-sum](https://github.com/varisiddiqui/leetcode/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/varisiddiqui/leetcode/tree/master/1004-max-consecutive-ones-iii) |
 | [1184-car-pooling](https://github.com/varisiddiqui/leetcode/tree/master/1184-car-pooling) |
+| [1248-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1314-matrix-block-sum](https://github.com/varisiddiqui/leetcode/tree/master/1314-matrix-block-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/varisiddiqui/leetcode/tree/master/1413-minimum-value-to-get-positive-step-by-step-sum) |
@@ -738,6 +742,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0539-minimum-time-difference](https://github.com/varisiddiqui/leetcode/tree/master/0539-minimum-time-difference) |
 | [0738-monotone-increasing-digits](https://github.com/varisiddiqui/leetcode/tree/master/0738-monotone-increasing-digits) |
 | [1013-fibonacci-number](https://github.com/varisiddiqui/leetcode/tree/master/1013-fibonacci-number) |
+| [1248-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/varisiddiqui/leetcode/tree/master/1369-minimum-swaps-to-make-strings-equal) |
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1515-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k](https://github.com/varisiddiqui/leetcode/tree/master/1515-find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k) |
