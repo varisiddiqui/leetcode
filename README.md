@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/varisiddiqui/leetcode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/varisiddiqui/leetcode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/varisiddiqui/leetcode/tree/master/0031-next-permutation) |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/varisiddiqui/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/varisiddiqui/leetcode/tree/master/0035-search-insert-position) |
 | [0045-jump-game-ii](https://github.com/varisiddiqui/leetcode/tree/master/0045-jump-game-ii) |
 | [0048-rotate-image](https://github.com/varisiddiqui/leetcode/tree/master/0048-rotate-image) |
@@ -505,6 +506,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/varisiddiqui/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/varisiddiqui/leetcode/tree/master/0035-search-insert-position) |
 | [0162-find-peak-element](https://github.com/varisiddiqui/leetcode/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/varisiddiqui/leetcode/tree/master/0209-minimum-size-subarray-sum) |
