@@ -21,6 +21,8 @@ class Solution {
                 high = mid-1;
             }
         }
+        if(!found) return new int[]{-1, -1};
+        
 
         low = 0;
         high = n-1;
