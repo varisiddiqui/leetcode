@@ -189,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3824-minimum-k-to-reduce-array-within-limit](https://github.com/varisiddiqui/leetcode/tree/master/3824-minimum-k-to-reduce-array-within-limit) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3849-equal-sum-grid-partition-i](https://github.com/varisiddiqui/leetcode/tree/master/3849-equal-sum-grid-partition-i) |
+| [3868-minimum-cost-to-equalize-arrays-using-swaps](https://github.com/varisiddiqui/leetcode/tree/master/3868-minimum-cost-to-equalize-arrays-using-swaps) |
 | [3885-count-special-triplets](https://github.com/varisiddiqui/leetcode/tree/master/3885-count-special-triplets) |
 | [3954-maximum-balanced-shipments](https://github.com/varisiddiqui/leetcode/tree/master/3954-maximum-balanced-shipments) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
@@ -321,6 +322,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3510-maximize-the-total-height-of-unique-towers](https://github.com/varisiddiqui/leetcode/tree/master/3510-maximize-the-total-height-of-unique-towers) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/varisiddiqui/leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
+| [3868-minimum-cost-to-equalize-arrays-using-swaps](https://github.com/varisiddiqui/leetcode/tree/master/3868-minimum-cost-to-equalize-arrays-using-swaps) |
 | [3954-maximum-balanced-shipments](https://github.com/varisiddiqui/leetcode/tree/master/3954-maximum-balanced-shipments) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/varisiddiqui/leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -474,6 +476,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3760-maximum-substrings-with-distinct-start](https://github.com/varisiddiqui/leetcode/tree/master/3760-maximum-substrings-with-distinct-start) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
+| [3868-minimum-cost-to-equalize-arrays-using-swaps](https://github.com/varisiddiqui/leetcode/tree/master/3868-minimum-cost-to-equalize-arrays-using-swaps) |
 | [3885-count-special-triplets](https://github.com/varisiddiqui/leetcode/tree/master/3885-count-special-triplets) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 | [4119-minimum-distance-between-three-equal-elements-ii](https://github.com/varisiddiqui/leetcode/tree/master/4119-minimum-distance-between-three-equal-elements-ii) |
@@ -501,6 +504,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3317-maximum-palindromes-after-operations](https://github.com/varisiddiqui/leetcode/tree/master/3317-maximum-palindromes-after-operations) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/varisiddiqui/leetcode/tree/master/3746-minimum-string-length-after-balanced-removals) |
+| [3868-minimum-cost-to-equalize-arrays-using-swaps](https://github.com/varisiddiqui/leetcode/tree/master/3868-minimum-cost-to-equalize-arrays-using-swaps) |
 | [3885-count-special-triplets](https://github.com/varisiddiqui/leetcode/tree/master/3885-count-special-triplets) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 ## Binary Search
