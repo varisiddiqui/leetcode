@@ -116,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1007-minimum-domino-rotations-for-equal-row](https://github.com/varisiddiqui/leetcode/tree/master/1007-minimum-domino-rotations-for-equal-row) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/varisiddiqui/leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1020-number-of-enclaves](https://github.com/varisiddiqui/leetcode/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/varisiddiqui/leetcode/tree/master/1036-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/varisiddiqui/leetcode/tree/master/1046-last-stone-weight) |
@@ -542,6 +543,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0875-koko-eating-bananas](https://github.com/varisiddiqui/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/varisiddiqui/leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/varisiddiqui/leetcode/tree/master/1004-max-consecutive-ones-iii) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/varisiddiqui/leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/varisiddiqui/leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/varisiddiqui/leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1631-path-with-minimum-effort](https://github.com/varisiddiqui/leetcode/tree/master/1631-path-with-minimum-effort) |
