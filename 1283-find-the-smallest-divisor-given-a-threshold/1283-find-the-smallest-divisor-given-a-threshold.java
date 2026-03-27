@@ -25,6 +25,7 @@ class Solution {
     public boolean isSufficient(int div, int nums[], int th){
         int sum=0;
         for(int i=0; i<nums.length; i++){
+            if(sum > th) break;
             sum += Math.ceil(nums[i]/(double)div);
         }
 
