@@ -2,12 +2,16 @@ class Solution {
     public int shipWithinDays(int[] weights, int days) {
         int n = weights.length;
         int sum=0;
+        int max=0;
 
-        for(int i=0; i<n; i++) sum += weights[i];
+        for(int i=0; i<n; i++) {
+            sum += weights[i];
+            max = Math.max(max, weights[i]);
+        }
 
         System.out.println(sum);
 
-        int low = 1;
+        int low = max;
         int high = sum;
         int ans=Integer.MAX_VALUE;
 
