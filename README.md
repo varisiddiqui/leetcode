@@ -168,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/varisiddiqui/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2289-minimum-operations-to-make-the-array-alternating](https://github.com/varisiddiqui/leetcode/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
+| [2300-successful-pairs-of-spells-and-potions](https://github.com/varisiddiqui/leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/varisiddiqui/leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/varisiddiqui/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/varisiddiqui/leetcode/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
@@ -248,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number](https://github.com/varisiddiqui/leetcode/tree/master/1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/varisiddiqui/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/varisiddiqui/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
+| [2300-successful-pairs-of-spells-and-potions](https://github.com/varisiddiqui/leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2337-move-pieces-to-obtain-a-string](https://github.com/varisiddiqui/leetcode/tree/master/2337-move-pieces-to-obtain-a-string) |
 | [2592-maximize-greatness-of-an-array](https://github.com/varisiddiqui/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
 | [2712-find-the-maximum-number-of-marked-indices](https://github.com/varisiddiqui/leetcode/tree/master/2712-find-the-maximum-number-of-marked-indices) |
@@ -404,6 +406,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/varisiddiqui/leetcode/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2264-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/varisiddiqui/leetcode/tree/master/2264-minimum-sum-of-four-digit-number-after-splitting-digits) |
+| [2300-successful-pairs-of-spells-and-potions](https://github.com/varisiddiqui/leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/varisiddiqui/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2592-maximize-greatness-of-an-array](https://github.com/varisiddiqui/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
@@ -568,6 +571,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1901-find-a-peak-element-ii](https://github.com/varisiddiqui/leetcode/tree/master/1901-find-a-peak-element-ii) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/varisiddiqui/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2300-successful-pairs-of-spells-and-potions](https://github.com/varisiddiqui/leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/varisiddiqui/leetcode/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
 | [2712-find-the-maximum-number-of-marked-indices](https://github.com/varisiddiqui/leetcode/tree/master/2712-find-the-maximum-number-of-marked-indices) |
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
