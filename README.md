@@ -450,6 +450,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0205-isomorphic-strings](https://github.com/varisiddiqui/leetcode/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/varisiddiqui/leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/varisiddiqui/leetcode/tree/master/0268-missing-number) |
+| [0290-word-pattern](https://github.com/varisiddiqui/leetcode/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -681,6 +682,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/varisiddiqui/leetcode/tree/master/0179-largest-number) |
 | [0205-isomorphic-strings](https://github.com/varisiddiqui/leetcode/tree/master/0205-isomorphic-strings) |
 | [0257-binary-tree-paths](https://github.com/varisiddiqui/leetcode/tree/master/0257-binary-tree-paths) |
+| [0290-word-pattern](https://github.com/varisiddiqui/leetcode/tree/master/0290-word-pattern) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/varisiddiqui/leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/varisiddiqui/leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
