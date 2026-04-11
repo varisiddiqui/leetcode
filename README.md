@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/varisiddiqui/leetcode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/varisiddiqui/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0014-longest-common-prefix](https://github.com/varisiddiqui/leetcode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/varisiddiqui/leetcode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/varisiddiqui/leetcode/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/varisiddiqui/leetcode/tree/master/0033-search-in-rotated-sorted-array) |
@@ -667,6 +668,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/varisiddiqui/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0014-longest-common-prefix](https://github.com/varisiddiqui/leetcode/tree/master/0014-longest-common-prefix) |
 | [0022-generate-parentheses](https://github.com/varisiddiqui/leetcode/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/varisiddiqui/leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/varisiddiqui/leetcode/tree/master/0049-group-anagrams) |
@@ -983,6 +985,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/varisiddiqui/leetcode/tree/master/0014-longest-common-prefix) |
 | [0692-top-k-frequent-words](https://github.com/varisiddiqui/leetcode/tree/master/0692-top-k-frequent-words) |
 ## Radix Sort
 |  |
