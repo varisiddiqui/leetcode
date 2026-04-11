@@ -1,26 +1,39 @@
 class Solution {
     public String reverseWords(String s) {
-        String trimmed = s.trim();
         List<String> li = new ArrayList<>();
-        int prevGap=-1;
 
-        for(int i=0; i<trimmed.length(); i++){
-            if(trimmed.charAt(i) == ' '){
-                String add = trimmed.substring(prevGap+1, i).trim();
-                if(add.length()>0) li.add(add);
-                prevGap=i;
+        StringBuilder str = new StringBuilder();
+        int n = s.length();
+
+        for(int i=0; i<n; i++){
+            if(s.charAt(i) == ' '){
+                continue;
             }
+            else if(i-1>=0 && s.charAt(i-1) == ' ' && s.charAt(i) != ' '){
+                li.add(str.toString());
+                str.setLength(0);
+                str.append(s.charAt(i));
+            }
+            else str.append(s.charAt(i));
+
+           // System.out.println(str);
         }
-        li.add(trimmed.substring(prevGap+1, trimmed.length()).trim());
-        StringBuilder str =new StringBuilder("");
+       // System.out.println(li);
+
+        if(str.length() > 0) li.add(str.toString());
+
+        String ans="";
+
         for(int i=li.size()-1; i>=0; i--){
-            if(i!=0)
-            str.append(li.get(i)+" ");
-            else
-            str.append(li.get(i));
+            ans += li.get(i)+" ";
         }
-        return str.toString();
 
-
+        
+        int j=0;
+        while(j<n && ans.charAt(j) == ' ') j++;
+        int l=ans.length()-1;
+        while(l>=0 && ans.charAt(l) == ' ') l--;
+        String res = ans.substring(j, l+1);
+        return res;
     }
 }
