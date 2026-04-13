@@ -104,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0821-shortest-distance-to-a-character](https://github.com/varisiddiqui/leetcode/tree/master/0821-shortest-distance-to-a-character) |
 | [0825-max-increase-to-keep-city-skyline](https://github.com/varisiddiqui/leetcode/tree/master/0825-max-increase-to-keep-city-skyline) |
 | [0825-friends-of-appropriate-ages](https://github.com/varisiddiqui/leetcode/tree/master/0825-friends-of-appropriate-ages) |
+| [0857-minimum-cost-to-hire-k-workers](https://github.com/varisiddiqui/leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0875-longest-mountain-in-array](https://github.com/varisiddiqui/leetcode/tree/master/0875-longest-mountain-in-array) |
 | [0875-koko-eating-bananas](https://github.com/varisiddiqui/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0876-hand-of-straights](https://github.com/varisiddiqui/leetcode/tree/master/0876-hand-of-straights) |
@@ -284,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/varisiddiqui/leetcode/tree/master/0778-reorganize-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/varisiddiqui/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0825-max-increase-to-keep-city-skyline](https://github.com/varisiddiqui/leetcode/tree/master/0825-max-increase-to-keep-city-skyline) |
+| [0857-minimum-cost-to-hire-k-workers](https://github.com/varisiddiqui/leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0876-hand-of-straights](https://github.com/varisiddiqui/leetcode/tree/master/0876-hand-of-straights) |
 | [0901-advantage-shuffle](https://github.com/varisiddiqui/leetcode/tree/master/0901-advantage-shuffle) |
 | [0917-boats-to-save-people](https://github.com/varisiddiqui/leetcode/tree/master/0917-boats-to-save-people) |
@@ -391,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0802-k-th-smallest-prime-fraction](https://github.com/varisiddiqui/leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0807-custom-sort-string](https://github.com/varisiddiqui/leetcode/tree/master/0807-custom-sort-string) |
 | [0825-friends-of-appropriate-ages](https://github.com/varisiddiqui/leetcode/tree/master/0825-friends-of-appropriate-ages) |
+| [0857-minimum-cost-to-hire-k-workers](https://github.com/varisiddiqui/leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0876-hand-of-straights](https://github.com/varisiddiqui/leetcode/tree/master/0876-hand-of-straights) |
 | [0901-advantage-shuffle](https://github.com/varisiddiqui/leetcode/tree/master/0901-advantage-shuffle) |
 | [0917-boats-to-save-people](https://github.com/varisiddiqui/leetcode/tree/master/0917-boats-to-save-people) |
@@ -777,6 +780,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/varisiddiqui/leetcode/tree/master/0778-reorganize-string) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/varisiddiqui/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/varisiddiqui/leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
+| [0857-minimum-cost-to-hire-k-workers](https://github.com/varisiddiqui/leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [1046-last-stone-weight](https://github.com/varisiddiqui/leetcode/tree/master/1046-last-stone-weight) |
 | [1184-car-pooling](https://github.com/varisiddiqui/leetcode/tree/master/1184-car-pooling) |
 | [1304-longest-happy-string](https://github.com/varisiddiqui/leetcode/tree/master/1304-longest-happy-string) |
