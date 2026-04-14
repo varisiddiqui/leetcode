@@ -181,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/varisiddiqui/leetcode/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
 | [2462-total-cost-to-hire-k-workers](https://github.com/varisiddiqui/leetcode/tree/master/2462-total-cost-to-hire-k-workers) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/varisiddiqui/leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [2530-maximal-score-after-applying-k-operations](https://github.com/varisiddiqui/leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 | [2592-maximize-greatness-of-an-array](https://github.com/varisiddiqui/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
 | [2643-row-with-maximum-ones](https://github.com/varisiddiqui/leetcode/tree/master/2643-row-with-maximum-ones) |
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
@@ -337,6 +338,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/varisiddiqui/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/varisiddiqui/leetcode/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
 | [2475-largest-palindromic-number](https://github.com/varisiddiqui/leetcode/tree/master/2475-largest-palindromic-number) |
+| [2530-maximal-score-after-applying-k-operations](https://github.com/varisiddiqui/leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 | [2592-maximize-greatness-of-an-array](https://github.com/varisiddiqui/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
 | [2706-minimum-score-by-changing-two-elements](https://github.com/varisiddiqui/leetcode/tree/master/2706-minimum-score-by-changing-two-elements) |
@@ -793,6 +795,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2300-construct-string-with-repeat-limit](https://github.com/varisiddiqui/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2462-total-cost-to-hire-k-workers](https://github.com/varisiddiqui/leetcode/tree/master/2462-total-cost-to-hire-k-workers) |
+| [2530-maximal-score-after-applying-k-operations](https://github.com/varisiddiqui/leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 | [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/varisiddiqui/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/varisiddiqui/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
