@@ -14,62 +14,31 @@ class Solution {
 
         StringBuilder str = new StringBuilder();
 
-        while(pq.size()>=2){
-            int top1[] = pq.remove();
-            int top2[] = pq.remove();
-
-            int freq1 = top1[1];
-            int freq2 = top2[1];
-
-            char ch1 = (char)('a'+top1[0]);
-            char ch2 = (char)('a'+top2[0]);
-
-
-            if(freq1 == freq2){
-               // System.out.println(freq1+" "+freq2);
-                int min1 = Math.min(freq1, 2);
-                int min2 = Math.min(freq2, 2);
-                for(int i=0; i<min1; i++) str.append(ch1);
-                for(int i=0; i<min2; i++) str.append(ch2);
-
-               
-
-                if(freq1-min1>0) pq.add(new int[]{top1[0], freq1-min1});
-                if(freq2-min2 >0) pq.add(new int[]{top2[0], freq2-min2});
-            }
-
-            else if(freq1 > freq2){
-                for(int i=0; i<2; i++){
-                    str.append(ch1);
-                }
-                if(freq1-2 > 0)
-                    pq.add(new int[]{top1[0], freq1-2});
-
-                str.append(ch2);
-                if(freq2-1 > 0)
-                pq.add(new int[]{top2[0], freq2-1});
-            }
-            else {
-                for(int i=0; i<2; i++){
-                    str.append(ch2);
-                }
-                if(freq2-2 > 0)
-                    pq.add(new int[]{top2[0], freq2-2});
-
-                str.append(ch1);
-                if(freq1-1 > 0)
-                pq.add(new int[]{top1[0], freq1-1});
-            }
-        }
-
-        if(pq.size() == 1){
+        while(!pq.isEmpty()){
             char ch = (char)('a'+pq.peek()[0]);
-            int min = Math.min(pq.peek()[1], 2);
+            int freq = pq.peek()[1];
+            pq.poll();
 
-            for(int i=0; i<min; i++){
+            if(str.length()>=2 && str.charAt(str.length()-1) == ch && str.charAt(str.length()-2) == ch){
+                if(pq.isEmpty()) break;
+                    char ch2 = (char)('a'+pq.peek()[0]);
+                    int freq2 = pq.peek()[1];
+                    pq.poll();
+
+                    str.append(ch2);
+                    freq2--;
+                    if(freq2 > 0) pq.add(new int[]{ch2-'a', freq2});
+
+                    pq.add(new int[]{ch-'a', freq});
+            }
+            else{
                 str.append(ch);
+                freq--;
+                
+                if(freq > 0) pq.add(new int[]{ch-'a', freq});
             }
         }
+            
         
 
         
