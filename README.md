@@ -192,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
 | [2789-largest-element-in-an-array-after-merge-operations](https://github.com/varisiddiqui/leetcode/tree/master/2789-largest-element-in-an-array-after-merge-operations) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/varisiddiqui/leetcode/tree/master/2916-check-if-it-is-possible-to-split-array) |
+| [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/varisiddiqui/leetcode/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
 | [3151-minimum-processing-time](https://github.com/varisiddiqui/leetcode/tree/master/3151-minimum-processing-time) |
 | [3166-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/varisiddiqui/leetcode/tree/master/3166-minimum-number-of-groups-to-create-a-valid-assignment) |
 | [3185-count-pairs-that-form-a-complete-day-ii](https://github.com/varisiddiqui/leetcode/tree/master/3185-count-pairs-that-form-a-complete-day-ii) |
@@ -804,6 +805,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2462-total-cost-to-hire-k-workers](https://github.com/varisiddiqui/leetcode/tree/master/2462-total-cost-to-hire-k-workers) |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/varisiddiqui/leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 | [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
+| [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/varisiddiqui/leetcode/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/varisiddiqui/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/varisiddiqui/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/varisiddiqui/leetcode/tree/master/3759-choose-k-elements-with-maximum-sum) |
@@ -1022,6 +1024,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2327-number-of-people-aware-of-a-secret](https://github.com/varisiddiqui/leetcode/tree/master/2327-number-of-people-aware-of-a-secret) |
 | [2462-total-cost-to-hire-k-workers](https://github.com/varisiddiqui/leetcode/tree/master/2462-total-cost-to-hire-k-workers) |
 | [2717-semi-ordered-permutation](https://github.com/varisiddiqui/leetcode/tree/master/2717-semi-ordered-permutation) |
+| [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/varisiddiqui/leetcode/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
 | [3336-water-bottles-ii](https://github.com/varisiddiqui/leetcode/tree/master/3336-water-bottles-ii) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/varisiddiqui/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3811-reverse-degree-of-a-string](https://github.com/varisiddiqui/leetcode/tree/master/3811-reverse-degree-of-a-string) |
