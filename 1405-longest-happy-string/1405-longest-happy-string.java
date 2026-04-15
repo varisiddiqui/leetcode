@@ -26,7 +26,7 @@ class Solution {
 
 
             if(freq1 == freq2){
-                System.out.println(freq1+" "+freq2);
+               // System.out.println(freq1+" "+freq2);
                 int min1 = Math.min(freq1, 2);
                 int min2 = Math.min(freq2, 2);
                 for(int i=0; i<min1; i++) str.append(ch1);
