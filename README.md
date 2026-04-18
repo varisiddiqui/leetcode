@@ -142,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1248-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/varisiddiqui/leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1314-matrix-block-sum](https://github.com/varisiddiqui/leetcode/tree/master/1314-matrix-block-sum) |
+| [1326-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/varisiddiqui/leetcode/tree/master/1326-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/varisiddiqui/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/varisiddiqui/leetcode/tree/master/1388-greatest-sum-divisible-by-three) |
@@ -305,6 +306,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
 | [1217-minimum-cost-to-move-chips-to-the-same-position](https://github.com/varisiddiqui/leetcode/tree/master/1217-minimum-cost-to-move-chips-to-the-same-position) |
 | [1304-longest-happy-string](https://github.com/varisiddiqui/leetcode/tree/master/1304-longest-happy-string) |
+| [1326-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/varisiddiqui/leetcode/tree/master/1326-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/varisiddiqui/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/varisiddiqui/leetcode/tree/master/1369-minimum-swaps-to-make-strings-equal) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/varisiddiqui/leetcode/tree/master/1388-greatest-sum-divisible-by-three) |
@@ -987,6 +989,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/varisiddiqui/leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/varisiddiqui/leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/1250-longest-common-subsequence) |
+| [1326-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/varisiddiqui/leetcode/tree/master/1326-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/varisiddiqui/leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/varisiddiqui/leetcode/tree/master/1388-greatest-sum-divisible-by-three) |
