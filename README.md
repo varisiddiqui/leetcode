@@ -238,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0165-compare-version-numbers](https://github.com/varisiddiqui/leetcode/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/varisiddiqui/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/varisiddiqui/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0295-find-median-from-data-stream](https://github.com/varisiddiqui/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0345-reverse-vowels-of-a-string](https://github.com/varisiddiqui/leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0349-intersection-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -389,6 +390,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/varisiddiqui/leetcode/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/varisiddiqui/leetcode/tree/master/0268-missing-number) |
 | [0274-h-index](https://github.com/varisiddiqui/leetcode/tree/master/0274-h-index) |
+| [0295-find-median-from-data-stream](https://github.com/varisiddiqui/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/varisiddiqui/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -790,6 +792,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/varisiddiqui/leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0295-find-median-from-data-stream](https://github.com/varisiddiqui/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/varisiddiqui/leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -1317,6 +1320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/varisiddiqui/leetcode/tree/master/0173-binary-search-tree-iterator) |
+| [0295-find-median-from-data-stream](https://github.com/varisiddiqui/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 ## Binary Search Tree
 |  |
@@ -1349,4 +1353,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/varisiddiqui/leetcode/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
