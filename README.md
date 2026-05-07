@@ -114,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0882-peak-index-in-a-mountain-array](https://github.com/varisiddiqui/leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0901-advantage-shuffle](https://github.com/varisiddiqui/leetcode/tree/master/0901-advantage-shuffle) |
 | [0904-fruit-into-baskets](https://github.com/varisiddiqui/leetcode/tree/master/0904-fruit-into-baskets) |
+| [0912-sort-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0912-sort-an-array) |
 | [0917-boats-to-save-people](https://github.com/varisiddiqui/leetcode/tree/master/0917-boats-to-save-people) |
 | [0926-find-and-replace-pattern](https://github.com/varisiddiqui/leetcode/tree/master/0926-find-and-replace-pattern) |
 | [0930-binary-subarrays-with-sum](https://github.com/varisiddiqui/leetcode/tree/master/0930-binary-subarrays-with-sum) |
@@ -418,6 +419,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/varisiddiqui/leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [0876-hand-of-straights](https://github.com/varisiddiqui/leetcode/tree/master/0876-hand-of-straights) |
 | [0901-advantage-shuffle](https://github.com/varisiddiqui/leetcode/tree/master/0901-advantage-shuffle) |
+| [0912-sort-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0912-sort-an-array) |
 | [0917-boats-to-save-people](https://github.com/varisiddiqui/leetcode/tree/master/0917-boats-to-save-people) |
 | [0948-bag-of-tokens](https://github.com/varisiddiqui/leetcode/tree/master/0948-bag-of-tokens) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -698,6 +700,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0274-h-index](https://github.com/varisiddiqui/leetcode/tree/master/0274-h-index) |
+| [0912-sort-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0912-sort-an-array) |
 | [1961-maximum-ice-cream-bars](https://github.com/varisiddiqui/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 ## String
 |  |
@@ -794,6 +797,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0240-search-a-2d-matrix-ii](https://github.com/varisiddiqui/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/varisiddiqui/leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
+| [0912-sort-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0912-sort-an-array) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [3759-count-elements-with-at-least-k-greater-values](https://github.com/varisiddiqui/leetcode/tree/master/3759-count-elements-with-at-least-k-greater-values) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
@@ -818,6 +822,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0787-cheapest-flights-within-k-stops](https://github.com/varisiddiqui/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/varisiddiqui/leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/varisiddiqui/leetcode/tree/master/0857-minimum-cost-to-hire-k-workers) |
+| [0912-sort-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0912-sort-an-array) |
 | [1046-last-stone-weight](https://github.com/varisiddiqui/leetcode/tree/master/1046-last-stone-weight) |
 | [1184-car-pooling](https://github.com/varisiddiqui/leetcode/tree/master/1184-car-pooling) |
 | [1304-longest-happy-string](https://github.com/varisiddiqui/leetcode/tree/master/1304-longest-happy-string) |
@@ -1035,6 +1040,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/varisiddiqui/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/varisiddiqui/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0692-top-k-frequent-words](https://github.com/varisiddiqui/leetcode/tree/master/0692-top-k-frequent-words) |
+| [0912-sort-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0912-sort-an-array) |
 ## Trie
 |  |
 | ------- |
@@ -1044,6 +1050,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0164-maximum-gap](https://github.com/varisiddiqui/leetcode/tree/master/0164-maximum-gap) |
+| [0912-sort-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0912-sort-an-array) |
 ## Simulation
 |  |
 | ------- |
@@ -1287,6 +1294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/varisiddiqui/leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0912-sort-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0912-sort-an-array) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 ## Topological Sort
 |  |
