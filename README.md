@@ -176,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/varisiddiqui/leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/varisiddiqui/leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/varisiddiqui/leetcode/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
+| [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/varisiddiqui/leetcode/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/varisiddiqui/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2289-minimum-operations-to-make-the-array-alternating](https://github.com/varisiddiqui/leetcode/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
@@ -444,6 +445,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1962-single-threaded-cpu](https://github.com/varisiddiqui/leetcode/tree/master/1962-single-threaded-cpu) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/varisiddiqui/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/varisiddiqui/leetcode/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
+| [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/varisiddiqui/leetcode/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2264-minimum-sum-of-four-digit-number-after-splitting-digits](https://github.com/varisiddiqui/leetcode/tree/master/2264-minimum-sum-of-four-digit-number-after-splitting-digits) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/varisiddiqui/leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
@@ -531,6 +533,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/varisiddiqui/leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/varisiddiqui/leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/varisiddiqui/leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/varisiddiqui/leetcode/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2289-minimum-operations-to-make-the-array-alternating](https://github.com/varisiddiqui/leetcode/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
 | [2300-construct-string-with-repeat-limit](https://github.com/varisiddiqui/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/varisiddiqui/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
@@ -836,6 +839,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1834-single-threaded-cpu](https://github.com/varisiddiqui/leetcode/tree/master/1834-single-threaded-cpu) |
 | [1962-single-threaded-cpu](https://github.com/varisiddiqui/leetcode/tree/master/1962-single-threaded-cpu) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/varisiddiqui/leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+| [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/varisiddiqui/leetcode/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2300-construct-string-with-repeat-limit](https://github.com/varisiddiqui/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/varisiddiqui/leetcode/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
