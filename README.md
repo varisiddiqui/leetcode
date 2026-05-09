@@ -200,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2717-semi-ordered-permutation](https://github.com/varisiddiqui/leetcode/tree/master/2717-semi-ordered-permutation) |
 | [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
 | [2789-largest-element-in-an-array-after-merge-operations](https://github.com/varisiddiqui/leetcode/tree/master/2789-largest-element-in-an-array-after-merge-operations) |
+| [2813-maximum-elegance-of-a-k-length-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/2813-maximum-elegance-of-a-k-length-subsequence) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/varisiddiqui/leetcode/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/varisiddiqui/leetcode/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
 | [3151-minimum-processing-time](https://github.com/varisiddiqui/leetcode/tree/master/3151-minimum-processing-time) |
@@ -368,6 +369,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2712-find-the-maximum-number-of-marked-indices](https://github.com/varisiddiqui/leetcode/tree/master/2712-find-the-maximum-number-of-marked-indices) |
 | [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
 | [2789-largest-element-in-an-array-after-merge-operations](https://github.com/varisiddiqui/leetcode/tree/master/2789-largest-element-in-an-array-after-merge-operations) |
+| [2813-maximum-elegance-of-a-k-length-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/2813-maximum-elegance-of-a-k-length-subsequence) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/varisiddiqui/leetcode/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3151-minimum-processing-time](https://github.com/varisiddiqui/leetcode/tree/master/3151-minimum-processing-time) |
 | [3166-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/varisiddiqui/leetcode/tree/master/3166-minimum-number-of-groups-to-create-a-valid-assignment) |
@@ -462,6 +464,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2706-minimum-score-by-changing-two-elements](https://github.com/varisiddiqui/leetcode/tree/master/2706-minimum-score-by-changing-two-elements) |
 | [2712-find-the-maximum-number-of-marked-indices](https://github.com/varisiddiqui/leetcode/tree/master/2712-find-the-maximum-number-of-marked-indices) |
 | [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
+| [2813-maximum-elegance-of-a-k-length-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/2813-maximum-elegance-of-a-k-length-subsequence) |
 | [3151-minimum-processing-time](https://github.com/varisiddiqui/leetcode/tree/master/3151-minimum-processing-time) |
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
 | [3231-minimum-number-of-coins-to-be-added](https://github.com/varisiddiqui/leetcode/tree/master/3231-minimum-number-of-coins-to-be-added) |
@@ -548,6 +551,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/varisiddiqui/leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2475-largest-palindromic-number](https://github.com/varisiddiqui/leetcode/tree/master/2475-largest-palindromic-number) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/varisiddiqui/leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [2813-maximum-elegance-of-a-k-length-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/2813-maximum-elegance-of-a-k-length-subsequence) |
 | [3166-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/varisiddiqui/leetcode/tree/master/3166-minimum-number-of-groups-to-create-a-valid-assignment) |
 | [3185-count-pairs-that-form-a-complete-day-ii](https://github.com/varisiddiqui/leetcode/tree/master/3185-count-pairs-that-form-a-complete-day-ii) |
 | [3228-maximum-size-of-a-set-after-removals](https://github.com/varisiddiqui/leetcode/tree/master/3228-maximum-size-of-a-set-after-removals) |
@@ -854,6 +858,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2530-maximal-score-after-applying-k-operations](https://github.com/varisiddiqui/leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 | [2542-maximum-subsequence-score](https://github.com/varisiddiqui/leetcode/tree/master/2542-maximum-subsequence-score) |
 | [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
+| [2813-maximum-elegance-of-a-k-length-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/2813-maximum-elegance-of-a-k-length-subsequence) |
 | [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/varisiddiqui/leetcode/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/varisiddiqui/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/varisiddiqui/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -932,6 +937,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1648-minimum-insertions-to-balance-a-parentheses-string](https://github.com/varisiddiqui/leetcode/tree/master/1648-minimum-insertions-to-balance-a-parentheses-string) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/1792-find-the-most-competitive-subsequence) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/varisiddiqui/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2813-maximum-elegance-of-a-k-length-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/2813-maximum-elegance-of-a-k-length-subsequence) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/varisiddiqui/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/varisiddiqui/leetcode/tree/master/3746-minimum-string-length-after-balanced-removals) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
