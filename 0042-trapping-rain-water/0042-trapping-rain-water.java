@@ -15,9 +15,10 @@ class Solution {
 
         int water=0;
 
+        int leftHt = 0;
+
         for(int i=0; i<n; i++){
-            int leftHt = (leftGreater.isEmpty())? height[i]: Math.max(leftGreater.peek(), height[i]);
-            leftGreater.add(height[i]);
+             leftHt = Math.max(leftHt, height[i]);
             
             //right remove the all previous index
 
