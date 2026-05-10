@@ -194,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2530-maximal-score-after-applying-k-operations](https://github.com/varisiddiqui/leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 | [2542-maximum-subsequence-score](https://github.com/varisiddiqui/leetcode/tree/master/2542-maximum-subsequence-score) |
 | [2592-maximize-greatness-of-an-array](https://github.com/varisiddiqui/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
+| [2593-find-score-of-an-array-after-marking-all-elements](https://github.com/varisiddiqui/leetcode/tree/master/2593-find-score-of-an-array-after-marking-all-elements) |
 | [2643-row-with-maximum-ones](https://github.com/varisiddiqui/leetcode/tree/master/2643-row-with-maximum-ones) |
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
 | [2706-minimum-score-by-changing-two-elements](https://github.com/varisiddiqui/leetcode/tree/master/2706-minimum-score-by-changing-two-elements) |
@@ -463,6 +464,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/varisiddiqui/leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2542-maximum-subsequence-score](https://github.com/varisiddiqui/leetcode/tree/master/2542-maximum-subsequence-score) |
 | [2592-maximize-greatness-of-an-array](https://github.com/varisiddiqui/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
+| [2593-find-score-of-an-array-after-marking-all-elements](https://github.com/varisiddiqui/leetcode/tree/master/2593-find-score-of-an-array-after-marking-all-elements) |
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
 | [2706-minimum-score-by-changing-two-elements](https://github.com/varisiddiqui/leetcode/tree/master/2706-minimum-score-by-changing-two-elements) |
 | [2712-find-the-maximum-number-of-marked-indices](https://github.com/varisiddiqui/leetcode/tree/master/2712-find-the-maximum-number-of-marked-indices) |
@@ -554,6 +556,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/varisiddiqui/leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2475-largest-palindromic-number](https://github.com/varisiddiqui/leetcode/tree/master/2475-largest-palindromic-number) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/varisiddiqui/leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [2593-find-score-of-an-array-after-marking-all-elements](https://github.com/varisiddiqui/leetcode/tree/master/2593-find-score-of-an-array-after-marking-all-elements) |
 | [2813-maximum-elegance-of-a-k-length-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/2813-maximum-elegance-of-a-k-length-subsequence) |
 | [3166-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/varisiddiqui/leetcode/tree/master/3166-minimum-number-of-groups-to-create-a-valid-assignment) |
 | [3185-count-pairs-that-form-a-complete-day-ii](https://github.com/varisiddiqui/leetcode/tree/master/3185-count-pairs-that-form-a-complete-day-ii) |
@@ -862,6 +865,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2462-total-cost-to-hire-k-workers](https://github.com/varisiddiqui/leetcode/tree/master/2462-total-cost-to-hire-k-workers) |
 | [2530-maximal-score-after-applying-k-operations](https://github.com/varisiddiqui/leetcode/tree/master/2530-maximal-score-after-applying-k-operations) |
 | [2542-maximum-subsequence-score](https://github.com/varisiddiqui/leetcode/tree/master/2542-maximum-subsequence-score) |
+| [2593-find-score-of-an-array-after-marking-all-elements](https://github.com/varisiddiqui/leetcode/tree/master/2593-find-score-of-an-array-after-marking-all-elements) |
 | [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
 | [2813-maximum-elegance-of-a-k-length-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/2813-maximum-elegance-of-a-k-length-subsequence) |
 | [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/varisiddiqui/leetcode/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
@@ -1087,6 +1091,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2327-number-of-people-aware-of-a-secret](https://github.com/varisiddiqui/leetcode/tree/master/2327-number-of-people-aware-of-a-secret) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/varisiddiqui/leetcode/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
 | [2462-total-cost-to-hire-k-workers](https://github.com/varisiddiqui/leetcode/tree/master/2462-total-cost-to-hire-k-workers) |
+| [2593-find-score-of-an-array-after-marking-all-elements](https://github.com/varisiddiqui/leetcode/tree/master/2593-find-score-of-an-array-after-marking-all-elements) |
 | [2717-semi-ordered-permutation](https://github.com/varisiddiqui/leetcode/tree/master/2717-semi-ordered-permutation) |
 | [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/varisiddiqui/leetcode/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
 | [3336-water-bottles-ii](https://github.com/varisiddiqui/leetcode/tree/master/3336-water-bottles-ii) |
