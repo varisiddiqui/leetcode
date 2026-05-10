@@ -1,35 +1,28 @@
 class Solution {
     public int trap(int[] height) {
-        int n = height.length;
+     int l = 0;
+     int r = height.length-1;
 
-        Comparator<int[]> cmp = (a, b) -> {
-            return Integer.compare(b[0], a[0]); 
-        };
+     int leftMax=0;
+     int rightMax=0;
 
-        PriorityQueue<int[]> rightGreater = new PriorityQueue<>(cmp);
-        PriorityQueue<Integer> leftGreater = new PriorityQueue<>(Collections.reverseOrder());
+     int water =0;
 
-        for(int i=1; i<n; i++){
-            rightGreater.add(new int[]{height[i], i});
+     while(l<r){
+        leftMax = Math.max(leftMax, height[l]);
+        rightMax = Math.max(rightMax, height[r]);
+
+        if(leftMax <= rightMax){
+            water += leftMax-height[l];
+            l++;
+        }
+        else {
+            water += rightMax-height[r];
+            r--;
         }
 
-        int water=0;
 
-        int leftHt = 0;
-
-        for(int i=0; i<n; i++){
-             leftHt = Math.max(leftHt, height[i]);
-            
-            //right remove the all previous index
-
-            while(!rightGreater.isEmpty() && rightGreater.peek()[1]<=i) rightGreater.poll();
-
-            int rightHt = (rightGreater.isEmpty())? height[i]: Math.max(height[i], rightGreater.peek()[0]);
-
-            int waterHt = Math.min(leftHt, rightHt);
-
-            water += (waterHt - height[i]);
-        }
+     }   
         return water;
     }
 }
