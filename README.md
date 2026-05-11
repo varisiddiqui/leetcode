@@ -721,6 +721,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/varisiddiqui/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [3291-find-if-array-can-be-sorted](https://github.com/varisiddiqui/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/varisiddiqui/leetcode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
+| [3827-count-monobit-integers](https://github.com/varisiddiqui/leetcode/tree/master/3827-count-monobit-integers) |
 ## Counting Sort
 |  |
 | ------- |
@@ -1003,6 +1004,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/varisiddiqui/leetcode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/varisiddiqui/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
+| [3827-count-monobit-integers](https://github.com/varisiddiqui/leetcode/tree/master/3827-count-monobit-integers) |
 | [3849-equal-sum-grid-partition-i](https://github.com/varisiddiqui/leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 ## Dynamic Programming
 |  |
