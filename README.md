@@ -199,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2593-find-score-of-an-array-after-marking-all-elements](https://github.com/varisiddiqui/leetcode/tree/master/2593-find-score-of-an-array-after-marking-all-elements) |
 | [2643-row-with-maximum-ones](https://github.com/varisiddiqui/leetcode/tree/master/2643-row-with-maximum-ones) |
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2706-minimum-score-by-changing-two-elements](https://github.com/varisiddiqui/leetcode/tree/master/2706-minimum-score-by-changing-two-elements) |
 | [2712-find-the-maximum-number-of-marked-indices](https://github.com/varisiddiqui/leetcode/tree/master/2712-find-the-maximum-number-of-marked-indices) |
 | [2717-semi-ordered-permutation](https://github.com/varisiddiqui/leetcode/tree/master/2717-semi-ordered-permutation) |
@@ -561,6 +562,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2475-largest-palindromic-number](https://github.com/varisiddiqui/leetcode/tree/master/2475-largest-palindromic-number) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/varisiddiqui/leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
 | [2593-find-score-of-an-array-after-marking-all-elements](https://github.com/varisiddiqui/leetcode/tree/master/2593-find-score-of-an-array-after-marking-all-elements) |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2813-maximum-elegance-of-a-k-length-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/2813-maximum-elegance-of-a-k-length-subsequence) |
 | [3166-minimum-number-of-groups-to-create-a-valid-assignment](https://github.com/varisiddiqui/leetcode/tree/master/3166-minimum-number-of-groups-to-create-a-valid-assignment) |
 | [3185-count-pairs-that-form-a-complete-day-ii](https://github.com/varisiddiqui/leetcode/tree/master/3185-count-pairs-that-form-a-complete-day-ii) |
@@ -721,6 +723,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/varisiddiqui/leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/varisiddiqui/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/varisiddiqui/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [3291-find-if-array-can-be-sorted](https://github.com/varisiddiqui/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/varisiddiqui/leetcode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 | [3827-count-monobit-integers](https://github.com/varisiddiqui/leetcode/tree/master/3827-count-monobit-integers) |
