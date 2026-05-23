@@ -11,10 +11,12 @@ class Solution {
             }
         }
 
-        for(int i=1; i<n; i++) temp[i] = temp[i-1]+temp[i];
+        int t=0;
 
         for(int i=0; i<n; i++){
-            if(nums[i] > temp[i]) return false;
+            t += temp[i];
+
+            if(nums[i] > t) return false;
         }
         return true;
     }
