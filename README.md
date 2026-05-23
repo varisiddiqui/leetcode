@@ -218,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3291-find-if-array-can-be-sorted](https://github.com/varisiddiqui/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3317-maximum-palindromes-after-operations](https://github.com/varisiddiqui/leetcode/tree/master/3317-maximum-palindromes-after-operations) |
 | [3355-minimum-levels-to-gain-more-points](https://github.com/varisiddiqui/leetcode/tree/master/3355-minimum-levels-to-gain-more-points) |
+| [3355-zero-array-transformation-i](https://github.com/varisiddiqui/leetcode/tree/master/3355-zero-array-transformation-i) |
 | [3430-count-days-without-meetings](https://github.com/varisiddiqui/leetcode/tree/master/3430-count-days-without-meetings) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/varisiddiqui/leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/varisiddiqui/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -711,6 +712,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2576-minimum-penalty-for-a-shop](https://github.com/varisiddiqui/leetcode/tree/master/2576-minimum-penalty-for-a-shop) |
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
 | [3355-minimum-levels-to-gain-more-points](https://github.com/varisiddiqui/leetcode/tree/master/3355-minimum-levels-to-gain-more-points) |
+| [3355-zero-array-transformation-i](https://github.com/varisiddiqui/leetcode/tree/master/3355-zero-array-transformation-i) |
 | [3849-equal-sum-grid-partition-i](https://github.com/varisiddiqui/leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 ## Bit Manipulation
