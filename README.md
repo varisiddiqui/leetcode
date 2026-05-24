@@ -220,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3355-minimum-levels-to-gain-more-points](https://github.com/varisiddiqui/leetcode/tree/master/3355-minimum-levels-to-gain-more-points) |
 | [3355-zero-array-transformation-i](https://github.com/varisiddiqui/leetcode/tree/master/3355-zero-array-transformation-i) |
 | [3356-zero-array-transformation-ii](https://github.com/varisiddiqui/leetcode/tree/master/3356-zero-array-transformation-ii) |
+| [3362-zero-array-transformation-iii](https://github.com/varisiddiqui/leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3430-count-days-without-meetings](https://github.com/varisiddiqui/leetcode/tree/master/3430-count-days-without-meetings) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/varisiddiqui/leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/varisiddiqui/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -286,6 +287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2592-maximize-greatness-of-an-array](https://github.com/varisiddiqui/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
 | [2712-find-the-maximum-number-of-marked-indices](https://github.com/varisiddiqui/leetcode/tree/master/2712-find-the-maximum-number-of-marked-indices) |
 | [3356-zero-array-transformation-ii](https://github.com/varisiddiqui/leetcode/tree/master/3356-zero-array-transformation-ii) |
+| [3362-zero-array-transformation-iii](https://github.com/varisiddiqui/leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3755-maximum-product-of-first-and-last-elements-of-a-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/3755-maximum-product-of-first-and-last-elements-of-a-subsequence) |
 | [3823-reverse-letters-then-special-characters-in-a-string](https://github.com/varisiddiqui/leetcode/tree/master/3823-reverse-letters-then-special-characters-in-a-string) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
@@ -389,6 +391,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3264-maximum-points-after-enemy-battles](https://github.com/varisiddiqui/leetcode/tree/master/3264-maximum-points-after-enemy-battles) |
 | [3317-maximum-palindromes-after-operations](https://github.com/varisiddiqui/leetcode/tree/master/3317-maximum-palindromes-after-operations) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/varisiddiqui/leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
+| [3362-zero-array-transformation-iii](https://github.com/varisiddiqui/leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/varisiddiqui/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3510-maximize-the-total-height-of-unique-towers](https://github.com/varisiddiqui/leetcode/tree/master/3510-maximize-the-total-height-of-unique-towers) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/varisiddiqui/leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
@@ -483,6 +486,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3231-minimum-number-of-coins-to-be-added](https://github.com/varisiddiqui/leetcode/tree/master/3231-minimum-number-of-coins-to-be-added) |
 | [3291-find-if-array-can-be-sorted](https://github.com/varisiddiqui/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 | [3317-maximum-palindromes-after-operations](https://github.com/varisiddiqui/leetcode/tree/master/3317-maximum-palindromes-after-operations) |
+| [3362-zero-array-transformation-iii](https://github.com/varisiddiqui/leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3430-count-days-without-meetings](https://github.com/varisiddiqui/leetcode/tree/master/3430-count-days-without-meetings) |
 | [3510-maximize-the-total-height-of-unique-towers](https://github.com/varisiddiqui/leetcode/tree/master/3510-maximize-the-total-height-of-unique-towers) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/varisiddiqui/leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
@@ -717,6 +721,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3355-minimum-levels-to-gain-more-points](https://github.com/varisiddiqui/leetcode/tree/master/3355-minimum-levels-to-gain-more-points) |
 | [3355-zero-array-transformation-i](https://github.com/varisiddiqui/leetcode/tree/master/3355-zero-array-transformation-i) |
 | [3356-zero-array-transformation-ii](https://github.com/varisiddiqui/leetcode/tree/master/3356-zero-array-transformation-ii) |
+| [3362-zero-array-transformation-iii](https://github.com/varisiddiqui/leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3849-equal-sum-grid-partition-i](https://github.com/varisiddiqui/leetcode/tree/master/3849-equal-sum-grid-partition-i) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 ## Bit Manipulation
@@ -885,6 +890,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2725-mice-and-cheese](https://github.com/varisiddiqui/leetcode/tree/master/2725-mice-and-cheese) |
 | [2813-maximum-elegance-of-a-k-length-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/2813-maximum-elegance-of-a-k-length-subsequence) |
 | [3066-minimum-operations-to-exceed-threshold-value-ii](https://github.com/varisiddiqui/leetcode/tree/master/3066-minimum-operations-to-exceed-threshold-value-ii) |
+| [3362-zero-array-transformation-iii](https://github.com/varisiddiqui/leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/varisiddiqui/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/varisiddiqui/leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/varisiddiqui/leetcode/tree/master/3759-choose-k-elements-with-maximum-sum) |
