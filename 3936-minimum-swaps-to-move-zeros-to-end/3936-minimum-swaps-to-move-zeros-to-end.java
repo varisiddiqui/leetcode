@@ -3,17 +3,22 @@ class Solution {
         int n=nums.length;
         int swap=0;
 
-        for(int i=0; i<n; i++){
-            if(nums[i] == 0){
-                for(int j=n-1; j>i; j--){
-                    if(nums[j] != 0){
-                        nums[j]=0;
-                        swap++;
-                        break;
-                    }
-                }
+        int i=0;
+        int j=n-1;
+
+        while(i<j){
+            while(j>i && nums[j] == 0) j--;
+            while(i<j && nums[i] != 0) i++;
+
+            if(i<j) {
+                swap++;
+                i++;
+                j--;
             }
+
         }
+
+        
         return swap;
     }
 }
