@@ -1,17 +1,17 @@
 class Solution {
     public void setZeroes(int[][] matrix) {
-        /*Set<Integer> row = new HashSet<>();
-        Set<Integer> col = new HashSet<>();*/
+        int m=matrix.length;
+        int n = matrix[0].length;
 
-        int haveZero=0;
-        if(matrix[0][0] == 0) haveZero=1;
+        int firstRow=-1;
+        int firstCol=-1;
 
-        
+        for(int i=0; i<m; i++) if(matrix[i][0]==0) firstCol=0;
 
+        for(int j=0; j<n; j++) if(matrix[0][j]==0) firstRow=0;
 
-        for(int i=0; i<matrix.length; i++){
-            for(int j=0; j<matrix[i].length; j++){
-                if(i==0 && j==0) continue;
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
                 if(matrix[i][j] == 0){
                     matrix[i][0]=0;
                     matrix[0][j]=0;
@@ -19,21 +19,29 @@ class Solution {
             }
         }
 
-        for(int i=0; i<matrix.length; i++){
-            for(int j=0; j<matrix[i].length; j++){
-                if(i==0 || j==0) continue;
-                if(matrix[i][0]==0 || matrix[0][j]==0 ) matrix[i][j]=0;
+       
+        
+        for(int i=1; i<m; i++){
+            if(matrix[i][0] == 0){
+                for(int j=1; j<n; j++) matrix[i][j]=0;
             }
         }
 
-        if(haveZero==1){
-            for(int i=0; i<matrix.length; i++) {
-                matrix[i][0]= 0;
-            }
-            for(int j=0; j<matrix[0].length; j++){
-                matrix[0][j]=0;
+
+        for(int j=1; j<n; j++){
+            if(matrix[0][j] == 0){
+                for(int i=1; i<m; i++) matrix[i][j]=0;
             }
         }
-        
+
+        //System.out.println(haveZeroRow+" "+haveZeroCol);
+
+        if(firstCol==0)
+        for(int i=0; i<m; i++) matrix[i][0]=0;
+
+        if(firstRow==0)
+        for(int i=0; i<n; i++) matrix[0][i]=0;
+
+
     }
 }
