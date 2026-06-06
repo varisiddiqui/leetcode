@@ -18,7 +18,7 @@ class Solution {
             while(left<right){
                 if(nums[left]+nums[right] == target){
                     List<Integer> li = new ArrayList<>(Arrays.asList(nums[i], nums[left], nums[right]));
-                    Collections.sort(li);
+                    //Collections.sort(li);
                     set.add(li);
                     left++;
                     right--;
