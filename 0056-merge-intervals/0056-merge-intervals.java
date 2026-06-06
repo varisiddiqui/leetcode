@@ -1,44 +1,32 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
-        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
         int n = intervals.length;
 
-        List<List<Integer>> res = new ArrayList<>();
+        Comparator<int[]> cmp = (a, b) -> {
+            if(a[0] != b[0]) return Integer.compare(a[0], b[0]);
+            return Integer.compare(a[1], b[1]);
+        };
 
-        int start = intervals[0][0];
-        int end = intervals[0][1];
-        if(n==1){
-            return intervals;
-        }
+        Arrays.sort(intervals, cmp);
 
-        for(int i=1; i<n; i++){          
-            //next
-            int nextSt = intervals[i][0];
-            int nextEnd = intervals[i][1];
+        List<List<Integer>> ans = new ArrayList<>();
 
-            if(start <= nextSt && nextSt <= end){
-                end = Math.max(end, nextEnd);
-                if(i==n-1){
-                    res.add(new ArrayList<>(Arrays.asList(start, end)));
-                }
+        for(int i=0; i<n; i++){
+            if(ans.size()==0 || ans.get(ans.size()-1).get(1) < intervals[i][0]){
+                ans.add(new ArrayList<>(Arrays.asList(intervals[i][0], intervals[i][1])));
             }
-            else {
-                res.add(new ArrayList<>(Arrays.asList(start, end)));
-                start = intervals[i][0];
-                end = intervals[i][1];
-                if(i==n-1){
-                    res.add(new ArrayList<>(Arrays.asList(start, end)));
-                }
+            else{
+                int end = Math.max(ans.get(ans.size()-1).get(1), intervals[i][1]);
+                ans.get(ans.size()-1).set(1, end);
             }
-     
         }
-        //System.out.println(res);
-        int ans[][] = new int[res.size()][2];
-        for(int i=0; i<res.size(); i++){
-            ans[i][0]=res.get(i).get(0);
-            ans[i][1]=res.get(i).get(1);
+
+        int res[][] = new int[ans.size()][2];
+        for(int i=0; i<ans.size(); i++){
+            res[i][0] = ans.get(i).get(0);
+            res[i][1] = ans.get(i).get(1);
         }
-        return ans;
-        
+        return res;
+
     }
 }
