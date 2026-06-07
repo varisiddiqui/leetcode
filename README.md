@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/varisiddiqui/leetcode/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/varisiddiqui/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0085-maximal-rectangle](https://github.com/varisiddiqui/leetcode/tree/master/0085-maximal-rectangle) |
+| [0088-merge-sorted-array](https://github.com/varisiddiqui/leetcode/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/varisiddiqui/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0118-pascals-triangle](https://github.com/varisiddiqui/leetcode/tree/master/0118-pascals-triangle) |
@@ -257,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0031-next-permutation](https://github.com/varisiddiqui/leetcode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/varisiddiqui/leetcode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/varisiddiqui/leetcode/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/varisiddiqui/leetcode/tree/master/0088-merge-sorted-array) |
 | [0151-reverse-words-in-a-string](https://github.com/varisiddiqui/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/varisiddiqui/leetcode/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/varisiddiqui/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -417,6 +419,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/varisiddiqui/leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/varisiddiqui/leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/varisiddiqui/leetcode/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/varisiddiqui/leetcode/tree/master/0088-merge-sorted-array) |
 | [0164-maximum-gap](https://github.com/varisiddiqui/leetcode/tree/master/0164-maximum-gap) |
 | [0169-majority-element](https://github.com/varisiddiqui/leetcode/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/varisiddiqui/leetcode/tree/master/0179-largest-number) |
