@@ -130,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0944-delete-columns-to-make-sorted](https://github.com/varisiddiqui/leetcode/tree/master/0944-delete-columns-to-make-sorted) |
 | [0948-bag-of-tokens](https://github.com/varisiddiqui/leetcode/tree/master/0948-bag-of-tokens) |
 | [0952-word-subsets](https://github.com/varisiddiqui/leetcode/tree/master/0952-word-subsets) |
+| [0955-delete-columns-to-make-sorted-ii](https://github.com/varisiddiqui/leetcode/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0967-minimum-falling-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [0973-k-closest-points-to-origin](https://github.com/varisiddiqui/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [0992-subarrays-with-k-different-integers](https://github.com/varisiddiqui/leetcode/tree/master/0992-subarrays-with-k-different-integers) |
@@ -334,6 +335,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0901-advantage-shuffle](https://github.com/varisiddiqui/leetcode/tree/master/0901-advantage-shuffle) |
 | [0917-boats-to-save-people](https://github.com/varisiddiqui/leetcode/tree/master/0917-boats-to-save-people) |
 | [0948-bag-of-tokens](https://github.com/varisiddiqui/leetcode/tree/master/0948-bag-of-tokens) |
+| [0955-delete-columns-to-make-sorted-ii](https://github.com/varisiddiqui/leetcode/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/varisiddiqui/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1007-minimum-domino-rotations-for-equal-row](https://github.com/varisiddiqui/leetcode/tree/master/1007-minimum-domino-rotations-for-equal-row) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
@@ -812,6 +814,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0926-find-and-replace-pattern](https://github.com/varisiddiqui/leetcode/tree/master/0926-find-and-replace-pattern) |
 | [0944-delete-columns-to-make-sorted](https://github.com/varisiddiqui/leetcode/tree/master/0944-delete-columns-to-make-sorted) |
 | [0952-word-subsets](https://github.com/varisiddiqui/leetcode/tree/master/0952-word-subsets) |
+| [0955-delete-columns-to-make-sorted-ii](https://github.com/varisiddiqui/leetcode/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/varisiddiqui/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1026-string-without-aaa-or-bbb](https://github.com/varisiddiqui/leetcode/tree/master/1026-string-without-aaa-or-bbb) |
 | [1129-longest-string-chain](https://github.com/varisiddiqui/leetcode/tree/master/1129-longest-string-chain) |
