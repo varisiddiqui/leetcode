@@ -16,25 +16,23 @@ class Solution {
             freq2[ch-'a']++;
         }
 
-        HashMap<Integer, Integer> f2 = new HashMap<>();
+        
 
         for(int i=0; i<26; i++){
             if((freq1[i] > 0 && freq2[i]==0) || (freq1[i]==0 && freq2[i]>0)){
                 return false;
             } 
-
-            f2.put(freq2[i], f2.getOrDefault(freq2[i], 0) + 1); 
         }
 
+        Arrays.sort(freq1);
+        Arrays.sort(freq2);
         for(int i=0; i<26; i++){
-            if(freq1[i] > 0 && !f2.containsKey(freq1[i])) return false;
-            else{
-                if(f2.get(freq1[i])-1 > 0) f2.put(freq1[i], f2.get(freq1[i]) - 1);
-                else f2.remove(freq1[i]);
-            }
+            if(freq1[i] != freq2[i]) return false;
         }
 
-        return f2.isEmpty();
+       
+
+        return true;
 
 
     }
