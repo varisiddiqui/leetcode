@@ -8,15 +8,19 @@ class Solution {
             return new String(ch);
         }
 
-        PriorityQueue<String> pq = new PriorityQueue<>();
+        //PriorityQueue<String> pq = new PriorityQueue<>();
         StringBuilder str = new StringBuilder(s);
-        for(int i=0; i<n; i++){
-            pq.add(str.toString());
+        String ans = s;
+        for(int i=1; i<n; i++){
+            //pq.add(str.toString());
+
             str.append(str.charAt(0));
             str.deleteCharAt(0);
+
+            if(ans.compareTo(str.toString()) > 0) ans = str.toString();
         }
 
-        return pq.peek();
+        return ans;
 
         
     }
