@@ -558,6 +558,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/varisiddiqui/leetcode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/varisiddiqui/leetcode/tree/master/0807-custom-sort-string) |
 | [0846-hand-of-straights](https://github.com/varisiddiqui/leetcode/tree/master/0846-hand-of-straights) |
+| [0859-buddy-strings](https://github.com/varisiddiqui/leetcode/tree/master/0859-buddy-strings) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0876-hand-of-straights](https://github.com/varisiddiqui/leetcode/tree/master/0876-hand-of-straights) |
 | [0904-fruit-into-baskets](https://github.com/varisiddiqui/leetcode/tree/master/0904-fruit-into-baskets) |
@@ -816,6 +817,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/varisiddiqui/leetcode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/varisiddiqui/leetcode/tree/master/0807-custom-sort-string) |
 | [0821-shortest-distance-to-a-character](https://github.com/varisiddiqui/leetcode/tree/master/0821-shortest-distance-to-a-character) |
+| [0859-buddy-strings](https://github.com/varisiddiqui/leetcode/tree/master/0859-buddy-strings) |
 | [0899-orderly-queue](https://github.com/varisiddiqui/leetcode/tree/master/0899-orderly-queue) |
 | [0926-find-and-replace-pattern](https://github.com/varisiddiqui/leetcode/tree/master/0926-find-and-replace-pattern) |
 | [0944-delete-columns-to-make-sorted](https://github.com/varisiddiqui/leetcode/tree/master/0944-delete-columns-to-make-sorted) |
