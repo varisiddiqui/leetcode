@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0442-find-all-duplicates-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/varisiddiqui/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/varisiddiqui/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [0472-concatenated-words](https://github.com/varisiddiqui/leetcode/tree/master/0472-concatenated-words) |
 | [0475-heaters](https://github.com/varisiddiqui/leetcode/tree/master/0475-heaters) |
 | [0493-reverse-pairs](https://github.com/varisiddiqui/leetcode/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/varisiddiqui/leetcode/tree/master/0494-target-sum) |
@@ -441,6 +442,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0451-sort-characters-by-frequency](https://github.com/varisiddiqui/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/varisiddiqui/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
+| [0472-concatenated-words](https://github.com/varisiddiqui/leetcode/tree/master/0472-concatenated-words) |
 | [0475-heaters](https://github.com/varisiddiqui/leetcode/tree/master/0475-heaters) |
 | [0502-ipo](https://github.com/varisiddiqui/leetcode/tree/master/0502-ipo) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -803,6 +805,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0443-string-compression](https://github.com/varisiddiqui/leetcode/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/varisiddiqui/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0459-repeated-substring-pattern](https://github.com/varisiddiqui/leetcode/tree/master/0459-repeated-substring-pattern) |
+| [0472-concatenated-words](https://github.com/varisiddiqui/leetcode/tree/master/0472-concatenated-words) |
 | [0481-magical-string](https://github.com/varisiddiqui/leetcode/tree/master/0481-magical-string) |
 | [0539-minimum-time-difference](https://github.com/varisiddiqui/leetcode/tree/master/0539-minimum-time-difference) |
 | [0567-permutation-in-string](https://github.com/varisiddiqui/leetcode/tree/master/0567-permutation-in-string) |
@@ -1099,6 +1102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0368-largest-divisible-subset](https://github.com/varisiddiqui/leetcode/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/varisiddiqui/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/varisiddiqui/leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0472-concatenated-words](https://github.com/varisiddiqui/leetcode/tree/master/0472-concatenated-words) |
 | [0494-target-sum](https://github.com/varisiddiqui/leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/varisiddiqui/leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0542-01-matrix) |
@@ -1142,6 +1146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/varisiddiqui/leetcode/tree/master/0014-longest-common-prefix) |
+| [0472-concatenated-words](https://github.com/varisiddiqui/leetcode/tree/master/0472-concatenated-words) |
 | [0692-top-k-frequent-words](https://github.com/varisiddiqui/leetcode/tree/master/0692-top-k-frequent-words) |
 ## Radix Sort
 |  |
@@ -1235,6 +1240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/varisiddiqui/leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0472-concatenated-words](https://github.com/varisiddiqui/leetcode/tree/master/0472-concatenated-words) |
 | [0543-diameter-of-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/varisiddiqui/leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/varisiddiqui/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
