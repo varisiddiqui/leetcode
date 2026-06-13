@@ -585,6 +585,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/varisiddiqui/leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/varisiddiqui/leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/varisiddiqui/leetcode/tree/master/2099-find-subsequence-of-length-k-with-the-largest-sum) |
+| [2272-substring-with-largest-variance](https://github.com/varisiddiqui/leetcode/tree/master/2272-substring-with-largest-variance) |
 | [2289-minimum-operations-to-make-the-array-alternating](https://github.com/varisiddiqui/leetcode/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
 | [2300-construct-string-with-repeat-limit](https://github.com/varisiddiqui/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/varisiddiqui/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
@@ -847,6 +848,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/varisiddiqui/leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/varisiddiqui/leetcode/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2191-minimum-number-of-food-buckets-to-feed-the-hamsters](https://github.com/varisiddiqui/leetcode/tree/master/2191-minimum-number-of-food-buckets-to-feed-the-hamsters) |
+| [2272-substring-with-largest-variance](https://github.com/varisiddiqui/leetcode/tree/master/2272-substring-with-largest-variance) |
 | [2300-construct-string-with-repeat-limit](https://github.com/varisiddiqui/leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2337-move-pieces-to-obtain-a-string](https://github.com/varisiddiqui/leetcode/tree/master/2337-move-pieces-to-obtain-a-string) |
 | [2414-length-of-the-longest-alphabetical-continuous-substring](https://github.com/varisiddiqui/leetcode/tree/master/2414-length-of-the-longest-alphabetical-continuous-substring) |
@@ -1063,6 +1065,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0204-count-primes](https://github.com/varisiddiqui/leetcode/tree/master/0204-count-primes) |
 | [0875-longest-mountain-in-array](https://github.com/varisiddiqui/leetcode/tree/master/0875-longest-mountain-in-array) |
+| [2272-substring-with-largest-variance](https://github.com/varisiddiqui/leetcode/tree/master/2272-substring-with-largest-variance) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/varisiddiqui/leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/varisiddiqui/leetcode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
@@ -1132,6 +1135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/varisiddiqui/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2163-minimum-difference-in-sums-after-removal-of-elements](https://github.com/varisiddiqui/leetcode/tree/master/2163-minimum-difference-in-sums-after-removal-of-elements) |
 | [2191-minimum-number-of-food-buckets-to-feed-the-hamsters](https://github.com/varisiddiqui/leetcode/tree/master/2191-minimum-number-of-food-buckets-to-feed-the-hamsters) |
+| [2272-substring-with-largest-variance](https://github.com/varisiddiqui/leetcode/tree/master/2272-substring-with-largest-variance) |
 | [2327-number-of-people-aware-of-a-secret](https://github.com/varisiddiqui/leetcode/tree/master/2327-number-of-people-aware-of-a-secret) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/varisiddiqui/leetcode/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/varisiddiqui/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
