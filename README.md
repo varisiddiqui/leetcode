@@ -846,6 +846,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1652-minimum-suffix-flips](https://github.com/varisiddiqui/leetcode/tree/master/1652-minimum-suffix-flips) |
 | [1657-determine-if-two-strings-are-close](https://github.com/varisiddiqui/leetcode/tree/master/1657-determine-if-two-strings-are-close) |
 | [1754-largest-merge-of-two-strings](https://github.com/varisiddiqui/leetcode/tree/master/1754-largest-merge-of-two-strings) |
+| [1759-count-number-of-homogenous-substrings](https://github.com/varisiddiqui/leetcode/tree/master/1759-count-number-of-homogenous-substrings) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/varisiddiqui/leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number](https://github.com/varisiddiqui/leetcode/tree/master/1978-minimum-adjacent-swaps-to-reach-the-kth-smallest-number) |
 | [2027-minimum-moves-to-convert-string](https://github.com/varisiddiqui/leetcode/tree/master/2027-minimum-moves-to-convert-string) |
@@ -988,6 +989,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/varisiddiqui/leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/varisiddiqui/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/varisiddiqui/leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
+| [1759-count-number-of-homogenous-substrings](https://github.com/varisiddiqui/leetcode/tree/master/1759-count-number-of-homogenous-substrings) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/varisiddiqui/leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2177-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/varisiddiqui/leetcode/tree/master/2177-find-three-consecutive-integers-that-sum-to-a-given-number) |
 | [2178-maximum-split-of-positive-even-integers](https://github.com/varisiddiqui/leetcode/tree/master/2178-maximum-split-of-positive-even-integers) |
