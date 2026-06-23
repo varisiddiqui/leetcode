@@ -841,6 +841,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1304-longest-happy-string](https://github.com/varisiddiqui/leetcode/tree/master/1304-longest-happy-string) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/varisiddiqui/leetcode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1369-minimum-swaps-to-make-strings-equal](https://github.com/varisiddiqui/leetcode/tree/master/1369-minimum-swaps-to-make-strings-equal) |
+| [1392-longest-happy-prefix](https://github.com/varisiddiqui/leetcode/tree/master/1392-longest-happy-prefix) |
 | [1405-longest-happy-string](https://github.com/varisiddiqui/leetcode/tree/master/1405-longest-happy-string) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/varisiddiqui/leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1530-check-if-a-string-can-break-another-string](https://github.com/varisiddiqui/leetcode/tree/master/1530-check-if-a-string-can-break-another-string) |
@@ -1446,6 +1447,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0459-repeated-substring-pattern](https://github.com/varisiddiqui/leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0686-repeated-string-match](https://github.com/varisiddiqui/leetcode/tree/master/0686-repeated-string-match) |
+| [1392-longest-happy-prefix](https://github.com/varisiddiqui/leetcode/tree/master/1392-longest-happy-prefix) |
 ## Graph Theory
 |  |
 | ------- |
@@ -1510,10 +1512,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [1392-longest-happy-prefix](https://github.com/varisiddiqui/leetcode/tree/master/1392-longest-happy-prefix) |
 ## Hash Function
 |  |
 | ------- |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [1392-longest-happy-prefix](https://github.com/varisiddiqui/leetcode/tree/master/1392-longest-happy-prefix) |
 ## Data Stream
 |  |
 | ------- |
