@@ -16,10 +16,10 @@ class Solution {
 
         
 
-        for(int l=n-1; l>=j; l--) nextGreater[l] = Math.max(nextGreater[l], nums[l]);
+        //for(int l=n-1; l>=j; l--) nextGreater[l] = Math.max(nextGreater[l], nums[l]);
 
         while(j<n){
-            ans = Math.max(ans, leftMax+nextGreater[j]);
+            ans = Math.max(ans, leftMax+nums[j]);
             i++;
             leftMax = Math.max(leftMax, nums[i]);
             j++;
