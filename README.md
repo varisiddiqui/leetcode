@@ -145,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/varisiddiqui/leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/varisiddiqui/leetcode/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1020-number-of-enclaves](https://github.com/varisiddiqui/leetcode/tree/master/1020-number-of-enclaves) |
+| [1029-two-city-scheduling](https://github.com/varisiddiqui/leetcode/tree/master/1029-two-city-scheduling) |
 | [1036-rotting-oranges](https://github.com/varisiddiqui/leetcode/tree/master/1036-rotting-oranges) |
 | [1046-last-stone-weight](https://github.com/varisiddiqui/leetcode/tree/master/1046-last-stone-weight) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/varisiddiqui/leetcode/tree/master/1047-maximize-sum-of-array-after-k-negations) |
@@ -350,6 +351,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
 | [1013-partition-array-into-three-parts-with-equal-sum](https://github.com/varisiddiqui/leetcode/tree/master/1013-partition-array-into-three-parts-with-equal-sum) |
 | [1026-string-without-aaa-or-bbb](https://github.com/varisiddiqui/leetcode/tree/master/1026-string-without-aaa-or-bbb) |
+| [1029-two-city-scheduling](https://github.com/varisiddiqui/leetcode/tree/master/1029-two-city-scheduling) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/varisiddiqui/leetcode/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1139-previous-permutation-with-one-swap](https://github.com/varisiddiqui/leetcode/tree/master/1139-previous-permutation-with-one-swap) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
@@ -475,6 +477,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1009-pancake-sorting](https://github.com/varisiddiqui/leetcode/tree/master/1009-pancake-sorting) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1029-two-city-scheduling](https://github.com/varisiddiqui/leetcode/tree/master/1029-two-city-scheduling) |
 | [1047-maximize-sum-of-array-after-k-negations](https://github.com/varisiddiqui/leetcode/tree/master/1047-maximize-sum-of-array-after-k-negations) |
 | [1129-longest-string-chain](https://github.com/varisiddiqui/leetcode/tree/master/1129-longest-string-chain) |
 | [1169-largest-values-from-labels](https://github.com/varisiddiqui/leetcode/tree/master/1169-largest-values-from-labels) |
