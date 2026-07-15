@@ -373,6 +373,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1649-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target](https://github.com/varisiddiqui/leetcode/tree/master/1649-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target) |
 | [1652-minimum-suffix-flips](https://github.com/varisiddiqui/leetcode/tree/master/1652-minimum-suffix-flips) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/varisiddiqui/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
+| [1702-maximum-binary-string-after-change](https://github.com/varisiddiqui/leetcode/tree/master/1702-maximum-binary-string-after-change) |
 | [1754-largest-merge-of-two-strings](https://github.com/varisiddiqui/leetcode/tree/master/1754-largest-merge-of-two-strings) |
 | [1762-furthest-building-you-can-reach](https://github.com/varisiddiqui/leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/1792-find-the-most-competitive-subsequence) |
@@ -859,6 +860,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1648-minimum-insertions-to-balance-a-parentheses-string](https://github.com/varisiddiqui/leetcode/tree/master/1648-minimum-insertions-to-balance-a-parentheses-string) |
 | [1652-minimum-suffix-flips](https://github.com/varisiddiqui/leetcode/tree/master/1652-minimum-suffix-flips) |
 | [1657-determine-if-two-strings-are-close](https://github.com/varisiddiqui/leetcode/tree/master/1657-determine-if-two-strings-are-close) |
+| [1702-maximum-binary-string-after-change](https://github.com/varisiddiqui/leetcode/tree/master/1702-maximum-binary-string-after-change) |
 | [1754-largest-merge-of-two-strings](https://github.com/varisiddiqui/leetcode/tree/master/1754-largest-merge-of-two-strings) |
 | [1759-count-number-of-homogenous-substrings](https://github.com/varisiddiqui/leetcode/tree/master/1759-count-number-of-homogenous-substrings) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/varisiddiqui/leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
