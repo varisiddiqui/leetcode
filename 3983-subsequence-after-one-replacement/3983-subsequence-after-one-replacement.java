@@ -10,42 +10,25 @@ class Solution {
 
         
 
-        for(int j=0; j<m; j++){
-            if(j==0){
-                if(s.charAt(0) == t.charAt(0)){
-                    prefix[0]++;
-                    i++;
-                } 
-                continue;
-            }
-            
+        for(int j=0; j<m; j++){            
             if(i<n && s.charAt(i) == t.charAt(j)){
-                prefix[j]++;
                 i++;
             }
 
-            prefix[j] += prefix[j-1];
+            prefix[j] = i;
         }
+
+        if(prefix[m-1] == n) return true;
 
         //for(int p: prefix) System.out.println(p);
         i=n-1;
 
         for(int j=m-1; j>=0; j--){
-            if(j == m-1){
-                if(s.charAt(i) == t.charAt(j)){
-                    suffix[j]++;
-                    i--;
-                }
-
-                continue;
-            }
-
             if(i>=0 && s.charAt(i) == t.charAt(j)){
-                suffix[j]++;
                 i--;
             }
 
-            suffix[j] += suffix[j+1];
+            suffix[j] = n-1-i;
         }
 
          //for(int p: suffix) System.out.println(p);
@@ -54,7 +37,7 @@ class Solution {
             int left = (j>0)? prefix[j-1]: 0;
             int right = (j<m-1)? suffix[j+1]: 0;
 
-            if(left+1+right == n) return true;
+            if(left+right >= n-1) return true;
          }
 
          return false;
