@@ -213,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2592-maximize-greatness-of-an-array](https://github.com/varisiddiqui/leetcode/tree/master/2592-maximize-greatness-of-an-array) |
 | [2593-find-score-of-an-array-after-marking-all-elements](https://github.com/varisiddiqui/leetcode/tree/master/2593-find-score-of-an-array-after-marking-all-elements) |
 | [2643-row-with-maximum-ones](https://github.com/varisiddiqui/leetcode/tree/master/2643-row-with-maximum-ones) |
+| [2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/varisiddiqui/leetcode/tree/master/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2706-minimum-score-by-changing-two-elements](https://github.com/varisiddiqui/leetcode/tree/master/2706-minimum-score-by-changing-two-elements) |
@@ -1016,6 +1017,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2324-find-triangular-sum-of-an-array](https://github.com/varisiddiqui/leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2437-maximum-number-of-groups-entering-a-competition](https://github.com/varisiddiqui/leetcode/tree/master/2437-maximum-number-of-groups-entering-a-competition) |
 | [2525-count-number-of-distinct-integers-after-reverse-operations](https://github.com/varisiddiqui/leetcode/tree/master/2525-count-number-of-distinct-integers-after-reverse-operations) |
+| [2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/varisiddiqui/leetcode/tree/master/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3229-minimum-cost-to-make-array-equalindromic](https://github.com/varisiddiqui/leetcode/tree/master/3229-minimum-cost-to-make-array-equalindromic) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/varisiddiqui/leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
 | [3336-water-bottles-ii](https://github.com/varisiddiqui/leetcode/tree/master/3336-water-bottles-ii) |
@@ -1436,6 +1438,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/varisiddiqui/leetcode/tree/master/0204-count-primes) |
+| [2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/varisiddiqui/leetcode/tree/master/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 ## Merge Sort
 |  |
 | ------- |
