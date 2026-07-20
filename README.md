@@ -818,6 +818,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0345-reverse-vowels-of-a-string](https://github.com/varisiddiqui/leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0395-longest-substring-with-at-least-k-repeating-characters](https://github.com/varisiddiqui/leetcode/tree/master/0395-longest-substring-with-at-least-k-repeating-characters) |
 | [0409-longest-palindrome](https://github.com/varisiddiqui/leetcode/tree/master/0409-longest-palindrome) |
+| [0415-add-strings](https://github.com/varisiddiqui/leetcode/tree/master/0415-add-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/varisiddiqui/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0434-number-of-segments-in-a-string](https://github.com/varisiddiqui/leetcode/tree/master/0434-number-of-segments-in-a-string) |
 | [0443-string-compression](https://github.com/varisiddiqui/leetcode/tree/master/0443-string-compression) |
@@ -993,6 +994,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/varisiddiqui/leetcode/tree/master/0268-missing-number) |
 | [0343-integer-break](https://github.com/varisiddiqui/leetcode/tree/master/0343-integer-break) |
 | [0368-largest-divisible-subset](https://github.com/varisiddiqui/leetcode/tree/master/0368-largest-divisible-subset) |
+| [0415-add-strings](https://github.com/varisiddiqui/leetcode/tree/master/0415-add-strings) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/varisiddiqui/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/varisiddiqui/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0523-continuous-subarray-sum](https://github.com/varisiddiqui/leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -1196,6 +1198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0054-spiral-matrix) |
+| [0415-add-strings](https://github.com/varisiddiqui/leetcode/tree/master/0415-add-strings) |
 | [0844-backspace-string-compare](https://github.com/varisiddiqui/leetcode/tree/master/0844-backspace-string-compare) |
 | [1184-car-pooling](https://github.com/varisiddiqui/leetcode/tree/master/1184-car-pooling) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/varisiddiqui/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
