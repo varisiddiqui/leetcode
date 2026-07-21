@@ -886,6 +886,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/varisiddiqui/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3317-maximum-palindromes-after-operations](https://github.com/varisiddiqui/leetcode/tree/master/3317-maximum-palindromes-after-operations) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/varisiddiqui/leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3499-maximize-active-section-with-trade-i](https://github.com/varisiddiqui/leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3746-minimum-string-length-after-balanced-removals](https://github.com/varisiddiqui/leetcode/tree/master/3746-minimum-string-length-after-balanced-removals) |
 | [3760-maximum-substrings-with-distinct-start](https://github.com/varisiddiqui/leetcode/tree/master/3760-maximum-substrings-with-distinct-start) |
 | [3811-reverse-degree-of-a-string](https://github.com/varisiddiqui/leetcode/tree/master/3811-reverse-degree-of-a-string) |
@@ -1105,6 +1106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0875-longest-mountain-in-array](https://github.com/varisiddiqui/leetcode/tree/master/0875-longest-mountain-in-array) |
 | [2272-substring-with-largest-variance](https://github.com/varisiddiqui/leetcode/tree/master/2272-substring-with-largest-variance) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/varisiddiqui/leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
+| [3499-maximize-active-section-with-trade-i](https://github.com/varisiddiqui/leetcode/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3579-maximum-possible-number-by-binary-concatenation](https://github.com/varisiddiqui/leetcode/tree/master/3579-maximum-possible-number-by-binary-concatenation) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/varisiddiqui/leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/varisiddiqui/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
