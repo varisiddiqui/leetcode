@@ -172,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/varisiddiqui/leetcode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1508-range-sum-of-sorted-subarray-sums](https://github.com/varisiddiqui/leetcode/tree/master/1508-range-sum-of-sorted-subarray-sums) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/varisiddiqui/leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
+| [1558-minimum-numbers-of-function-calls-to-make-target-array](https://github.com/varisiddiqui/leetcode/tree/master/1558-minimum-numbers-of-function-calls-to-make-target-array) |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/varisiddiqui/leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/varisiddiqui/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/varisiddiqui/leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -371,6 +372,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/varisiddiqui/leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1530-check-if-a-string-can-break-another-string](https://github.com/varisiddiqui/leetcode/tree/master/1530-check-if-a-string-can-break-another-string) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/varisiddiqui/leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
+| [1558-minimum-numbers-of-function-calls-to-make-target-array](https://github.com/varisiddiqui/leetcode/tree/master/1558-minimum-numbers-of-function-calls-to-make-target-array) |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/varisiddiqui/leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/varisiddiqui/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/varisiddiqui/leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
@@ -780,6 +782,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0260-single-number-iii](https://github.com/varisiddiqui/leetcode/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/varisiddiqui/leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/varisiddiqui/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [1558-minimum-numbers-of-function-calls-to-make-target-array](https://github.com/varisiddiqui/leetcode/tree/master/1558-minimum-numbers-of-function-calls-to-make-target-array) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/varisiddiqui/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [3291-find-if-array-can-be-sorted](https://github.com/varisiddiqui/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
