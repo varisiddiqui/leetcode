@@ -1,31 +1,28 @@
 class Solution {
-        List<List<Integer>> ans = new ArrayList<>();
-    
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        int n = candidates.length;
-        
+    List<List<Integer>> ans = new ArrayList<>();
+    int tar=0;
+    public List<List<Integer>> combinationSum(int[] nums, int target) {
+        tar = target;
 
-       
-        subseq(0, candidates, new ArrayList<>(), target);
+        subseq(new ArrayList<>(), 0, 0, nums);
 
-        return new ArrayList<>(ans);
-        
+        return ans;
     }
 
-    public void subseq(int i, int[] candidates, List<Integer> li, int sum){
-        if(i == candidates.length || sum<=0){
-            if(sum == 0){
+    public void subseq(List<Integer> li, int idx, int sum, int nums[]){
+        if(idx == nums.length || sum >= tar){
+            if(sum == tar){
                 ans.add(new ArrayList<>(li));
             }
             return;
         }
 
-
-        li.add(candidates[i]);
-        subseq(i, candidates, li, sum-candidates[i]);
+        //pick element and idx same for duplicate
+        li.add(nums[idx]);
+        subseq(li, idx, sum+nums[idx], nums);
 
         li.remove(li.size()-1);
-       
-        subseq(i+1, candidates, li, sum);
+
+        subseq(li, idx+1, sum, nums);
     }
 }
