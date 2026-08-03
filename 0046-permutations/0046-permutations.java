@@ -2,27 +2,30 @@ class Solution {
     List<List<Integer>> ans = new ArrayList<>();
 
     public List<List<Integer>> permute(int[] nums) {
-        perm(new ArrayList<>(), new boolean[nums.length], nums);
+        List<Integer> li = new ArrayList<>();
+        for(int num: nums) li.add(num);
+        perm(li, 0, nums);
         return ans;
     }
 
-    public void perm(List<Integer> li, boolean used[], int nums[]){
-        if(li.size() == nums.length){
+    public void swap(List<Integer> li, int i, int j){
+        int temp = li.get(i);
+        li.set(i, li.get(j));
+        li.set(j, temp);
+    }
+
+    public void perm(List<Integer>li, int idx, int nums[]){
+        if(idx == nums.length){
             ans.add(new ArrayList<>(li));
             return;
         }
 
-        for(int i=0; i<nums.length; i++){
-            if(!used[i]){
-                li.add(nums[i]);
-                used[i] = true;
+        for(int i=idx; i<nums.length; i++){
+            swap(li, idx, i);
 
-                perm(li, used, nums);
+            perm(li, idx+1, nums);
 
-                li.remove(li.size()-1);
-                used[i] = false;
-            }
-            
+            swap(li, idx, i);
         }
     }
 }
