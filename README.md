@@ -177,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/varisiddiqui/leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1558-minimum-numbers-of-function-calls-to-make-target-array](https://github.com/varisiddiqui/leetcode/tree/master/1558-minimum-numbers-of-function-calls-to-make-target-array) |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/varisiddiqui/leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
+| [1589-maximum-sum-obtained-of-any-permutation](https://github.com/varisiddiqui/leetcode/tree/master/1589-maximum-sum-obtained-of-any-permutation) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/varisiddiqui/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/varisiddiqui/leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1631-path-with-minimum-effort](https://github.com/varisiddiqui/leetcode/tree/master/1631-path-with-minimum-effort) |
@@ -377,6 +378,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/varisiddiqui/leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1558-minimum-numbers-of-function-calls-to-make-target-array](https://github.com/varisiddiqui/leetcode/tree/master/1558-minimum-numbers-of-function-calls-to-make-target-array) |
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/varisiddiqui/leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
+| [1589-maximum-sum-obtained-of-any-permutation](https://github.com/varisiddiqui/leetcode/tree/master/1589-maximum-sum-obtained-of-any-permutation) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/varisiddiqui/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/varisiddiqui/leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1648-minimum-insertions-to-balance-a-parentheses-string](https://github.com/varisiddiqui/leetcode/tree/master/1648-minimum-insertions-to-balance-a-parentheses-string) |
@@ -500,6 +502,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/varisiddiqui/leetcode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1508-range-sum-of-sorted-subarray-sums](https://github.com/varisiddiqui/leetcode/tree/master/1508-range-sum-of-sorted-subarray-sums) |
 | [1530-check-if-a-string-can-break-another-string](https://github.com/varisiddiqui/leetcode/tree/master/1530-check-if-a-string-can-break-another-string) |
+| [1589-maximum-sum-obtained-of-any-permutation](https://github.com/varisiddiqui/leetcode/tree/master/1589-maximum-sum-obtained-of-any-permutation) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/varisiddiqui/leetcode/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/varisiddiqui/leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1657-determine-if-two-strings-are-close](https://github.com/varisiddiqui/leetcode/tree/master/1657-determine-if-two-strings-are-close) |
@@ -765,6 +768,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/varisiddiqui/leetcode/tree/master/1413-minimum-value-to-get-positive-step-by-step-sum) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/varisiddiqui/leetcode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1508-range-sum-of-sorted-subarray-sums](https://github.com/varisiddiqui/leetcode/tree/master/1508-range-sum-of-sorted-subarray-sums) |
+| [1589-maximum-sum-obtained-of-any-permutation](https://github.com/varisiddiqui/leetcode/tree/master/1589-maximum-sum-obtained-of-any-permutation) |
 | [1649-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target](https://github.com/varisiddiqui/leetcode/tree/master/1649-maximum-number-of-non-overlapping-subarrays-with-sum-equals-target) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/varisiddiqui/leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
