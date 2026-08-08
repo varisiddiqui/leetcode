@@ -14,73 +14,40 @@
  * }
  */
 class Solution {
+    List<List<Integer>> ans = new ArrayList<>();
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<>();
+        if(root == null) return ans;
         Queue<TreeNode> q = new LinkedList<>();
-        Stack<TreeNode> st = new Stack<>();
-
-        if (root == null)
-            return res;
 
         q.add(root);
-        q.add(null);
-
         List<Integer> li = new ArrayList<>();
 
-        char flag = 'R';//reverse add kroge stack me
+        char ch = 'L';
 
-        while (!q.isEmpty() || !st.isEmpty()) {
-            TreeNode top = q.remove();
-
-            if (top == null) {
-                res.add(li);
-
-               
-                
-
-                li = new ArrayList<>();
-                if (st.isEmpty()) {
-                
-                    break;
-                }
-
-                while (!st.isEmpty()) {
-                    q.add(st.pop());
-                }
-                
-                if (flag == 'R')
-                    flag = 'L';
-                else
-                    flag = 'R';
-
-                q.add(null);
+        while(!q.isEmpty()){
+            int sz = q.size();
+            for(int i=0; i<sz; i++){
+                TreeNode curr = q.remove();
+                li.add(curr.val);
+                if(curr.left != null) q.add(curr.left);
+                if(curr.right != null) q.add(curr.right);
             }
 
-            else {
-                
-
-                li.add(top.val);
-                //flag = R insert left on stack first
-                if (flag == 'R') {
-                    if (top.left != null)
-                        st.push(top.left);
-                    if (top.right != null)
-                        st.push(top.right);
-                }
-
-                //flag = L insert right on stack first
-                if (flag == 'L') {
-                    if (top.right != null)
-                        st.push(top.right);
-                    if (top.left != null)
-                        st.push(top.left);
-                }
-
+            if(ch == 'L'){
+                ans.add(new ArrayList<>(li));
+                ch = 'R';
             }
+            else{
+                Collections.reverse(li);
+                ans.add(new ArrayList<>(li));
+                ch = 'L';
+            }
+            li.clear();
+            
 
         }
 
-        return res;
+        return ans;
 
     }
 }
