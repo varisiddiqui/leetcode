@@ -23,9 +23,11 @@ class Solution {
         if(root == null) return 0;
 
         int lh = ht(root.left);
+
+        if(lh == -1) return -1;
         int rh = ht(root.right);
 
-        if(lh == -1 || rh == -1) return -1;
+        if(rh == -1) return -1;
 
         if(Math.abs(lh - rh) > 1) return -1;
 
