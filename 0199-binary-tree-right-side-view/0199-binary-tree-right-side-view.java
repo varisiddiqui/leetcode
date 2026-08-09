@@ -14,21 +14,33 @@
  * }
  */
 class Solution {
+    
     public List<Integer> rightSideView(TreeNode root) {
-        List<Integer> ans = new ArrayList<>();
+        if(root == null) return new ArrayList<>();
 
-        int level=0;
-        postOrder(root, level, ans);
-        return ans;
+        List<Integer> li = new ArrayList<>();
+
+        Map<Integer, Integer> hm = new HashMap<>();
+
+        reversePre(root, 0, 0, hm);
+
+        for(Integer key: hm.keySet()){
+            li.add(hm.get(key));
+        }
+
+        return li;
+
 
     }
 
-    public void postOrder(TreeNode root, int level, List<Integer> ans){
+    public void reversePre(TreeNode root, int row, int col, Map<Integer, Integer> hm){
         if(root == null) return;
 
-        if(level == ans.size()) ans.add(root.val);
+        hm.putIfAbsent(row, root.val);
 
-        postOrder(root.right, level+1, ans);
-        postOrder(root.left, level+1, ans);
+        if(root.right != null) reversePre(root.right, row+1, col+1, hm);
+        if(root.left != null) reversePre(root.left, row+1, col-1, hm);
+
+        
     }
 }
