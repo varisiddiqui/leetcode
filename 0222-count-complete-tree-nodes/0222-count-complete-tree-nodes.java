@@ -29,7 +29,7 @@ class Solution {
 
 
     public int leftDp(TreeNode root){
-        if(root == null) return 0;
+       
         int cnt=1;
         while(root.left != null){
             cnt++;
@@ -39,7 +39,7 @@ class Solution {
     }
 
     public int rightDp(TreeNode root){
-        if(root == null) return 0;
+       
         int cnt = 1;
         while(root.right != null){
             cnt++;
