@@ -15,37 +15,38 @@
  */
 class Solution {
     public int countNodes(TreeNode root) {
+        //simple apply binary search elimination technique
+
         if(root == null) return 0;
 
-        int lh = leftHt(root);
-        int rh = rightHt(root);
+        int leftDepth = leftDp(root);
+        int rightDepth = rightDp(root);
 
-        if(lh == rh) return (int)Math.pow(2, lh)-1;
+        if(leftDepth == rightDepth) return (int)(Math.pow(2, leftDepth)-1);
 
-        return countNodes(root.left)+countNodes(root.right)+1;                
+        return countNodes(root.left)+countNodes(root.right)+1;
     }
 
-    public int leftHt(TreeNode root){
-        int count=0;
-        while(root != null){
-            count++;
+
+    public int leftDp(TreeNode root){
+        if(root == null) return 0;
+        int cnt=1;
+        while(root.left != null){
+            cnt++;
             root = root.left;
         }
-        return count;
+        return cnt+1;
     }
 
-    public int rightHt(TreeNode root){
-        int count=0;
-        while(root != null){
-            count++;
+    public int rightDp(TreeNode root){
+        if(root == null) return 0;
+        int cnt = 1;
+        while(root.right != null){
+            cnt++;
             root = root.right;
         }
-        return count;
+        return cnt;
     }
-
-
-
-    
 
 
 }
