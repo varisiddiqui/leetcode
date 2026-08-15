@@ -1594,4 +1594,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/varisiddiqui/leetcode/tree/master/0037-sudoku-solver) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/varisiddiqui/leetcode/tree/master/0416-partition-equal-subset-sum) |
+## 0-1 Knapsack
+|  |
+| ------- |
+| [0416-partition-equal-subset-sum](https://github.com/varisiddiqui/leetcode/tree/master/0416-partition-equal-subset-sum) |
 <!---LeetCode Topics End-->
