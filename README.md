@@ -1605,6 +1605,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Knapsack Problem
 |  |
 | ------- |
+| [0322-coin-change](https://github.com/varisiddiqui/leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/varisiddiqui/leetcode/tree/master/0416-partition-equal-subset-sum) |
 ## 0-1 Knapsack
 |  |
@@ -1614,4 +1615,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/varisiddiqui/leetcode/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
