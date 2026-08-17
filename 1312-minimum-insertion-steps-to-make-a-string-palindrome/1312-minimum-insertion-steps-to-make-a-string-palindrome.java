@@ -2,21 +2,40 @@ class Solution {
     public int minInsertions(String s) {
         int n = s.length();
 
-        String rev = new StringBuilder(s).reverse().toString();
+        int[][] dp = new int[n][n];
 
-        int dp[][] = new int[n+1][n+1];
-
-        for(int i=1; i<n+1; i++){
-            for(int j=1; j<n+1; j++){
-                if(s.charAt(i-1) == rev.charAt(j-1)){
-                    dp[i][j] = 1 + dp[i-1][j-1];
-                }
-                else{
-                    dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
-                }
-            }
+        for (int[] row : dp) {
+            Arrays.fill(row, -1);
         }
 
-        return n-dp[n][n];
+        return solve(s, 0, n - 1, dp);
+    }
+
+    private int solve(String s, int left, int right, int[][] dp) {
+
+        // Already a palindrome
+        if (left >= right) {
+            return 0;
+        }
+
+        // Already calculated
+        if (dp[left][right] != -1) {
+            return dp[left][right];
+        }
+
+        // Characters match
+        if (s.charAt(left) == s.charAt(right)) {
+            dp[left][right] = solve(s, left + 1, right - 1, dp);
+        }
+
+        // Characters don't match
+        else {
+            dp[left][right] = 1 + Math.min(
+                solve(s, left + 1, right, dp),
+                solve(s, left, right - 1, dp)
+            );
+        }
+
+        return dp[left][right];
     }
 }
