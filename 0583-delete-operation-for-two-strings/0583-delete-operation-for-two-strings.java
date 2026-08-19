@@ -3,17 +3,33 @@ class Solution {
         int n1 = word1.length();
         int n2 = word2.length();
 
-        int dp[][] = new int[n1+1][n2+1];
+        int dp[][] = new int[n1][n2];
 
-        for(int i=1; i<n1+1; i++){
-            for(int j=1; j<n2+1; j++){
-                if(word1.charAt(i-1) == word2.charAt(j-1)){
-                    dp[i][j] = 1 + dp[i-1][j-1];
-                }
-                else dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
-            }
+        for(int i=0; i<n1; i++){
+            Arrays.fill(dp[i], -1);
         }
 
-        return (n1+n2-2*dp[n1][n2]);
+        return min(word1, word2, 0, 0, dp);
+    }
+
+    public int min(String word1, String word2, int i, int j, int dp[][]){
+        int n1 = word1.length();
+        int n2 = word2.length();
+
+        if(i >= n1){
+            return (n2-j);
+        }
+        if(j >= n2){
+            return (n1-i);
+        }
+
+        if(dp[i][j] != -1) return dp[i][j];
+
+        if(word1.charAt(i) == word2.charAt(j)){
+            return dp[i][j] = min(word1, word2, i+1, j+1, dp);
+        }
+
+        return dp[i][j] = 1+Math.min(min(word1, word2, i+1, j, dp), min(word1, word2, i, j+1, dp));
+        
     }
 }
