@@ -870,6 +870,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/varisiddiqui/leetcode/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/varisiddiqui/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1026-string-without-aaa-or-bbb](https://github.com/varisiddiqui/leetcode/tree/master/1026-string-without-aaa-or-bbb) |
+| [1092-shortest-common-supersequence](https://github.com/varisiddiqui/leetcode/tree/master/1092-shortest-common-supersequence) |
 | [1129-longest-string-chain](https://github.com/varisiddiqui/leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/varisiddiqui/leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1197-parsing-a-boolean-expression](https://github.com/varisiddiqui/leetcode/tree/master/1197-parsing-a-boolean-expression) |
@@ -1196,6 +1197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0875-longest-mountain-in-array](https://github.com/varisiddiqui/leetcode/tree/master/0875-longest-mountain-in-array) |
 | [0967-minimum-falling-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/varisiddiqui/leetcode/tree/master/1013-fibonacci-number) |
+| [1092-shortest-common-supersequence](https://github.com/varisiddiqui/leetcode/tree/master/1092-shortest-common-supersequence) |
 | [1121-partition-array-for-maximum-sum](https://github.com/varisiddiqui/leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/varisiddiqui/leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/varisiddiqui/leetcode/tree/master/1170-shortest-common-supersequence) |
@@ -1627,4 +1629,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0583-delete-operation-for-two-strings](https://github.com/varisiddiqui/leetcode/tree/master/0583-delete-operation-for-two-strings) |
+| [1092-shortest-common-supersequence](https://github.com/varisiddiqui/leetcode/tree/master/1092-shortest-common-supersequence) |
 <!---LeetCode Topics End-->
