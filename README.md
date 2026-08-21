@@ -269,6 +269,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3954-maximum-balanced-shipments](https://github.com/varisiddiqui/leetcode/tree/master/3954-maximum-balanced-shipments) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/varisiddiqui/leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
+| [4015-weighted-sum-of-a-tree](https://github.com/varisiddiqui/leetcode/tree/master/4015-weighted-sum-of-a-tree) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/varisiddiqui/leetcode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4119-minimum-distance-between-three-equal-elements-ii](https://github.com/varisiddiqui/leetcode/tree/master/4119-minimum-distance-between-three-equal-elements-ii) |
@@ -1308,6 +1309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [2236-root-equals-sum-of-children](https://github.com/varisiddiqui/leetcode/tree/master/2236-root-equals-sum-of-children) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/varisiddiqui/leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
+| [4015-weighted-sum-of-a-tree](https://github.com/varisiddiqui/leetcode/tree/master/4015-weighted-sum-of-a-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -1354,6 +1356,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1631-path-with-minimum-effort](https://github.com/varisiddiqui/leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/varisiddiqui/leetcode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [2685-count-the-number-of-complete-components](https://github.com/varisiddiqui/leetcode/tree/master/2685-count-the-number-of-complete-components) |
+| [4015-weighted-sum-of-a-tree](https://github.com/varisiddiqui/leetcode/tree/master/4015-weighted-sum-of-a-tree) |
 ## Binary Tree
 |  |
 | ------- |
