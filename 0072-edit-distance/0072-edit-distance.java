@@ -3,11 +3,40 @@ class Solution {
         int n1 = word1.length();
         int n2 = word2.length();
 
-        int dp[][] = new int[n1][n2];
+        int dp[][] = new int[n1+1][n2+1];
 
-        for(int i=0; i<n1; i++) Arrays.fill(dp[i], -1);
+        dp[0][0] = 0;
+        
+        for(int i=1; i<n1+1; i++) dp[i][0] = i;
 
-        return op(word1, word2, n1-1, n2-1, dp);
+        for(int j=1; j<n2+1; j++) dp[0][j] = j;
+
+        for(int i=1; i<n1+1; i++){
+            for(int j=1; j<n2+1; j++){
+                if(word1.charAt(i-1) == word2.charAt(j-1)){
+                    dp[i][j] = dp[i-1][j-1];
+                }
+                else{
+                    
+                    int min=Integer.MAX_VALUE;
+
+                    //insert
+                    min = Math.min(min, dp[i][j-1]);
+
+                    //delete
+                    min = Math.min(min, dp[i-1][j]);
+
+                    //replace
+                    min = Math.min(min, dp[i-1][j-1]);
+
+                    dp[i][j] = min+1;
+
+
+                }
+            }
+        } 
+
+        return dp[n1][n2];
     }
 
     public int op(String word1, String word2, int i, int j, int dp[][]){
