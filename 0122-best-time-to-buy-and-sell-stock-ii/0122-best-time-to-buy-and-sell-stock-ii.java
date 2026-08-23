@@ -1,11 +1,11 @@
 class Solution {
     public int maxProfit(int[] prices) {
         int n = prices.length;
-        int dp[][] = new int[n][2];
+        int dp[][] = new int[n+1][2];
         //dp[idx][buy] = maxprofit if buy or sell??
-        dp[n-1][0] = prices[n-1];
+        dp[n][0] = dp[n][1]=0;
 
-        for(int i=n-2; i>=0; i--){
+        for(int i=n-1; i>=0; i--){
             for(int j=0; j<=1; j++){
                 if(j==1){
                     int buyed = -prices[i] + dp[i+1][0];
