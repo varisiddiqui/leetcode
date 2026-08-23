@@ -4,25 +4,27 @@ class Solution {
 
         int dp[][] = new int[n][n+1];
 
-        for(int i=0; i<n; i++)
-        Arrays.fill(dp[i], -1);
-        
-        return longest(0, -1, nums, dp);
-    }
-
-    public int longest(int currIdx, int prevIdx, int nums[], int dp[][]){
-        if(currIdx == nums.length) return 0;
-
-        if(dp[currIdx][prevIdx+1] != -1) return dp[currIdx][prevIdx+1];
-
-        int skip = longest(currIdx+1, prevIdx, nums, dp);
-
-        if(prevIdx == -1 || nums[prevIdx] < nums[currIdx]){
-            int take = 1 + longest(currIdx+1, currIdx, nums, dp);
-            return dp[currIdx][prevIdx+1] = Math.max(take, skip);
+        for(int prevIdx=-1; prevIdx < n-1; prevIdx++){
+            if(prevIdx==-1 || nums[prevIdx] < nums[n-1]){
+                dp[n-1][prevIdx+1] = 1;
+            }
         }
 
-        return dp[currIdx][prevIdx+1] = skip;
+        
 
+        for(int currIdx=n-2; currIdx>=0; currIdx--){
+            for(int prevIdx=currIdx-1; prevIdx >= -1; prevIdx--){
+                int skip = dp[currIdx+1][prevIdx+1];
+                if(prevIdx == -1 || nums[prevIdx] < nums[currIdx]){
+                    int take = 1 + dp[currIdx+1][currIdx+1];
+                    dp[currIdx][prevIdx+1] = Math.max(take, skip);
+                }
+                else dp[currIdx][prevIdx+1] = skip;
+            }
+        }
+        
+        return dp[0][0];
     }
+
+    
 }
