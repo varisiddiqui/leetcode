@@ -12,7 +12,7 @@ class Solution {
                         int skip = 0+dp[i+1][1][left];
                         profit = Math.max(take, skip);
                     }
-                    else if(buy==0 && left>0){
+                    else if(buy==0){
                         int take = prices[i]+dp[i+1][1][left-1];
                         int skip = 0+dp[i+1][0][left];
                         profit = Math.max(take, skip);
