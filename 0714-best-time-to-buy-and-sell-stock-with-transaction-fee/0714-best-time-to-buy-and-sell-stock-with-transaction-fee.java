@@ -1,22 +1,23 @@
 class Solution {
     public int maxProfit(int[] prices, int fee) {
-         int n = prices.length;
+        int n  = prices.length;
 
         int dp[][] = new int[n+1][2];
-        //starts from the ith day
 
-        dp[n][0]=dp[n][1]=0;//base cases no days left
         for(int i=n-1; i>=0; i--){
-            int profit=0;
-            for(int j=0; j<=1; j++){
-                if(j==1){//buy
-                    profit = Math.max(-prices[i]+dp[i+1][0], dp[i+1][1]); //bought, skipped
+            for(int buy=0; buy<=1; buy++){
+                if(buy == 1){
+                    int take = -prices[i]+dp[i+1][0];
+                    int skip = 0+dp[i+1][1];
+                    dp[i][buy] = Math.max(take, skip);
                 }
                 else{
-                    profit = Math.max(prices[i]-fee+dp[i+1][1], dp[i+1][0]); //sold,skipped
+                    int sell = prices[i] + dp[i+1][1] - fee;
+                    int skip = 0 + dp[i+1][0];
+                    dp[i][buy] = Math.max(sell, skip);
                 }
-                dp[i][j] = profit;
             }
+
         }
         return dp[0][1];
     }
