@@ -1,30 +1,35 @@
 class Solution {
     public int lengthOfLIS(int[] nums) {
         int n = nums.length;
+       
+        List<Integer> li = new ArrayList<>();
+        li.add(nums[0]);
 
-        int dp[][] = new int[n][n+1];
-
-        for(int prevIdx=-1; prevIdx < n-1; prevIdx++){
-            if(prevIdx==-1 || nums[prevIdx] < nums[n-1]){
-                dp[n-1][prevIdx+1] = 1;
-            }
+        for(int i=1; i<n; i++){
+            int idx = lowerBound(li, nums[i]);
+            if(idx == li.size()) li.add(nums[i]);
+            else 
+            li.set(idx, nums[i]);
         }
-
-        
-
-        for(int currIdx=n-2; currIdx>=0; currIdx--){
-            for(int prevIdx=currIdx-1; prevIdx >= -1; prevIdx--){
-                int skip = dp[currIdx+1][prevIdx+1];
-                if(prevIdx == -1 || nums[prevIdx] < nums[currIdx]){
-                    int take = 1 + dp[currIdx+1][currIdx+1];
-                    dp[currIdx][prevIdx+1] = Math.max(take, skip);
-                }
-                else dp[currIdx][prevIdx+1] = skip;
-            }
-        }
-        
-        return dp[0][0];
+        System.out.println(li);
+        return li.size();
     }
 
-    
+    public int lowerBound(List<Integer> li, int key){
+        int low=0;
+        int high = li.size()-1;
+
+        while(low <= high){
+            int mid = low + (high-low)/2;
+
+            if(key <= li.get(mid)){
+
+                high = mid-1;
+            }
+
+            else low = mid+1;
+        }
+
+        return low;
+    }
 }
