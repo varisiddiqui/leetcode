@@ -1,38 +1,34 @@
 class Solution {
     public int maxCoins(int[] nums) {
-        if(nums.length == 1)
-        return nums[0];
+        int n = nums.length;
 
-        int a[] = new int[nums.length+2];
-        a[0]=1;
-        for(int i=0; i<nums.length; i++){
-            a[i+1]=nums[i];
-        }
-        a[a.length-1]=1;
-        
-        int dp[][] = new int[a.length][a.length];
-        int n = a.length;
-        
-        for(int i=0; i<n; i++)
-        dp[i][i] = a[i];
+        int num[] = new int[n+2];
+        num[0]=1;
+        num[n+1]=1;
 
-        for(int i=n-1; i>=0; i--){
-            for(int j=i+1; j<n; j++){
-                int min = 0;
-                for(int k=i+1; k<j; k++){
-                    int c1 = a[i]*a[k]*a[j];
-                    int c2 = dp[i][k];
-                    int c3 = dp[k][j];
-                    min = Math.max(min, c1+c2+c3);
-                }
-                dp[i][j]=min;
-            }
-        }
+        int dp[][] = new int[n+2][n+2];
 
-        return dp[0][n-1];
-        
-        
+        for(int i=0; i<n; i++) num[i+1] = nums[i];
+
+        for(int i=0; i<n+2; i++) Arrays.fill(dp[i], -1);
+
+        return maxC(1, n, num, dp);
+
     }
 
-   
+    public int maxC(int i, int j, int num[], int dp[][]){
+        if(i>j) return 0;
+
+        if(dp[i][j] != -1) return dp[i][j];
+        int maxCoins=0;
+
+        for(int k=i; k<=j; k++){
+            int left = maxC(i, k-1, num, dp);
+            int right = maxC(k+1, j, num, dp);
+            int cost = num[i-1]*num[k]*num[j+1];
+            maxCoins = Math.max(maxCoins, left+right+cost); 
+        }
+
+        return dp[i][j] = maxCoins;
+    }
 }
