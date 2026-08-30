@@ -1,35 +1,34 @@
 class Solution {
     public int minCost(int n, int[] cuts) {
         Arrays.sort(cuts);
-        int l=cuts.length;
+        int l = cuts.length;
 
-        int c[] = new int[l+2];
-        for(int i=0; i<l; i++) c[i+1] = cuts[i];
-        c[l+1] = n;
+        int c[] = new int[l + 2];
+        for (int i = 0; i < l; i++)
+            c[i + 1] = cuts[i];
+           c[l + 1] = n;
 
+        int dp[][] = new int[l + 2][l + 2];
 
-        int dp[][] = new int[l+2][l+2];
-        for(int i=0; i<l+2; i++) Arrays.fill(dp[i], -1);
-        return minC(0, l+1, c, dp);
-    }
+        for (int i = 0; i < l + 2; i++)
+            dp[i][i] = 0;
 
-    public int minC(int i, int j, int c[], int dp[][]){
-        if(i>=j) return 0;
+        for (int i = l + 1; i >= 0; i--) {
+            for (int j = i + 1; j < l + 2; j++) {
+                int minCost = Integer.MAX_VALUE;
+                for (int k = i + 1; k < j; k++) {
 
-        int minCost=Integer.MAX_VALUE;
+                    int leftCut = dp[i][k];
+                    int rightCut = dp[k][j];
+                    int totalCost = leftCut + rightCut + c[j] - c[i];
+                    minCost = Math.min(minCost, totalCost);
+                }
 
-        if(dp[i][j] != -1) return dp[i][j];
-        
-
-        for(int k=i+1; k<j; k++){
-           
-                int leftCut = minC(i, k, c, dp);
-                int rightCut = minC(k, j, c, dp);
-                int totalCost = leftCut +  rightCut + c[j]-c[i];
-                minCost = Math.min(minCost, totalCost);
-            
+                dp[i][j] = minCost==Integer.MAX_VALUE?0:minCost;
+            }
         }
-   
-        return dp[i][j] = minCost==Integer.MAX_VALUE?0:minCost;
+        return dp[0][l+1];
     }
+
+    
 }
