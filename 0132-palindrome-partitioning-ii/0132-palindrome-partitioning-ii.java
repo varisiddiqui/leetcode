@@ -1,59 +1,44 @@
 class Solution {
+    int ans=Integer.MAX_VALUE;
     public int minCut(String s) {
         int n = s.length();
-        boolean pal[][] = buildPalindromeDP(s);
         int dp[] = new int[n];
-        Arrays.fill(dp, -1);
-        return min(0, s, pal, dp);
+        Arrays.fill(dp,-1);
 
+        return part(0, s, dp)-1;
+        
         
     }
 
-    
-    public static boolean[][] buildPalindromeDP(String s) {
-        int n = s.length();
-        boolean[][] isPalindrome = new boolean[n][n];
-
-        // length 1 substrings
-        for (int i = 0; i < n; i++) {
-            isPalindrome[i][i] = true;
+    public int part(int idx, String s, int dp[]){
+        if(idx == s.length()){
+            return 0;
         }
 
-        // length 2 substrings
-        for (int i = 0; i < n - 1; i++) {
-            if (s.charAt(i) == s.charAt(i + 1)) {
-                isPalindrome[i][i + 1] = true;
+        if(dp[idx] != -1) return dp[idx];
+
+        int cuts=s.length()+2;
+        
+        //if(dp[idx] != -1) return dp[i];
+
+        for(int i=idx; i<s.length(); i++){
+            if(isPal(idx, i, s)){
+                
+               //System.out.println(li);
+                
+               cuts = Math.min(cuts, 1+part(i+1, s, dp));
+                
             }
         }
-
-        // length >= 3 substrings
-        for (int len = 3; len <= n; len++) {
-            for (int i = 0; i <= n - len; i++) {
-                int j = i + len - 1;
-                if (s.charAt(i) == s.charAt(j) && isPalindrome[i + 1][j - 1]) {
-                    isPalindrome[i][j] = true;
-                }
-            }
-        }
-
-        return isPalindrome;
+        return dp[idx] = cuts;
     }
 
-    public int min(int i, String str, boolean isPal[][], int dp[]){
-        if(isPal[i][str.length()-1])
-        return 0;
-        if(dp[i] != -1)
-        return dp[i];
-
-        int minCost=Integer.MAX_VALUE;
-
-        for(int j=i; j<str.length()-1; j++){
-            if(isPal[i][j]){
-                minCost = Math.min(minCost, 1+min(j+1, str, isPal, dp));
-            }
+    public boolean isPal(int st, int end, String s){
+        while(st < end){
+            if(s.charAt(st) != s.charAt(end)) return false;
+            st++;
+            end--;
         }
-        return dp[i]=minCost;
-
-
+        return true;
     }
 }
