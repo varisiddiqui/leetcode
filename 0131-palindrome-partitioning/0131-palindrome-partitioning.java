@@ -1,32 +1,32 @@
 class Solution {
     List<List<String>> ans = new ArrayList<>();
     public List<List<String>> partition(String s) {
-        poss(new ArrayList<>(), 0, s);
+        part(0, s, new ArrayList<>());
         return ans;
-    }   
+    }
 
-    public boolean isPal(String s, int st, int end){
+    public void part(int idx, String s, List<String> li){
+        if(idx == s.length()){
+            ans.add(new ArrayList<>(li));
+            return;
+        }
 
+        for(int i=idx; i<s.length(); i++){
+            if(isPal(idx, i, s)){
+                li.add(s.substring(idx, i+1));
+               //System.out.println(li);
+                part(i+1, s, li);
+                li.remove(li.size()-1);
+            }
+        }
+    }
+
+    public boolean isPal(int st, int end, String s){
         while(st < end){
             if(s.charAt(st) != s.charAt(end)) return false;
             st++;
             end--;
         }
         return true;
-    }
-
-    public void poss(List<String> curr, int idx, String s){
-        if(idx == s.length()){
-            ans.add(new ArrayList<>(curr));
-            return;
-        }
-
-        for(int i=idx ; i<s.length(); i++){
-            if(isPal(s, idx, i)){
-                curr.add(s.substring(idx, i+1));
-                poss(curr, i+1, s);
-                curr.remove(curr.size()-1);
-            }
-        }
     }
 }
