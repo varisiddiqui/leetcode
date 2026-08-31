@@ -5,12 +5,21 @@ class Solution {
         int dp[] = new int[n];
         Arrays.fill(dp,-1);
 
-        return part(0, s, dp)-1;
+        boolean isPal[][] = new boolean[n][n];
+
+        for(int i=0; i<n; i++){
+            for(int j=i; j<n; j++){
+                if(isPal(i, j, s)) isPal[i][j] = true;
+                else isPal[i][j] = false;
+            }
+        }
+
+        return part(0, s, dp, isPal)-1;
         
         
     }
 
-    public int part(int idx, String s, int dp[]){
+    public int part(int idx, String s, int dp[], boolean isPal[][]){
         if(idx == s.length()){
             return 0;
         }
@@ -22,11 +31,11 @@ class Solution {
         //if(dp[idx] != -1) return dp[i];
 
         for(int i=idx; i<s.length(); i++){
-            if(isPal(idx, i, s)){
+            if(isPal[idx][i]){
                 
                //System.out.println(li);
                 
-               cuts = Math.min(cuts, 1+part(i+1, s, dp));
+               cuts = Math.min(cuts, 1+part(i+1, s, dp, isPal));
                 
             }
         }
