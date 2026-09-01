@@ -1,47 +1,42 @@
 class Solution {
     public int findCircleNum(int[][] isConnected) {
-        int v = isConnected.length;
+        int n = isConnected.length;
 
-        int par[] = new int[v];
-        int sz[] = new int[v];
+        
+        List<Integer> graph[] = new ArrayList[n];
 
-        for(int i=0; i<v; i++){
-            par[i]=i;
-            sz[i]=1;
-        }
+        Arrays.setAll(graph, (i) -> new ArrayList<>());
 
-        for(int i=0; i<v; i++){
-            for(int j=0; j<v; j++){
-                if(isConnected[i][j] == 0) continue;
-                if(find(par, i) == find(par, j)) continue;
-                union(par, sz, i, j);
+        for(int i=0; i<n; i++){
+            int curr = i;
+            for(int j=0; j<n; j++){
+                int neigh = j;
+                if(isConnected[i][j] == 1){
+                    graph[curr].add(neigh);
+                }
             }
         }
 
-        Set<Integer> lead = new HashSet<>();
-
-        for(int i=0; i<v; i++) lead.add(find(par, i));
-        return lead.size();
-    }
-
-    static int find(int par[], int x){
-        if(x == par[x]) return x;
-        else return par[x] = find(par, par[x]);
-    }
-
-    static void union(int par[], int sz[], int x, int y){
-        int leadX = find(par, x);
-        int leadY = find(par, y);
-
-        if(leadX == leadY) return;
-
-        if(sz[leadX]>sz[leadY]){
-            par[leadY] = leadX;
-            sz[leadX] += sz[leadY];
+        int prv=0;
+        boolean vis[] = new boolean[n];
+        for(int i=0; i<n; i++){
+            if(!vis[i]){
+                dfs(graph, vis, i);
+                prv++;
+            }
         }
-        else{
-            par[leadX] = leadY;
-            sz[leadY] += sz[leadX];
+        return prv;
+
+
+    }
+
+    public void dfs(List<Integer> graph[], boolean vis[], int curr){
+        vis[curr] = true;
+
+        for(int neigh: graph[curr]){
+            if(!vis[neigh]){
+                dfs(graph, vis, neigh);
+            }
         }
     }
 }
