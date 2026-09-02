@@ -7,14 +7,14 @@ class Solution {
         int prv=0;
 
         for(int i=0; i<n; i++){
-            for(int j=0; j<n; j++){
+            
                
-                if(isConnected[i][j]==1 && !vis[j]){
-                    vis[j] = true;
-                    dfs(j, vis, isConnected);
+                if(!vis[i]){
+                    vis[i] = true;
+                    dfs(i, vis, isConnected);
                     prv++;
                 }
-            }
+            
         }
         return prv;
 
