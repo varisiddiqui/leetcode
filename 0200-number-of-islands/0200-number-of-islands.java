@@ -1,38 +1,56 @@
 class Solution {
     public int numIslands(char[][] grid) {
-        int r = grid.length;
-        int c = grid[0].length;
+        int m = grid.length;
+        int n = grid[0].length;
 
-        boolean vis[][] = new boolean[r][c];
-        int count=0;
+        boolean vis[][] = new boolean[m][n];
 
-        for(int i=0; i<r; i++){
-            for(int j=0; j<c; j++){
-                
-                if(grid[i][j]=='1' && !vis[i][j]){
-                    dfs(i, j, vis, grid);
-                    count++;
+        int islands=0;
+
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
+                if(grid[i][j] == '1' && !vis[i][j]){
+                    //System.out.println(islands);
+                    bfs(i, j, vis, grid);
+                    islands++;
                 }
             }
         }
-        return count;
+
+        return islands;
+
+
     }
 
-    public void dfs(int i, int j, boolean vis[][], char graph[][]){
-        if(graph[i][j] == '0' || vis[i][j]) return;
+    public void bfs(int r, int c, boolean vis[][], char grid[][]){
+        Queue<int[]> q = new LinkedList<>();
+        int m = grid.length;
+        int n = grid[0].length;
 
-        vis[i][j]=true;
+        q.add(new int[]{r, c});
+        vis[r][c] = true;
+        int d[][] = {{-1,0}, {0,-1}, {1,0}, {0,1}};
 
-        if(i+1<graph.length)
-        dfs(i+1, j, vis, graph);
-        if(i-1>=0)
-        dfs(i-1, j, vis, graph);
-        if(j+1<graph[0].length)
-        dfs(i, j+1, vis, graph);
-        if(j-1>=0)
-        dfs(i, j-1, vis, graph);
+        while(!q.isEmpty()){
+            int sz = q.size();
+
+            
+
+            for(int i=0; i<sz; i++){
+                int top[] = q.remove();
+                
+                for(int j=0; j<4; j++){
+                    int row = d[j][0]+top[0];
+                    int col = d[j][1]+top[1];
+                    
+                    if(row>=0 && row<m && col>=0 && col<n && grid[row][col]=='1' && !vis[row][col]){
+                        vis[row][col]=true;
+                        q.add(new int[]{row, col});
+                    }
+                }
+
+            }
+        }
+        
     }
-
-    
-
 }
