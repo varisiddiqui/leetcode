@@ -1,70 +1,65 @@
 class Solution {
-    public int orangesRotting(int[][] graph) {
-        int r = graph.length;
-        int c = graph[0].length;
+    public int orangesRotting(int[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
 
-        //boolean vis[][] = new boolean[r][c];
         Queue<int[]> q = new LinkedList<>();
-        int freshCount=0;
-        for(int i=0; i<r; i++){
-            for(int j=0; j<c; j++){
-                if(graph[i][j] == 2) 
-                q.add(new int[]{i, j, 0});
-                else if(graph[i][j] == 1) freshCount++;
+
+        int min=0;
+
+        //insert all rotten oranges once
+
+        boolean vis[][] = new boolean[m][n];
+
+        int count1=0;
+        int actuall=0;
+
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
+                if(grid[i][j] == 2){
+                    q.add(new int[]{i, j});
+                    vis[i][j] = true;
+                }
+                if(grid[i][j]==1) count1++;
             }
         }
-
-        int count=0;
-
-        count = bfs(q, graph, freshCount);
-
-       
-
-        return count;
+        if(count1 == 0) return 0;
         
-    }
-
-    public int bfs(Queue<int[]> q, int graph[][], int freshCount){
-        int r = graph.length;
-        int c = graph[0].length;
-        int max=0;
-        int fresh=0;
-
         while(!q.isEmpty()){
-            int arr[] = q.remove();
+            int sz = q.size();
+            min++;
 
-            int i=arr[0];
-            int j=arr[1];
-            
-            max = Math.max(max, arr[2]);
+            for(int i=0; i<sz; i++){
+                int curr[] = q.remove();
+                int row = curr[0];
+                int col = curr[1];
 
-            if(i+1<r && graph[i+1][j] == 1){
-                graph[i+1][j]=2;
-                q.add(new int[]{i+1, j, arr[2]+1});
-                fresh++;
+                if(row+1 < m && grid[row+1][col] == 1 && !vis[row+1][col]){
+                    vis[row+1][col] = true;
+                    q.add(new int[]{row+1, col});
+                    actuall++;
+                }
+                if(row-1 >= 0  && grid[row-1][col] == 1 && !vis[row-1][col]){
+                    vis[row-1][col] = true;
+                    q.add(new int[]{row-1, col});
+                    actuall++;
+                }
+                if(col+1 < n && grid[row][col+1] == 1 && !vis[row][col+1]){
+                    vis[row][col+1] = true;
+                    q.add(new int[]{row, col+1});
+                    actuall++;
+                }
+                if(col-1 >= 0 && grid[row][col-1] == 1 && !vis[row][col-1]){
+                    vis[row][col-1] = true;
+                    q.add(new int[]{row, col-1});
+                    actuall++;
+                }
             }
-
-            if(i-1>=0 && graph[i-1][j] == 1){
-                graph[i-1][j]=2;
-                q.add(new int[]{i-1, j, arr[2]+1});
-                fresh++;
-            }
-
-            if(j+1<c && graph[i][j+1] == 1){
-                graph[i][j+1]=2;
-                q.add(new int[]{i, j+1, arr[2]+1});
-                fresh++;
-            }
-
-            if(j-1>=0 && graph[i][j-1]==1){
-                graph[i][j-1] = 2;
-                q.add(new int[]{i, j-1, arr[2]+1});
-                fresh++;
-            }
-
-
         }
+        //System.out.println(actuall+" "+count1);
 
-        return (fresh == freshCount)? max: -1;
+        if(actuall != count1) return -1;
+
+        return min==1?0:min-1;
     }
 }
