@@ -1,65 +1,56 @@
 class Solution {
-    public int[] findOrder(int v, int[][] grid) {
+    public int[] findOrder(int n, int[][] prerequisites) {
+        int ans[] = new int[n];
+        
         @SuppressWarnings("unchecked")
-        List<Integer> graph[] = new ArrayList[v];
-        Arrays.setAll(graph, i -> new ArrayList<>());
-        for(int i=0; i<grid.length; i++){
-            int src = grid[i][0];
-            int des = grid[i][1];
-            graph[src].add(des);
+        List<Integer> graph[] = new ArrayList[n];
+
+        Arrays.setAll(graph, (i) -> new ArrayList<>());
+
+        for(int edg[]: prerequisites){
+            int u = edg[1];
+            int v = edg[0];
+            graph[u].add(v);
         }
 
-        boolean vis[] = new boolean[v];
-        boolean pathVis[] = new boolean[v];
-        Stack<Integer> ans = new Stack<>();
+        boolean vis[] = new boolean[n];
+        boolean pathVis[] = new boolean[n];
+        Stack<Integer> st = new Stack<>();
 
-        for(int i=0; i<v; i++){
+        for(int i=0; i<n; i++){
             if(!vis[i]){
-                if(isCycle(i, vis, pathVis, graph)) return new int[]{};
-            }
-        }
-        vis = new boolean[v];
-        for(int i=0; i<v; i++){
-            if(!vis[i]){
-                dfs(i, ans, vis, graph);
+                if(isCycle(i, graph, vis, pathVis, st)) return new int[]{};
             }
         }
 
-        int arr[] = new int[v];
-        int k=v-1;
-        while(!ans.isEmpty()){
-            arr[k--] = ans.pop();
+        int k=0;
+        
+        while(!st.isEmpty()){
+            ans[k++]=st.pop();
         }
-        return arr;
+        return ans;
 
 
-               
+        
     }
 
-    public void dfs(int curr, Stack<Integer> ans, boolean vis[], List<Integer> graph[]){
-        vis[curr] = true;
-        List<Integer> li = graph[curr];
-        for(int i=0; i<li.size(); i++){
-            if(!vis[li.get(i)]){
-                dfs(li.get(i), ans, vis, graph);
-            } 
-        }
-        ans.add(curr);
-    }
+    public boolean isCycle(int curr, List<Integer> graph[], boolean vis[], boolean pathVis[], Stack<Integer> st){
+        vis[curr]=true;
+        pathVis[curr]=true;
 
-    public boolean isCycle(int curr, boolean vis[], boolean pathVis[], List<Integer> graph[]){
-        vis[curr] = true;
-        pathVis[curr] = true;
-
-        List<Integer> li = graph[curr];
-
-        for(int i=0; i<li.size(); i++){
-            if(!vis[li.get(i)]){
-                if(isCycle(li.get(i), vis, pathVis, graph)) return true;
+        for(int neigh: graph[curr]){
+            if(!vis[neigh]){
+                if(isCycle(neigh, graph, vis, pathVis, st)){
+                    return true;
+                }
             }
-            else if(pathVis[li.get(i)]) return true;
+            else if(pathVis[neigh]){
+                    return true;
+                }
         }
-        pathVis[curr] = false;
+
+        pathVis[curr]=false;
+        st.push(curr);
         return false;
     }
 }
