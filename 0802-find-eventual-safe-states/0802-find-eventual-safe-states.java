@@ -15,38 +15,38 @@ class Solution {
         
         boolean vis[] = new boolean[v];
         boolean pathVis[] = new boolean[v];
-        boolean isSafe[] = new boolean[v];
-        Arrays.fill(isSafe, true);
+        
+        
 
         for(int i=0; i<v; i++){
             if(!vis[i]){
-                isCycle(i, graph, vis, pathVis, isSafe);
+                isCycle(i, graph, vis, pathVis);
             }
         }
 
         List<Integer> safe = new ArrayList<>();
 
         for(int i=0; i<v; i++){
-            if(isSafe[i]) safe.add(i);
+            if(!pathVis[i]) safe.add(i);
         }
 
         return safe;
 
     }
 
-    public boolean isCycle(int curr, List<Integer> graph[], boolean vis[], boolean pathVis[], boolean isSafe[]){
+    public boolean isCycle(int curr, List<Integer> graph[], boolean vis[], boolean pathVis[]){
         vis[curr]=true;
         pathVis[curr]=true;
 
         for(int neigh: graph[curr]){
             if(!vis[neigh]){
-                if(isCycle(neigh, graph, vis, pathVis, isSafe)){
-                    isSafe[curr]=false;
+                if(isCycle(neigh, graph, vis, pathVis)){
+                   
                     return true;
                 }
             }
             else if(pathVis[neigh]){
-                isSafe[curr]=false;
+               
                 return true;
             }
             
