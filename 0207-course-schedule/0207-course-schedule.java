@@ -1,40 +1,39 @@
 class Solution {
-    public boolean canFinish(int v, int[][] grid) {
+    public boolean canFinish(int n, int[][] prerequisites) {
         @SuppressWarnings("unchecked")
-        List<Integer> graph[] = new ArrayList[v];
-        Arrays.setAll(graph, i -> new ArrayList<>());
-        for(int i=0; i<grid.length; i++){
-            int src = grid[i][0];
-            int des = grid[i][1];
-            graph[src].add(des);
+        List<Integer> graph[] = new ArrayList[n];
+
+        Arrays.setAll(graph, (i) -> new ArrayList<>());
+
+        for(int edg[]: prerequisites){
+            int u = edg[0];
+            int v = edg[1];
+            graph[u].add(v);
         }
 
-        boolean vis[] = new boolean[v];
-        boolean pathVis[] = new boolean[v];
+        boolean vis[] = new boolean[n];
+        boolean pathVis[] = new boolean[n];
 
-        for(int i=0; i<v; i++){
+        for(int i=0; i<n; i++){
             if(!vis[i]){
-                if(isCycle(i, vis, pathVis, graph)) return false;
+                if(isCycle(i, graph, vis, pathVis)) return false;
             }
         }
-        return true;        
-        
-        
+        return true;
     }
 
-    public boolean isCycle(int curr, boolean vis[], boolean pathVis[], List<Integer> graph[]){
-        vis[curr] = true;
-        pathVis[curr] = true;
+    public boolean isCycle(int curr, List<Integer> graph[], boolean vis[], boolean pathVis[]){
+        vis[curr]=true;
+        pathVis[curr]=true;
 
-        List<Integer> li = graph[curr];
-
-        for(int i: li){
-            if(!vis[i]){
-                if(isCycle(i, vis, pathVis, graph)) return true;
+        for(int neigh: graph[curr]){
+            if(!vis[neigh]){
+                if(isCycle(neigh, graph, vis, pathVis)) return true;
             }
-            else if(pathVis[i]) return true;
+            else if(pathVis[neigh]) return true;
         }
-        pathVis[curr] = false;
+
+        pathVis[curr]=false;
         return false;
     }
 }
