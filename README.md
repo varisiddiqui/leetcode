@@ -1548,6 +1548,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph Theory
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/varisiddiqui/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/varisiddiqui/leetcode/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0547-number-of-provinces](https://github.com/varisiddiqui/leetcode/tree/master/0547-number-of-provinces) |
@@ -1652,6 +1653,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Directed Acyclic Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/varisiddiqui/leetcode/tree/master/0207-course-schedule) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 ## Complete Knapsack
 |  |
