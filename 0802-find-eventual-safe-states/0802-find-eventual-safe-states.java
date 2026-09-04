@@ -49,10 +49,7 @@ class Solution {
                 isSafe[neigh]=false;
                 return true;
             }
-            else if(!isSafe[neigh]){
-                isSafe[curr]=false;
-                return true;
-            }
+            
             
         }
         isSafe[curr]=true;
