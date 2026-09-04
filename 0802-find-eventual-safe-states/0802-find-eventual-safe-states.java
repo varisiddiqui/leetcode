@@ -1,45 +1,62 @@
 class Solution {
-    public List<Integer> eventualSafeNodes(int[][] graph) {
-        int v = graph.length;
+    public List<Integer> eventualSafeNodes(int[][] g) {
+        int v = g.length;
+
+        @SuppressWarnings("unchecked")
+        List<Integer> graph[] = new ArrayList[v];
+
+        Arrays.setAll(graph, (i) -> new ArrayList<>());
+
+        for(int i=0; i<v; i++){
+            for(int neigh: g[i]){
+                graph[i].add(neigh);
+            }
+        }
+        
         boolean vis[] = new boolean[v];
         boolean pathVis[] = new boolean[v];
-        boolean safe[] = new boolean[v];
+        boolean isSafe[] = new boolean[v];
+        //Arrays.fill(isSafe, true);
 
         for(int i=0; i<v; i++){
             if(!vis[i]){
-                dfs(i, vis, pathVis, safe, graph);
+                isCycle(i, graph, vis, pathVis, isSafe);
             }
         }
-        List<Integer> li = new ArrayList<>();
+
+        List<Integer> safe = new ArrayList<>();
 
         for(int i=0; i<v; i++){
-            if(safe[i]) li.add(i);
+            if(isSafe[i]) safe.add(i);
         }
 
-        return li;
+        return safe;
 
     }
 
-    public boolean dfs(int curr, boolean vis[], boolean pathVis[], boolean safe[], int graph[][]){
-        vis[curr] = true;
-        pathVis[curr] = true;
-        safe[curr] = false;
+    public boolean isCycle(int curr, List<Integer> graph[], boolean vis[], boolean pathVis[], boolean isSafe[]){
+        vis[curr]=true;
+        pathVis[curr]=true;
 
         for(int neigh: graph[curr]){
             if(!vis[neigh]){
-                if(dfs(neigh, vis, pathVis, safe, graph)){
-                    safe[curr] = false;
+                if(isCycle(neigh, graph, vis, pathVis, isSafe)){
+                    isSafe[neigh]=false;
                     return true;
                 }
             }
             else if(pathVis[neigh]){
-                safe[neigh] = false;
+                isSafe[neigh]=false;
                 return true;
             }
+            else if(!isSafe[neigh]){
+                isSafe[curr]=false;
+                return true;
+            }
+            
         }
-
-        safe[curr] = true;
-        pathVis[curr] = false;
+        isSafe[curr]=true;
+        pathVis[curr]=false;
         return false;
     }
 }
