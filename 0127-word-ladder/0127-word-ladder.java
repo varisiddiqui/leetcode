@@ -1,79 +1,42 @@
 class Solution {
-    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        wordList.add(beginWord);
-        int n = wordList.size();
+    static class Pair{
+        String node;
+        int dist;
 
-        Map<String, List<String>> graph = new HashMap<>();
-        Map<String, Boolean> vis = new HashMap<>();
-
-        
-
-        for(String str: wordList) {
-            graph.put(str, new ArrayList<>());
-            vis.put(str, false);
+        public Pair(String node, int dist){
+            this.node = node;
+            this.dist = dist;
         }
-
-        for(int i=0; i<n; i++){
-            for(int j=0; j<n; j++){
-                if(i == j) continue;
-                if(isValid(wordList.get(i), wordList.get(j))){
-                    graph.get(wordList.get(i)).add(wordList.get(j));
-                    graph.get(wordList.get(j)).add(wordList.get(i));
-                }
-            }
-        }
-
-       
-
-        int level=0;
-
-        Queue<String> q = new LinkedList<>();
-
-        vis.put(beginWord, true);
-        q.add(beginWord);
-
-        while(!q.isEmpty()){
-            int sz= q.size();
-            level++;
-
-            for(int i=0; i<sz; i++){
-                String curr = q.remove();
-
-                for(String neigh: graph.get(curr)){
-                    if(neigh.equals(endWord)) return level+1;
-                    if(!vis.get(neigh)){
-                        q.add(neigh);
-                        vis.put(neigh, true);
-                    }
-                }
-            }
-        }
-
-        return 0;
-        
-
-
     }
 
-    public boolean isValid(String s1, String s2){
-        int n1 = s1.length();
-        int n2 = s2.length();
+    public int ladderLength(String beginWord, String endWord, List<String> wordList) {
+        Set<String> set = new HashSet<>(wordList);
+        
+        Queue<Pair> q = new LinkedList<>();
 
-       
-        int lf=1;
+        q.add(new Pair(beginWord, 1));
 
-        int i=0;
+        while(!q.isEmpty()){
+            Pair curr = q.remove();
+            if(curr.node.equals(endWord)) return curr.dist;
 
-        int l = Math.min(n1, n2);
+            
 
-        while(i<l){
-            if(s1.charAt(i) != s2.charAt(i) && lf == 0) break;
-            else if(s1.charAt(i) != s2.charAt(i) && lf==1) lf=0;
+            for(int i=0; i<curr.node.length(); i++){
+                StringBuilder str = new StringBuilder(curr.node);
+                for(char c = 'a'; c<='z'; c++){
+                    str.setCharAt(i, c);
+                    String t = str.toString();
+                    if(set.contains(t)){
+                        q.add(new Pair(t, curr.dist+1));
+                        set.remove(t);
+                    }
 
-            i++;
+                }
+            }
         }
-       
+        return 0;
 
-        return i==n1;
+
     }
 }
