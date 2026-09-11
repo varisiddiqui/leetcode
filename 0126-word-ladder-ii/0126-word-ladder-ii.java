@@ -1,103 +1,98 @@
 class Solution {
 
-    // To store the final answers
+    
+    String b;
     List<List<String>> ans = new ArrayList<>();
+    Map<String, Integer> map = new HashMap<>();
+    static class Pair{
+        String node;
+        int dist;
 
-    // Map to store minimum steps (distance) from beginWord to each word
-    Map<String, Integer> mpp = new HashMap<>();
+        public Pair(String node, int dist){
+            this.node = node;
+            this.dist = dist;
+        }
+    }
 
-    String b; // beginWord
+    public void dfs(String word, List<String> li){
 
-    /*
-     * DFS function to backtrack paths from endWord to beginWord
-     */
-    private void dfs(String word, List<String> seq) {
-
-        // If we reached beginWord, reverse path and add to answer
-        if (word.equals(b)) {
-            List<String> dup = new ArrayList<>(seq);
-            Collections.reverse(dup);
-            ans.add(dup);
+        if(word.equals(b)){
+            List<String> t = new ArrayList<>(li);
+            Collections.reverse(t);
+            ans.add(new ArrayList<>(t));
             return;
         }
+        
+        for(int i=0; i<word.length(); i++){
+            StringBuilder str = new StringBuilder(word);
+            for(char ch='a'; ch<='z'; ch++){
+                str.setCharAt(i, ch);
+                String s = str.toString();
 
-        int steps = mpp.get(word);
-        int len = word.length();
-
-        // Try changing each character
-        for (int i = 0; i < len; i++) {
-            char[] arr = word.toCharArray();
-
-            for (char ch = 'a'; ch <= 'z'; ch++) {
-                arr[i] = ch;
-                String replacedWord = new String(arr);
-
-                // Check if previous step word exists
-                if (mpp.containsKey(replacedWord)
-                        && mpp.get(replacedWord) == steps - 1) {
-
-                    seq.add(replacedWord);
-                    dfs(replacedWord, seq);
-                    seq.remove(seq.size() - 1); // backtrack
+                if(map.containsKey(s) && map.get(s) == map.get(word)-1){
+                    li.add(s);
+                    dfs(s, li);
+                    li.remove(li.size()-1);
                 }
             }
         }
     }
 
-    public List<List<String>> findLadders(
-            String beginWord,
-            String endWord,
-            List<String> wordList) {
 
-        // Store beginWord globally for DFS
+     
+
+    public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
+
+        
+        
         b = beginWord;
+        
+        //finding the  shortest dist from the beginWord
 
-        // Set for fast lookup
-        Set<String> st = new HashSet<>();
-        for (String it : wordList) st.add(it);
+        
 
-        // Queue for BFS
-        Queue<String> q = new LinkedList<>();
-        q.add(beginWord);
+        Set<String> set = new HashSet<>();
+        
+        for(String s: wordList) set.add(s);
 
-        // Distance of beginWord is 1
-        mpp.put(beginWord, 1);
+        set.remove(beginWord);
 
-        // Remove beginWord so it won't be reused
-        st.remove(beginWord);
+        Queue<Pair> q = new LinkedList<>();
 
-        int len = beginWord.length();
+        q.add(new Pair(beginWord, 1));
 
-        // ---------------- BFS PART ----------------
-        while (!q.isEmpty()) {
-            String word = q.poll();
-            int steps = mpp.get(word);
+        while(!q.isEmpty()){
+            Pair curr = q.remove();
+            
 
-            // Stop BFS once endWord is found
-            if (word.equals(endWord)) break;
+            String node = curr.node;
+            int dist = curr.dist;
 
-            for (int i = 0; i < len; i++) {
-                char[] arr = word.toCharArray();
+            map.putIfAbsent(node, dist);
 
-                for (char ch = 'a'; ch <= 'z'; ch++) {
-                    arr[i] = ch;
-                    String replacedWord = new String(arr);
+            for(int i=0; i<node.length(); i++){
+                StringBuilder str = new StringBuilder(node);
 
-                    if (st.contains(replacedWord)) {
-                        q.add(replacedWord);
-                        st.remove(replacedWord);
-                        mpp.put(replacedWord, steps + 1);
+                for(char ch='a'; ch<='z'; ch++){
+                    str.setCharAt(i, ch);
+                    String s = str.toString();
+                    if(set.contains(s)){
+                        q.add(new Pair(s, dist+1));
+                        set.remove(s);
                     }
                 }
             }
         }
 
-        // ---------------- DFS PART ----------------
-        if (mpp.containsKey(endWord)) {
-            List<String> seq = new ArrayList<>();
-            seq.add(endWord);
-            dfs(endWord, seq);
-        }
+        List<String> li = new ArrayList<>();
+
+        li.add(endWord);
+
+        if(!map.containsKey(endWord)) return ans;
+
+        dfs(endWord, li);
+
+        
 
         return ans;
     }
