@@ -29,6 +29,8 @@ class Solution {
             int col = top[1];
             int effort = top[2];
 
+            if(effort > minEffort[row][col]) continue;
+
             for(int j=0; j<4; j++){
                 int dr = row+d[j][0];
                 int dc = col+d[j][1];
