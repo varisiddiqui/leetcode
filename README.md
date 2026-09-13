@@ -1566,6 +1566,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0785-is-graph-bipartite](https://github.com/varisiddiqui/leetcode/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/varisiddiqui/leetcode/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/varisiddiqui/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [1631-path-with-minimum-effort](https://github.com/varisiddiqui/leetcode/tree/master/1631-path-with-minimum-effort) |
 ## Linked List
 |  |
 | ------- |
@@ -1694,4 +1695,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0126-word-ladder-ii](https://github.com/varisiddiqui/leetcode/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/varisiddiqui/leetcode/tree/master/0127-word-ladder) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/varisiddiqui/leetcode/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
