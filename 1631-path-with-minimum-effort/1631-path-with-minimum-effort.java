@@ -31,6 +31,8 @@ class Solution {
 
             if(effort > minEffort[row][col]) continue;
 
+            if(row == m-1 && col == n-1) break;
+
             for(int j=0; j<4; j++){
                 int dr = row+d[j][0];
                 int dc = col+d[j][1];
