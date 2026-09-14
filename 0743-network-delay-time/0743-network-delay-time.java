@@ -1,79 +1,48 @@
 class Solution {
-
-    static class Pair {
-        int des;
-        int wt;
-
-        public Pair(int des, int wt) {
-            this.des = des;
-            this.wt = wt;
-        }
-    }
-
-    static class Node {
-        int dist;
-        int v;
-
-        Node(int dist, int v) {
-            this.dist = dist;
-            this.v = v;
-        }
-    }
-
-    public int networkDelayTime(int[][] edges, int v, int src) {
+    public int networkDelayTime(int[][] times, int n, int k) {
         @SuppressWarnings("unchecked")
-        List<Pair>[] graph = new ArrayList[v+1];
-        Arrays.setAll(graph, i -> new ArrayList<>());
+        List<int[]> graph[] = new ArrayList[n+1];
 
-        // build graph
-        for (int i = 0; i < edges.length; i++) {
-            int s = edges[i][0];
-            int des = edges[i][1];
-            int wt = edges[i][2];
-
-            graph[s].add(new Pair(des, wt));
-         
+        Arrays.setAll(graph, (i) -> new ArrayList<>());
+        
+        for(int edg[]: times){
+            graph[edg[0]].add(new int[]{edg[1], edg[2]});
         }
 
-        int[] dist = new int[v+1];
-        Arrays.fill(dist, Integer.MAX_VALUE);
-        dist[src] = 0;
+        Comparator<int[]> cmp = (a, b) -> {
+            return Integer.compare(a[0], b[0]);
+        };
 
-        // TreeSet comparator (distance first, node second)
-        TreeSet<Node> set = new TreeSet<>(
-                (a, b) -> a.dist != b.dist ? a.dist - b.dist : a.v - b.v);
+        PriorityQueue<int[]> pq = new PriorityQueue<>(cmp);
 
-        set.add(new Node(0, src));
+        int time[] = new int[n+1];
+        Arrays.fill(time, Integer.MAX_VALUE);
+        time[k]=0;
 
-        while (!set.isEmpty()) {
+        pq.add(new int[]{0, k}); // time, node
 
-            Node top = set.pollFirst(); // smallest distance
-            int s = top.v;
+        while(!pq.isEmpty()){
+            int top[] = pq.remove();
 
-            for (Pair neigh : graph[s]) {
+            int timeFromK = top[0];
+            int node = top[1];
 
-                if (dist[s] + neigh.wt < dist[neigh.des]) {
+            for(int edg[]: graph[node]){
+                int next = edg[0];
+                int wt = edg[1];
 
-                    // remove old entry if exists
-                    if (dist[neigh.des] != Integer.MAX_VALUE) {
-                        set.remove(new Node(dist[neigh.des], neigh.des));
-                    }
-
-                    dist[neigh.des] = dist[s] + neigh.wt;
-                    set.add(new Node(dist[neigh.des], neigh.des));
+                if(timeFromK+wt < time[next]){
+                    time[next] = timeFromK+wt;
+                    pq.add(new int[]{time[next], next});
                 }
             }
         }
-         int max = Integer.MIN_VALUE;
 
-        for(int i=1; i<v+1; i++){
-            int num = dist[i];
-            if(num == Integer.MAX_VALUE) return -1;
-            max = Math.max(max, num);
-        }
-        return max;
+        int ans = 0;
 
-        
+        for(int i=1; i<n+1; i++) ans = Math.max(ans, time[i]);
+
+        return ans==Integer.MAX_VALUE? -1: ans;
 
     }
 }
