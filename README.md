@@ -1552,6 +1552,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/varisiddiqui/leetcode/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/varisiddiqui/leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0547-number-of-provinces](https://github.com/varisiddiqui/leetcode/tree/master/0547-number-of-provinces) |
+| [0743-network-delay-time](https://github.com/varisiddiqui/leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/varisiddiqui/leetcode/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/varisiddiqui/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/varisiddiqui/leetcode/tree/master/0802-find-eventual-safe-states) |
@@ -1699,5 +1700,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dijkstra's Algorithm
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/varisiddiqui/leetcode/tree/master/0743-network-delay-time) |
 | [1631-path-with-minimum-effort](https://github.com/varisiddiqui/leetcode/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
