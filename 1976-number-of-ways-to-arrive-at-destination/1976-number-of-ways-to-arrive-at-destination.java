@@ -1,29 +1,25 @@
 class Solution {
-    static class Node{
-        int des;
-        int time;
-        public Node(int des, int time){
-            this.des = des;
-            this.time = time;
-        }
-    }
     public int countPaths(int n, int[][] roads) {
         @SuppressWarnings("unchecked")
-        List<Node> graph[] = new ArrayList[n];
-        
-        Arrays.setAll(graph, i -> new ArrayList<>());
+        List<int[]> graph[] = new ArrayList[n];
 
-        for(int i=0; i<roads.length; i++){
-            int src = roads[i][0];
-            int des = roads[i][1];
-            int time = roads[i][2];
-            graph[src].add(new Node(des, time));
-            graph[des].add(new Node(src, time));
+        Arrays.setAll(graph, (i) -> new ArrayList<>());
+
+        for(int edg[]: roads){
+            int u = edg[0];
+            int v = edg[1];
+            int time = edg[2];
+
+            graph[u].add(new int[]{v, time});
+            graph[v].add(new int[]{u, time});
         }
 
         long time[] = new long[n];
+        long dp[] = new long[n];
         Arrays.fill(time, Long.MAX_VALUE);
+
         time[0]=0;
+        dp[0]=1;
 
         Comparator<long[]> cmp = (a, b) -> {
             return Long.compare(a[0], b[0]);
@@ -31,36 +27,45 @@ class Solution {
 
         PriorityQueue<long[]> pq = new PriorityQueue<>(cmp);
 
-        pq.add(new long[]{0, 0});
+        pq.add(new long[]{0, 0}); // time, node
 
-        long ways[] = new long[n];
-        ways[0]=1;
-         int mod = 1_000_000_007;
-        
-        
+        //long ans = Long.MAX_VALUE;
+        long minTime=Long.MAX_VALUE;
+
         while(!pq.isEmpty()){
             long top[] = pq.remove();
-            int curr = (int)top[1];
+        
+
             long t = top[0];
+            int node = (int)top[1];
 
-            
+            if(time[node] < t) continue;
 
-            
-            for(Node neigh: graph[curr]){
-                if((t + neigh.time) < time[neigh.des]){
-                    time[neigh.des] = t+neigh.time;
-                    pq.add(new long[]{time[neigh.des], neigh.des});
-                    ways[neigh.des] = ways[curr];
+            if(node == n-1){
+                if(minTime > t){
+                    minTime=t;
                 }
-                else if((t + neigh.time) == time[neigh.des]){
-                    ways[neigh.des] = (ways[neigh.des]+ways[curr])%mod;
+                else if(minTime == t)
+                continue;
+            }
+
+            for(int neigh[]: graph[node]){
+                int next = neigh[0];
+                int wt = neigh[1];
+
+                if((t+wt) < time[next]){
+                    time[next] = t+wt;
+                    pq.add(new long[]{time[next], next});
+                    dp[next]=dp[node];
+                }
+                else if((t+wt) == time[next]){
+                    dp[next] += dp[node];
+
+                    dp[next] %= (1_000_000_007);
                 }
             }
         }
 
-       
-        return (int)ways[n-1];
-    
-        
+        return (int)(dp[n-1] % 1_000_000_007);
     }
 }
