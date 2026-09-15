@@ -1558,6 +1558,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0802-find-eventual-safe-states](https://github.com/varisiddiqui/leetcode/tree/master/0802-find-eventual-safe-states) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/varisiddiqui/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/varisiddiqui/leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/varisiddiqui/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Union-Find
 |  |
 | ------- |
@@ -1702,4 +1703,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0743-network-delay-time](https://github.com/varisiddiqui/leetcode/tree/master/0743-network-delay-time) |
 | [1631-path-with-minimum-effort](https://github.com/varisiddiqui/leetcode/tree/master/1631-path-with-minimum-effort) |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/varisiddiqui/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 <!---LeetCode Topics End-->
