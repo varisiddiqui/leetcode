@@ -41,14 +41,7 @@ class Solution {
 
             if(time[node] < t) continue;
 
-            if(node == n-1){
-                if(minTime > t){
-                    minTime=t;
-                }
-                else if(minTime == t)
-                continue;
-            }
-
+            
             for(int neigh[]: graph[node]){
                 int next = neigh[0];
                 int wt = neigh[1];
