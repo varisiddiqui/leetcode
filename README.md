@@ -113,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0713-subarray-product-less-than-k](https://github.com/varisiddiqui/leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/varisiddiqui/leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0721-accounts-merge](https://github.com/varisiddiqui/leetcode/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/varisiddiqui/leetcode/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/varisiddiqui/leetcode/tree/master/0733-flood-fill) |
 | [0747-min-cost-climbing-stairs](https://github.com/varisiddiqui/leetcode/tree/master/0747-min-cost-climbing-stairs) |
@@ -485,6 +486,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0581-shortest-unsorted-continuous-subarray](https://github.com/varisiddiqui/leetcode/tree/master/0581-shortest-unsorted-continuous-subarray) |
 | [0621-task-scheduler](https://github.com/varisiddiqui/leetcode/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/varisiddiqui/leetcode/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/varisiddiqui/leetcode/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/varisiddiqui/leetcode/tree/master/0778-reorganize-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/varisiddiqui/leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0802-k-th-smallest-prime-fraction](https://github.com/varisiddiqui/leetcode/tree/master/0802-k-th-smallest-prime-fraction) |
@@ -596,6 +598,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/varisiddiqui/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0659-split-array-into-consecutive-subsequences](https://github.com/varisiddiqui/leetcode/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0692-top-k-frequent-words](https://github.com/varisiddiqui/leetcode/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/varisiddiqui/leetcode/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/varisiddiqui/leetcode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/varisiddiqui/leetcode/tree/master/0807-custom-sort-string) |
 | [0846-hand-of-straights](https://github.com/varisiddiqui/leetcode/tree/master/0846-hand-of-straights) |
@@ -869,6 +872,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0680-valid-palindrome-ii](https://github.com/varisiddiqui/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0686-repeated-string-match](https://github.com/varisiddiqui/leetcode/tree/master/0686-repeated-string-match) |
 | [0692-top-k-frequent-words](https://github.com/varisiddiqui/leetcode/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/varisiddiqui/leetcode/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/varisiddiqui/leetcode/tree/master/0778-reorganize-string) |
 | [0807-custom-sort-string](https://github.com/varisiddiqui/leetcode/tree/master/0807-custom-sort-string) |
 | [0821-shortest-distance-to-a-character](https://github.com/varisiddiqui/leetcode/tree/master/0821-shortest-distance-to-a-character) |
@@ -1359,6 +1363,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/varisiddiqui/leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/varisiddiqui/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/varisiddiqui/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/varisiddiqui/leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/varisiddiqui/leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/varisiddiqui/leetcode/tree/master/0785-is-graph-bipartite) |
@@ -1457,6 +1462,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/varisiddiqui/leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/varisiddiqui/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
+| [0721-accounts-merge](https://github.com/varisiddiqui/leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/varisiddiqui/leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/varisiddiqui/leetcode/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/varisiddiqui/leetcode/tree/master/0785-is-graph-bipartite) |
@@ -1566,6 +1572,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/varisiddiqui/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/varisiddiqui/leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/varisiddiqui/leetcode/tree/master/0547-number-of-provinces) |
+| [0721-accounts-merge](https://github.com/varisiddiqui/leetcode/tree/master/0721-accounts-merge) |
 | [0785-is-graph-bipartite](https://github.com/varisiddiqui/leetcode/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/varisiddiqui/leetcode/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/varisiddiqui/leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
