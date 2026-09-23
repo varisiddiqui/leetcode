@@ -275,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/varisiddiqui/leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/varisiddiqui/leetcode/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 | [4015-weighted-sum-of-a-tree](https://github.com/varisiddiqui/leetcode/tree/master/4015-weighted-sum-of-a-tree) |
+| [4044-count-good-cyclic-rotations](https://github.com/varisiddiqui/leetcode/tree/master/4044-count-good-cyclic-rotations) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 | [4101-maximum-product-of-three-elements-after-one-replacement](https://github.com/varisiddiqui/leetcode/tree/master/4101-maximum-product-of-three-elements-after-one-replacement) |
 | [4119-minimum-distance-between-three-equal-elements-ii](https://github.com/varisiddiqui/leetcode/tree/master/4119-minimum-distance-between-three-equal-elements-ii) |
@@ -768,6 +769,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2338-minimum-consecutive-cards-to-pick-up](https://github.com/varisiddiqui/leetcode/tree/master/2338-minimum-consecutive-cards-to-pick-up) |
 | [3150-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/varisiddiqui/leetcode/tree/master/3150-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/varisiddiqui/leetcode/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [4044-count-good-cyclic-rotations](https://github.com/varisiddiqui/leetcode/tree/master/4044-count-good-cyclic-rotations) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -800,6 +802,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3356-zero-array-transformation-ii](https://github.com/varisiddiqui/leetcode/tree/master/3356-zero-array-transformation-ii) |
 | [3362-zero-array-transformation-iii](https://github.com/varisiddiqui/leetcode/tree/master/3362-zero-array-transformation-iii) |
 | [3849-equal-sum-grid-partition-i](https://github.com/varisiddiqui/leetcode/tree/master/3849-equal-sum-grid-partition-i) |
+| [4044-count-good-cyclic-rotations](https://github.com/varisiddiqui/leetcode/tree/master/4044-count-good-cyclic-rotations) |
 | [4074-count-subarrays-with-majority-element-i](https://github.com/varisiddiqui/leetcode/tree/master/4074-count-subarrays-with-majority-element-i) |
 ## Bit Manipulation
 |  |
