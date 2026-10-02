@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/varisiddiqui/leetcode/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/varisiddiqui/leetcode/tree/master/0179-largest-number) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/varisiddiqui/leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0189-rotate-array](https://github.com/varisiddiqui/leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/varisiddiqui/leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/varisiddiqui/leetcode/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/varisiddiqui/leetcode/tree/master/0204-count-primes) |
@@ -291,6 +292,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/varisiddiqui/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/varisiddiqui/leetcode/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/varisiddiqui/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/varisiddiqui/leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/varisiddiqui/leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/varisiddiqui/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/varisiddiqui/leetcode/tree/master/0295-find-median-from-data-stream) |
@@ -1046,6 +1048,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/varisiddiqui/leetcode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/varisiddiqui/leetcode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/varisiddiqui/leetcode/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/varisiddiqui/leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/varisiddiqui/leetcode/tree/master/0204-count-primes) |
 | [0268-missing-number](https://github.com/varisiddiqui/leetcode/tree/master/0268-missing-number) |
 | [0343-integer-break](https://github.com/varisiddiqui/leetcode/tree/master/0343-integer-break) |
