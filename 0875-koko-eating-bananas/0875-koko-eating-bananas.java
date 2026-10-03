@@ -4,7 +4,7 @@ class Solution {
 
         int n = piles.length;
 
-        long low=piles[0];
+        long low=1;
         long high=piles[n-1];
 
         long ans = piles[n-1];
@@ -14,16 +14,16 @@ class Solution {
 
             int idx = bin(piles, mid);
 
-            int left_hr = (piles[idx] > mid)? idx+2: idx+1;
+            long left_hr = idx;
 
-            int right_hr=0;
+            long right_hr=0;
 
-            for(int i=idx+1; i<n; i++){
+            for(int i=idx; i<n; i++){
                 right_hr += (piles[i]/mid);
                 if(piles[i] % mid >0) right_hr++;
             }
 
-            int total_hr = left_hr + right_hr;
+            long total_hr = left_hr + right_hr;
 
             if(total_hr <= h){
                 high = mid-1;
