@@ -21,9 +21,9 @@ class Solution {
             if(curr.node.equals(endWord)) return curr.dist;
 
             
-
+            StringBuilder str = new StringBuilder(curr.node);
             for(int i=0; i<curr.node.length(); i++){
-                StringBuilder str = new StringBuilder(curr.node);
+                
                 for(char c = 'a'; c<='z'; c++){
                     str.setCharAt(i, c);
                     String t = str.toString();
@@ -33,6 +33,7 @@ class Solution {
                     }
 
                 }
+                str = new StringBuilder(curr.node);
             }
         }
         return 0;
