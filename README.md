@@ -170,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/varisiddiqui/leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1314-matrix-block-sum](https://github.com/varisiddiqui/leetcode/tree/master/1314-matrix-block-sum) |
 | [1326-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/varisiddiqui/leetcode/tree/master/1326-minimum-number-of-taps-to-open-to-water-a-garden) |
+| [1335-minimum-difficulty-of-a-job-schedule](https://github.com/varisiddiqui/leetcode/tree/master/1335-minimum-difficulty-of-a-job-schedule) |
 | [1353-maximum-number-of-events-that-can-be-attended](https://github.com/varisiddiqui/leetcode/tree/master/1353-maximum-number-of-events-that-can-be-attended) |
 | [1370-count-number-of-nice-subarrays](https://github.com/varisiddiqui/leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1383-maximum-performance-of-a-team](https://github.com/varisiddiqui/leetcode/tree/master/1383-maximum-performance-of-a-team) |
@@ -1242,6 +1243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/varisiddiqui/leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1326-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/varisiddiqui/leetcode/tree/master/1326-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/varisiddiqui/leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1335-minimum-difficulty-of-a-job-schedule](https://github.com/varisiddiqui/leetcode/tree/master/1335-minimum-difficulty-of-a-job-schedule) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/varisiddiqui/leetcode/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1388-greatest-sum-divisible-by-three](https://github.com/varisiddiqui/leetcode/tree/master/1388-greatest-sum-divisible-by-three) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/varisiddiqui/leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
