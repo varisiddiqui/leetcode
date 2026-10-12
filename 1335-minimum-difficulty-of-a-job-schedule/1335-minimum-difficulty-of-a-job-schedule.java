@@ -2,7 +2,7 @@ class Solution {
     public int minDifficulty(int[] diff, int d) {
         int n = diff.length;
 
-        int dp[][] = new int[n+1][d+1];
+        int dp[][] = new int[n][d+1];
 
         for(int i=0; i<n; i++){
             Arrays.fill(dp[i], -1);
