@@ -2,26 +2,25 @@ class Solution {
     public int numberOfArithmeticSlices(int[] nums) {
         int n = nums.length;
 
-       @SuppressWarnings("unchecked")
-       HashMap<Long, Integer>[] diff = new HashMap[n];
+        if(n<3) return 0;
 
-        Arrays.setAll(diff, (i) -> new HashMap<>());
+        long diff = (long)nums[1] - (long)nums[0];
+
+        int cnt=1;
 
         int ans=0;
 
-        for(int i=1; i<n; i++){
-           
-                long d = (long)nums[i] - (long)nums[i-1];
-
-                int cntAns = diff[i-1].getOrDefault(d, 0);
-
-                ans += cntAns;
-
-                diff[i].put(d, diff[i].getOrDefault(d, 0)+cntAns+1); 
-            
+        for(int i=2; i<n; i++){
+            if((long)nums[i] - (long)nums[i-1] == diff){
+                ans += cnt;
+                cnt++;
+            }
+            else {
+                    diff = (long)nums[i] - (long)nums[i-1];
+                    cnt = 1;
+            }
         }
 
         return ans;
-
     }
 }
