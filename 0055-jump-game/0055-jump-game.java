@@ -1,20 +1,20 @@
 class Solution {
     public boolean canJump(int[] nums) {
         int n = nums.length;
+
         boolean dp[] = new boolean[n];
-        //dp[i] = can i reach at end from this index
-        dp[n-1] = true;
-        
-        for(int i=n-2; i>=0; i--){
-            int steps = nums[i];
-            boolean canReach = false;
-            for(int j=i+1; j<n && j<=i+steps; j++){
-                if(dp[j]){
-                    dp[i] = true;
-                    break;
-                }
+
+        dp[0]=true;
+
+        for(int i=0; i<n; i++){
+            int maxJump = nums[i];
+            if(dp[i]){
+                for(int j=i; j<=Math.min(i+maxJump, n-1); j++){
+                dp[j] = true;
+            }
             }
         }
-        return dp[0];
+
+        return dp[n-1];
     }
 }
