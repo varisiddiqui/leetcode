@@ -2,24 +2,26 @@ class Solution {
     public boolean canJump(int[] nums) {
         int n = nums.length;
 
-        boolean dp[] = new boolean[n];
+        int dp[] = new int[n];
+        Arrays.fill(dp, -1);
 
-        hasReached(0, nums, dp);
-
-        return dp[n-1];
+       return canReach(0, nums, dp) == 1;
     }
 
-    public boolean hasReached(int curr_idx, int nums[], boolean dp[]){
-        if(curr_idx >= nums.length) return true;
+    public int canReach(int curr_idx, int nums[], int dp[]){
+        if(curr_idx >= nums.length-1) return 1;
 
-        if(dp[curr_idx] == true) return true;
+        if(dp[curr_idx] != -1) return dp[curr_idx];
 
-        for(int i=curr_idx+1; i<=Math.min(curr_idx+nums[curr_idx], nums.length-1); i++){
-            hasReached(i, nums, dp);
+
+
+        for(int i=1; i<=nums[curr_idx]; i++){
+            if(canReach(curr_idx+i, nums, dp)==1){
+                return dp[curr_idx]=1;
+            }
         }
 
-        dp[curr_idx]= true;
-        return true;
+        return dp[curr_idx] = 0;
     }
 
     
