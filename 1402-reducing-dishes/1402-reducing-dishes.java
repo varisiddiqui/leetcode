@@ -1,23 +1,26 @@
 class Solution {
-    public int maxSatisfaction(int[] satisfaction) {
-        Arrays.sort(satisfaction);
+    public int maxSatisfaction(int[] s) {
+        Arrays.sort(s);
+        int n = s.length;
+        int dp[][] = new int[n][n+1];
 
-        int n = satisfaction.length;
-        int ans = 0;
+        for(int i=0; i<n; i++) Arrays.fill(dp[i], -1);
+        return maxSum(0, 1, s, dp);
 
-        
+    }
 
-        
+    public int maxSum(int curr_idx, int time, int s[], int dp[][]){
+        if(curr_idx == s.length) return 0;
 
-        for (int i = n - 1; i >= 0; i--) {
-            int sum = 0;
-            int t=1;
-            for (int j = i; j < n; j++) {
-                sum += (t * satisfaction[j]);
-                ans = Math.max(ans, sum);
-                t++;
-            }
-        }
-        return ans;
+        if(dp[curr_idx][time] != -1) return dp[curr_idx][time];
+
+        //pick 
+        int pick = (s[curr_idx]*time) + maxSum(curr_idx+1, time+1, s, dp);
+
+        //not pick
+        int not_pick = maxSum(curr_idx+1, time, s, dp);
+
+        return dp[curr_idx][time] = Math.max(pick, not_pick);
+
     }
 }
