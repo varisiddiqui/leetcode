@@ -860,6 +860,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0058-length-of-last-word](https://github.com/varisiddiqui/leetcode/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/varisiddiqui/leetcode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/varisiddiqui/leetcode/tree/master/0076-minimum-window-substring) |
+| [0087-scramble-string](https://github.com/varisiddiqui/leetcode/tree/master/0087-scramble-string) |
 | [0093-restore-ip-addresses](https://github.com/varisiddiqui/leetcode/tree/master/0093-restore-ip-addresses) |
 | [0115-distinct-subsequences](https://github.com/varisiddiqui/leetcode/tree/master/0115-distinct-subsequences) |
 | [0126-word-ladder-ii](https://github.com/varisiddiqui/leetcode/tree/master/0126-word-ladder-ii) |
@@ -1211,6 +1212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/varisiddiqui/leetcode/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/varisiddiqui/leetcode/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/varisiddiqui/leetcode/tree/master/0085-maximal-rectangle) |
+| [0087-scramble-string](https://github.com/varisiddiqui/leetcode/tree/master/0087-scramble-string) |
 | [0115-distinct-subsequences](https://github.com/varisiddiqui/leetcode/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/varisiddiqui/leetcode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/varisiddiqui/leetcode/tree/master/0120-triangle) |
