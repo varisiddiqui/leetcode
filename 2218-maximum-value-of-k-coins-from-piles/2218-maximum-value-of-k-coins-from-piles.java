@@ -17,7 +17,7 @@ class Solution {
     public int max(int curr_idx, int i, int k, List<List<Integer>> piles, int dp[][][]){
         if(k==0) return 0;
 
-        if(k>0 && curr_idx == piles.size()) return Integer.MIN_VALUE;
+        if(curr_idx == piles.size()) return 0;
 
         if(dp[curr_idx][i][k] != -1) return dp[curr_idx][i][k];
 
