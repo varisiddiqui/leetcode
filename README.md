@@ -220,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/varisiddiqui/leetcode/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/varisiddiqui/leetcode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2163-minimum-difference-in-sums-after-removal-of-elements](https://github.com/varisiddiqui/leetcode/tree/master/2163-minimum-difference-in-sums-after-removal-of-elements) |
+| [2218-maximum-value-of-k-coins-from-piles](https://github.com/varisiddiqui/leetcode/tree/master/2218-maximum-value-of-k-coins-from-piles) |
 | [2289-minimum-operations-to-make-the-array-alternating](https://github.com/varisiddiqui/leetcode/tree/master/2289-minimum-operations-to-make-the-array-alternating) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/varisiddiqui/leetcode/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2305-fair-distribution-of-cookies](https://github.com/varisiddiqui/leetcode/tree/master/2305-fair-distribution-of-cookies) |
@@ -812,6 +813,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/varisiddiqui/leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/varisiddiqui/leetcode/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2218-maximum-value-of-k-coins-from-piles](https://github.com/varisiddiqui/leetcode/tree/master/2218-maximum-value-of-k-coins-from-piles) |
 | [2576-minimum-penalty-for-a-shop](https://github.com/varisiddiqui/leetcode/tree/master/2576-minimum-penalty-for-a-shop) |
 | [2655-rearrange-array-to-maximize-prefix-score](https://github.com/varisiddiqui/leetcode/tree/master/2655-rearrange-array-to-maximize-prefix-score) |
 | [3346-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/varisiddiqui/leetcode/tree/master/3346-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -1279,6 +1281,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/varisiddiqui/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2163-minimum-difference-in-sums-after-removal-of-elements](https://github.com/varisiddiqui/leetcode/tree/master/2163-minimum-difference-in-sums-after-removal-of-elements) |
 | [2191-minimum-number-of-food-buckets-to-feed-the-hamsters](https://github.com/varisiddiqui/leetcode/tree/master/2191-minimum-number-of-food-buckets-to-feed-the-hamsters) |
+| [2218-maximum-value-of-k-coins-from-piles](https://github.com/varisiddiqui/leetcode/tree/master/2218-maximum-value-of-k-coins-from-piles) |
 | [2272-substring-with-largest-variance](https://github.com/varisiddiqui/leetcode/tree/master/2272-substring-with-largest-variance) |
 | [2305-fair-distribution-of-cookies](https://github.com/varisiddiqui/leetcode/tree/master/2305-fair-distribution-of-cookies) |
 | [2327-number-of-people-aware-of-a-secret](https://github.com/varisiddiqui/leetcode/tree/master/2327-number-of-people-aware-of-a-secret) |
