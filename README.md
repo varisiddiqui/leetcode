@@ -131,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0875-longest-mountain-in-array](https://github.com/varisiddiqui/leetcode/tree/master/0875-longest-mountain-in-array) |
 | [0875-koko-eating-bananas](https://github.com/varisiddiqui/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0876-hand-of-straights](https://github.com/varisiddiqui/leetcode/tree/master/0876-hand-of-straights) |
+| [0879-profitable-schemes](https://github.com/varisiddiqui/leetcode/tree/master/0879-profitable-schemes) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/varisiddiqui/leetcode/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0901-advantage-shuffle](https://github.com/varisiddiqui/leetcode/tree/master/0901-advantage-shuffle) |
 | [0904-fruit-into-baskets](https://github.com/varisiddiqui/leetcode/tree/master/0904-fruit-into-baskets) |
@@ -1253,6 +1254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0747-min-cost-climbing-stairs](https://github.com/varisiddiqui/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/varisiddiqui/leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0875-longest-mountain-in-array](https://github.com/varisiddiqui/leetcode/tree/master/0875-longest-mountain-in-array) |
+| [0879-profitable-schemes](https://github.com/varisiddiqui/leetcode/tree/master/0879-profitable-schemes) |
 | [0926-flip-string-to-monotone-increasing](https://github.com/varisiddiqui/leetcode/tree/master/0926-flip-string-to-monotone-increasing) |
 | [0967-minimum-falling-path-sum](https://github.com/varisiddiqui/leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/varisiddiqui/leetcode/tree/master/1013-fibonacci-number) |
@@ -1703,10 +1705,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/varisiddiqui/leetcode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/varisiddiqui/leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/varisiddiqui/leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0879-profitable-schemes](https://github.com/varisiddiqui/leetcode/tree/master/0879-profitable-schemes) |
 ## 0-1 Knapsack
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/varisiddiqui/leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0879-profitable-schemes](https://github.com/varisiddiqui/leetcode/tree/master/0879-profitable-schemes) |
 ## Directed Acyclic Graph
 |  |
 | ------- |
