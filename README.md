@@ -1287,6 +1287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2272-substring-with-largest-variance](https://github.com/varisiddiqui/leetcode/tree/master/2272-substring-with-largest-variance) |
 | [2305-fair-distribution-of-cookies](https://github.com/varisiddiqui/leetcode/tree/master/2305-fair-distribution-of-cookies) |
 | [2327-number-of-people-aware-of-a-secret](https://github.com/varisiddiqui/leetcode/tree/master/2327-number-of-people-aware-of-a-secret) |
+| [2466-count-ways-to-build-good-strings](https://github.com/varisiddiqui/leetcode/tree/master/2466-count-ways-to-build-good-strings) |
 | [2916-check-if-it-is-possible-to-split-array](https://github.com/varisiddiqui/leetcode/tree/master/2916-check-if-it-is-possible-to-split-array) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/varisiddiqui/leetcode/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3954-maximum-balanced-shipments](https://github.com/varisiddiqui/leetcode/tree/master/3954-maximum-balanced-shipments) |
