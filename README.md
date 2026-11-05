@@ -205,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1762-furthest-building-you-can-reach](https://github.com/varisiddiqui/leetcode/tree/master/1762-furthest-building-you-can-reach) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/varisiddiqui/leetcode/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1792-find-the-most-competitive-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/1792-find-the-most-competitive-subsequence) |
+| [1799-maximize-score-after-n-operations](https://github.com/varisiddiqui/leetcode/tree/master/1799-maximize-score-after-n-operations) |
 | [1824-maximum-number-of-eaten-apples](https://github.com/varisiddiqui/leetcode/tree/master/1824-maximum-number-of-eaten-apples) |
 | [1834-single-threaded-cpu](https://github.com/varisiddiqui/leetcode/tree/master/1834-single-threaded-cpu) |
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/varisiddiqui/leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
@@ -840,6 +841,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/varisiddiqui/leetcode/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1558-minimum-numbers-of-function-calls-to-make-target-array](https://github.com/varisiddiqui/leetcode/tree/master/1558-minimum-numbers-of-function-calls-to-make-target-array) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/varisiddiqui/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
+| [1799-maximize-score-after-n-operations](https://github.com/varisiddiqui/leetcode/tree/master/1799-maximize-score-after-n-operations) |
 | [2305-fair-distribution-of-cookies](https://github.com/varisiddiqui/leetcode/tree/master/2305-fair-distribution-of-cookies) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/varisiddiqui/leetcode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [3291-find-if-array-can-be-sorted](https://github.com/varisiddiqui/leetcode/tree/master/3291-find-if-array-can-be-sorted) |
@@ -1061,6 +1063,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0257-binary-tree-paths](https://github.com/varisiddiqui/leetcode/tree/master/0257-binary-tree-paths) |
 | [0494-target-sum](https://github.com/varisiddiqui/leetcode/tree/master/0494-target-sum) |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/varisiddiqui/leetcode/tree/master/1239-maximum-length-of-a-concatenated-string-with-unique-characters) |
+| [1799-maximize-score-after-n-operations](https://github.com/varisiddiqui/leetcode/tree/master/1799-maximize-score-after-n-operations) |
 | [2178-maximum-split-of-positive-even-integers](https://github.com/varisiddiqui/leetcode/tree/master/2178-maximum-split-of-positive-even-integers) |
 | [2305-fair-distribution-of-cookies](https://github.com/varisiddiqui/leetcode/tree/master/2305-fair-distribution-of-cookies) |
 ## Math
@@ -1098,6 +1101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/varisiddiqui/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1685-sum-of-absolute-differences-in-a-sorted-array](https://github.com/varisiddiqui/leetcode/tree/master/1685-sum-of-absolute-differences-in-a-sorted-array) |
 | [1759-count-number-of-homogenous-substrings](https://github.com/varisiddiqui/leetcode/tree/master/1759-count-number-of-homogenous-substrings) |
+| [1799-maximize-score-after-n-operations](https://github.com/varisiddiqui/leetcode/tree/master/1799-maximize-score-after-n-operations) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/varisiddiqui/leetcode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2177-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/varisiddiqui/leetcode/tree/master/2177-find-three-consecutive-integers-that-sum-to-a-given-number) |
 | [2178-maximum-split-of-positive-even-integers](https://github.com/varisiddiqui/leetcode/tree/master/2178-maximum-split-of-positive-even-integers) |
@@ -1283,6 +1287,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1578-minimum-time-to-make-rope-colorful](https://github.com/varisiddiqui/leetcode/tree/master/1578-minimum-time-to-make-rope-colorful) |
 | [1632-number-of-good-ways-to-split-a-string](https://github.com/varisiddiqui/leetcode/tree/master/1632-number-of-good-ways-to-split-a-string) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/varisiddiqui/leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1799-maximize-score-after-n-operations](https://github.com/varisiddiqui/leetcode/tree/master/1799-maximize-score-after-n-operations) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/varisiddiqui/leetcode/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2163-minimum-difference-in-sums-after-removal-of-elements](https://github.com/varisiddiqui/leetcode/tree/master/2163-minimum-difference-in-sums-after-removal-of-elements) |
 | [2191-minimum-number-of-food-buckets-to-feed-the-hamsters](https://github.com/varisiddiqui/leetcode/tree/master/2191-minimum-number-of-food-buckets-to-feed-the-hamsters) |
@@ -1572,6 +1577,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/varisiddiqui/leetcode/tree/master/0204-count-primes) |
+| [1799-maximize-score-after-n-operations](https://github.com/varisiddiqui/leetcode/tree/master/1799-maximize-score-after-n-operations) |
 | [2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/varisiddiqui/leetcode/tree/master/2654-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 ## Merge Sort
 |  |
@@ -1733,6 +1739,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bitmask
 |  |
 | ------- |
+| [1799-maximize-score-after-n-operations](https://github.com/varisiddiqui/leetcode/tree/master/1799-maximize-score-after-n-operations) |
 | [2305-fair-distribution-of-cookies](https://github.com/varisiddiqui/leetcode/tree/master/2305-fair-distribution-of-cookies) |
 ## Longest Increasing Subsequence
 |  |
