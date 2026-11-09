@@ -93,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/varisiddiqui/leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/varisiddiqui/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0472-concatenated-words](https://github.com/varisiddiqui/leetcode/tree/master/0472-concatenated-words) |
+| [0474-ones-and-zeroes](https://github.com/varisiddiqui/leetcode/tree/master/0474-ones-and-zeroes) |
 | [0475-heaters](https://github.com/varisiddiqui/leetcode/tree/master/0475-heaters) |
 | [0493-reverse-pairs](https://github.com/varisiddiqui/leetcode/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/varisiddiqui/leetcode/tree/master/0494-target-sum) |
@@ -894,6 +895,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/varisiddiqui/leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0459-repeated-substring-pattern](https://github.com/varisiddiqui/leetcode/tree/master/0459-repeated-substring-pattern) |
 | [0472-concatenated-words](https://github.com/varisiddiqui/leetcode/tree/master/0472-concatenated-words) |
+| [0474-ones-and-zeroes](https://github.com/varisiddiqui/leetcode/tree/master/0474-ones-and-zeroes) |
 | [0481-magical-string](https://github.com/varisiddiqui/leetcode/tree/master/0481-magical-string) |
 | [0516-longest-palindromic-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0539-minimum-time-difference](https://github.com/varisiddiqui/leetcode/tree/master/0539-minimum-time-difference) |
@@ -1249,6 +1251,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/varisiddiqui/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/0446-arithmetic-slices-ii-subsequence) |
 | [0472-concatenated-words](https://github.com/varisiddiqui/leetcode/tree/master/0472-concatenated-words) |
+| [0474-ones-and-zeroes](https://github.com/varisiddiqui/leetcode/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/varisiddiqui/leetcode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/varisiddiqui/leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/varisiddiqui/leetcode/tree/master/0518-coin-change-ii) |
@@ -1715,11 +1718,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/varisiddiqui/leetcode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/varisiddiqui/leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/varisiddiqui/leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0474-ones-and-zeroes](https://github.com/varisiddiqui/leetcode/tree/master/0474-ones-and-zeroes) |
 | [0879-profitable-schemes](https://github.com/varisiddiqui/leetcode/tree/master/0879-profitable-schemes) |
 ## 0-1 Knapsack
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/varisiddiqui/leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0474-ones-and-zeroes](https://github.com/varisiddiqui/leetcode/tree/master/0474-ones-and-zeroes) |
 | [0879-profitable-schemes](https://github.com/varisiddiqui/leetcode/tree/master/0879-profitable-schemes) |
 ## Directed Acyclic Graph
 |  |
